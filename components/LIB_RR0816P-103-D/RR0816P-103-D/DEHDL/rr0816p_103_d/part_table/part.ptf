@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'RR0816P_103_D'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET";
+{========================================================================================}
+ "Susumu", "RR0816P-103-D" (!) = "", "RESC1608X60N", "Other", "754-RR0816P-103D", "https://www.mouser.co.uk/ProductDetail/Susumu/RR0816P-103-D?qs=nCAm%252BcMdy9zJFUifGf2vtQ%3D%3D", "RR0816P-103-D", "https://www.arrow.com/en/products/rr0816p-103-d/susumu", "RESISTOR, 0603 10 KOhm +/- 0.5% 0.0625 W", "http://componentsearchengine.com/Datasheets/1/RR0816P-103-D.pdf"
+END_PART
+
+END.

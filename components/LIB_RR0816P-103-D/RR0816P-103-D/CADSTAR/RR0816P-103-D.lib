@@ -1,0 +1,18 @@
+.RR0816P-103-D :1 ;RESISTOR, 0603 10 KOhm +/- 0.5% 0.0625 W
+RESC1608X60N
+*STM R
+*NGS
+*PLB 1="R1" 2="R2"
+*MXP 2
+*DFN RR0816P-103-D
+~!Manufacturer_Name (Susumu)
+~!Manufacturer_Part_Number (RR0816P-103-D)
+~!Mouser Part Number (754-RR0816P-103D)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Susumu/RR0816P-103-D?qs=nCAm%252BcMdy9zJFUifGf2vtQ%3D%3D)
+~!Arrow Part Number (RR0816P-103-D)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/rr0816p-103-d/susumu)
+~!Link Datasheet (http://componentsearchengine.com/Datasheets/1/RR0816P-103-D.pdf)
+~!Height (-)
+~!3D_Model (RR0816P-103-D)
+RR0816P-103-D
+1.1!U 2.1!U 

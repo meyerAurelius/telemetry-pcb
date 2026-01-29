@@ -1,0 +1,9 @@
+Manufacturer=Susumu
+PartNumber=RR0816P-103-D
+PartCategory=Resistor
+PackageCategory=Other
+PinCount=2
+Version=1.1
+Released=2017-01-12 09:36:53
+Downloaded=2026-01-24 22:53:00
+3D=Y

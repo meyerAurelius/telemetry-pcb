@@ -1,0 +1,9 @@
+Manufacturer=Texas Instruments
+PartNumber=ADS1115LIDGSR
+PartCategory=Integrated Circuit
+PackageCategory=Small Outline Packages
+PinCount=10
+Version=1.1
+Released=2024-07-03 08:47:37
+Downloaded=2026-01-24 18:15:21
+3D=Y

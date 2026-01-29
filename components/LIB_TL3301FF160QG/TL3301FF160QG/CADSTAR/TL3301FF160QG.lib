@@ -1,0 +1,19 @@
+.TL3301FF160QG :1 ;TACT, 50mA, 12VDC SPST-NO, Off-(On) Surface Mount
+TL3301FF160QG
+*STM S
+*NGS
+*PLB 1="1" 2="2" 3="3" 4="4"
+*MXP 4
+*DFN TL3301FF160QG
+~!Manufacturer_Name (E-Switch)
+~!Manufacturer_Part_Number (TL3301FF160QG)
+~!Mouser Part Number (612-TL3301F)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/E-Switch/TL3301FF160QG?qs=xDsBkp9LkocS2rMBI2Cp5w%3D%3D)
+~!Arrow Part Number (-)
+~!Arrow Price/Stock (-)
+~!Simulation Data (https://configured-product-images.s3.amazonaws.com/Datasheets/TL3301.pdf)
+~!Link Datasheet (https://configured-product-images.s3.amazonaws.com/2D/specs/TL3301FF160QG.pdf)
+~!Height (7mm)
+~!3D_Model (TL3301FF160QG)
+TL3301FF160QG
+1.1!U 2.1!U 3.1!U 4.1!U 

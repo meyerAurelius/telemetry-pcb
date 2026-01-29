@@ -1,0 +1,111 @@
+(footprint "RESC1608X60N"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "RESC1608X60N")
+	(tags "Resistor")
+	(property "Reference" "R**"
+		(at -3.4544 -1.27 0)
+		(layer "F.SilkS")
+		(uuid "049e10b7-71d9-4816-a49a-e06910c9acf2")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "RESC1608X60N"
+		(at -3.4544 -1.27 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "fcb4bf65-579b-4002-a8a6-09e505fda8ef")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ccb46a9a-006d-42a5-8410-8794a084e511")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6dc97738-6938-4257-95e7-dec534d751e9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.127 0.4826)
+		(end 0.127 0.4826)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9a5a72cb-cbe2-4ac4-84bd-33d94e4978af")
+	)
+	(fp_line
+		(start 0.127 -0.4826)
+		(end -0.127 -0.4826)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0b782845-e3d1-4eed-a1db-3a680c05bc1f")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -3.4544 -1.27 0)
+		(layer "F.Fab")
+		(uuid "354da8d8-5fee-4e7d-a6ea-ac5532132694")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.8382 0)
+		(size 0.762 0.9398)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "395744b5-dc07-47d4-b952-035b4376b0c6")
+	)
+	(pad "2" smd rect
+		(at 0.8382 0)
+		(size 0.762 0.9398)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "8c9c6a2c-87b4-4330-a766-0095fbce6f41")
+	)
+	(embedded_fonts no)
+	(model "RR0816P-103-D.stp"
+		(offset
+			(xyz 0 0 0.2)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)

@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP RR0816P-103-D
+D RESISTOR, 0603 10 KOhm +/- 0.5% 0.0625 W
+K
+F http://componentsearchengine.com/Datasheets/1/RR0816P-103-D.pdf
+$ENDCMP
+#
+#End Doc Library

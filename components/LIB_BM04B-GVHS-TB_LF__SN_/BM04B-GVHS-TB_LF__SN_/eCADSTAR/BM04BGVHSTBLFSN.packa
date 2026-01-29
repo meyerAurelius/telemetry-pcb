@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "BM04B-GVHS-TB_LF__SN_"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2020-07-05-15:22:06)
+    (mountForm default
+        (footprintRef "BM04BGVHSTBLFSN")
+        (spec "System")
+    )
+)

@@ -1,0 +1,9 @@
+Manufacturer=On Shore Technology Inc.
+PartNumber=OSTTE040104
+PartCategory=Connector
+PackageCategory=Other
+PinCount=4
+Version=1.3
+Released=2021-06-25 07:01:23
+Downloaded=2026-01-29 03:50:19
+3D=Y

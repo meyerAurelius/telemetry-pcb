@@ -165,6 +165,18 @@
 		(layer "F.CrtYd")
 		(uuid "7a67b0cf-fc3d-4d32-ac25-f1e54c393815")
 	)
+	(fp_poly
+		(pts
+			(xy -15.24 -10.16) (xy 15.24 -10.16) (xy 15.24 -20.32) (xy -15.24 -20.32)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.CrtYd")
+		(uuid "c4999559-bd56-4cae-a5dc-e3d393f09617")
+	)
 	(fp_line
 		(start -9 -12.75)
 		(end 9 -12.75)
@@ -509,6 +521,38 @@
 		(size 0.9 0.9)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "0dd3f210-05e2-4802-8368-1ff3568ab6b7")
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layers "F.CrtYd" "User.2")
+		(uuid "ad1c6b49-164d-496d-ba0c-fb20011e1f05")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads not_allowed)
+			(copperpour allowed)
+			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy -15.24 -10.16) (xy 15.24 -10.16) (xy 15.24 -20.32) (xy -15.24 -20.32)
+			)
+		)
 	)
 	(embedded_fonts no)
 	(model "ESP32-S3-WROOM-1-N16R2.stp"

@@ -1,0 +1,68 @@
+(Japanese_coding: sjis)
+(function "ECS_290366"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2023-03-07-10:37:34)
+    (utime 2026-01-26-13:06:27)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+    )
+    (property "symbolName" "RC0603FR-07220RL")
+)
+
+
+(pinAssign "ECS_290366"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2023-03-07-10:37:34)
+    (utime 2026-01-26-13:06:27)
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_290366")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "RC0603FR-07220RL")
+)
+
+
+(part "RC0603FR-07220RL"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2023-03-07-10:37:34)
+    (utime 2026-01-26-13:06:27)
+    (packageRef "RC0603FR-07220RL")
+    (pinAssignRef "ECS_290366")
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "NO")
+    (property "refDesPrefix" "R")
+    (property "description" "YAGEO (PHYCOMP) - RC0603FR-07220RL - RES, THICK FILM, 220R, 1%, 0.1W, 0603")
+    (property "Manufacturer_Name" "KEMET")
+    (property "Manufacturer_Part_Number" "RC0603FR-07220RL")
+    (property "Mouser_Part_Number" "603-RC0603FR-07220RL")
+    (property "Mouser_Price/Stock" "https://www.mouser.co.uk/ProductDetail/YAGEO/RC0603FR-07220RL?qs=VU8sRB4EgwA1IyQ0vhXEEw%3D%3D")
+    (property "Arrow_Part_Number" "RC0603FR-07220RL")
+    (property "Arrow_Price/Stock" "https://www.arrow.com/en/products/rc0603fr-07220rl/yageo?region=nac")
+    (property "Datasheet_Link" "http://www.yageo.com/documents/recent/PYu-RC0603_51_RoHS_L_v5.pdf")
+    (property "compAreaTopHeight" 0.55)
+)
+
+

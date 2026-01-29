@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP OSTTE040104
+D TERM BLK 4POS SIDE ENT 3.5MM PCB
+K
+F https://www.on-shore.com/wp-content/uploads/OSTTEXX0104.pdf
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART '150080BS75000'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Wurth Elektronik", "150080BS75000" (!) = "", "LEDC2012X70N", "LEDs Chip", "710-150080BS75000", "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/150080BS75000?qs=2kOmHSv6VfT2tBo3UPVqAQ%3D%3D", "", "", "WL-SMCW SMT Mono-Color Chip LED Waterclear 0805, Blue Typ.(@20mA): 470nm, 145mcd, 3.2V, 140 InGaN", "https://www.we-online.com/components/products/download/150080xS75000_3D+%28rev1%29.pdf", "0.7 mm"
+END_PART
+
+END.

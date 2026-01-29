@@ -1,0 +1,9 @@
+Manufacturer=JST (JAPAN SOLDERLESS TERMINALS)
+PartNumber=BM04B-GVHS-TB(LF)(SN)
+PartCategory=Connector
+PackageCategory=Other
+PinCount=6
+Version=1.4
+Released=2020-07-05 15:22:06
+Downloaded=2026-01-29 01:43:35
+3D=Y

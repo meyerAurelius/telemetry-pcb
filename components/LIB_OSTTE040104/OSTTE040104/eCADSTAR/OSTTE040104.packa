@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "OSTTE040104"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2021-06-25-07:01:23)
+    (mountForm default
+        (footprintRef "OSTTE040104")
+        (spec "System")
+    )
+)

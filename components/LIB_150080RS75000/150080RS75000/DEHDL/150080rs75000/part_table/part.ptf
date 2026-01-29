@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART '150080RS75000'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Wurth Elektronik", "150080RS75000" (!) = "", "LEDC2012X70N", "LEDs Chip", "710-150080RS75000", "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/150080RS75000?qs=LlUlMxKIyB2jdCo7bnfgew%3D%3D", "", "", "WL-SMCW SMT Mono-Color Chip LED Waterclear 0805, Red Typ.(@20mA): 625nm, 150mcd, 2.0V, 140 AlInGaP", "https://www.we-online.com/components/products/download/Download_3D_150080RS75000+%28rev1%29.pdf", "0.7 mm"
+END_PART
+
+END.

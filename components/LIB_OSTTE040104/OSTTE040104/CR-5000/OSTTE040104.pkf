@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "OSTTE040104"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "OSTTE040104")
+        (spec "default")
+    )
+)

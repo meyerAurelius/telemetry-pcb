@@ -5,6 +5,786 @@
 	(uuid "4aa40e3f-f3c5-4de8-9da3-6f9316e48f5b")
 	(paper "A4")
 	(lib_symbols
+		(symbol "150080BS75000:150080BS75000"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "LED"
+				(at 12.7 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "150080BS75000"
+				(at 12.7 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "LEDC2012X70N"
+				(at 12.7 -93.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.we-online.com/components/products/download/150080xS75000_3D+%28rev1%29.pdf"
+				(at 12.7 -193.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Description" "WL-SMCW SMT Mono-Color Chip LED Waterclear 0805, Blue Typ.(@20mA): 470nm, 145mcd, 3.2V, 140 InGaN"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "0.7"
+				(at 12.7 -393.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Wurth Elektronik"
+				(at 12.7 -493.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "150080BS75000"
+				(at 12.7 -593.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "710-150080BS75000"
+				(at 12.7 -693.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/150080BS75000?qs=2kOmHSv6VfT2tBo3UPVqAQ%3D%3D"
+				(at 12.7 -793.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" ""
+				(at 12.7 -893.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" ""
+				(at 12.7 -993.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(symbol "150080BS75000_1_1"
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 5.08 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 10.16 2.54) (xy 10.16 -2.54) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.334 4.318) (xy 4.572 3.556) (xy 3.81 5.08) (xy 5.334 4.318)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 2.54) (xy 3.81 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.874 4.318) (xy 7.112 3.556) (xy 6.35 5.08) (xy 7.874 4.318)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.89 2.54) (xy 6.35 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 0) (xy 12.7 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "150080GS75000:150080GS75000"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "LED"
+				(at 12.7 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "150080GS75000"
+				(at 12.7 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "LEDM2012X70N"
+				(at 12.7 -93.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.we-online.com/components/products/download/Download_3D_150080GS75000+%28rev1%29.pdf"
+				(at 12.7 -193.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Description" "WL-SMCW SMT Mono-Color Chip LED Waterclear 0805, Green Typ.(@20mA): 520nm, 450mcd, 3.2V, 140 InGaN"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "0.7"
+				(at 12.7 -393.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Wurth Elektronik"
+				(at 12.7 -493.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "150080GS75000"
+				(at 12.7 -593.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "710-150080GS75000"
+				(at 12.7 -693.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/150080GS75000?qs=2kOmHSv6VfQRoTEZVk1mGA%3D%3D"
+				(at 12.7 -793.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" ""
+				(at 12.7 -893.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" ""
+				(at 12.7 -993.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(symbol "150080GS75000_1_1"
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 5.08 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 10.16 2.54) (xy 10.16 -2.54) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.334 4.318) (xy 4.572 3.556) (xy 3.81 5.08) (xy 5.334 4.318)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 2.54) (xy 3.81 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.874 4.318) (xy 7.112 3.556) (xy 6.35 5.08) (xy 7.874 4.318)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.89 2.54) (xy 6.35 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 0) (xy 12.7 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "150080RS75000:150080RS75000"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "LED"
+				(at 12.7 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "150080RS75000"
+				(at 12.7 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "LEDC2012X70N"
+				(at 12.7 -93.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.we-online.com/components/products/download/Download_3D_150080RS75000+%28rev1%29.pdf"
+				(at 12.7 -193.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Description" "WL-SMCW SMT Mono-Color Chip LED Waterclear 0805, Red Typ.(@20mA): 625nm, 150mcd, 2.0V, 140 AlInGaP"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "0.7"
+				(at 12.7 -393.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Wurth Elektronik"
+				(at 12.7 -493.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "150080RS75000"
+				(at 12.7 -593.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "710-150080RS75000"
+				(at 12.7 -693.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/150080RS75000?qs=LlUlMxKIyB2jdCo7bnfgew%3D%3D"
+				(at 12.7 -793.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" ""
+				(at 12.7 -893.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" ""
+				(at 12.7 -993.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(symbol "150080RS75000_1_1"
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 5.08 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 10.16 2.54) (xy 10.16 -2.54) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.334 4.318) (xy 4.572 3.556) (xy 3.81 5.08) (xy 5.334 4.318)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 2.54) (xy 3.81 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.874 4.318) (xy 7.112 3.556) (xy 6.35 5.08) (xy 7.874 4.318)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.89 2.54) (xy 6.35 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 0) (xy 12.7 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "ADS1115LIDGSR:ADS1115LIDGSR"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -311,6 +1091,462 @@
 						)
 					)
 					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "BM04B-GVHS-TB_LF__SN_:BM04B-GVHS-TB_LF__SN_"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 19.05 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "BM04B-GVHS-TB_LF__SN_"
+				(at 19.05 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "BM04BGVHSTBLFSN"
+				(at 19.05 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.jst-mfg.com/product/pdf/eng/eGVH.pdf"
+				(at 19.05 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "CONN HEADER SMD 4POS 1.25MM"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "4.05"
+				(at 19.05 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "JST (JAPAN SOLDERLESS TERMINALS)"
+				(at 19.05 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "BM04B-GVHS-TB(LF)(SN)"
+				(at 19.05 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" ""
+				(at 19.05 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" ""
+				(at 19.05 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" "BM04B-GVHS-TB(LF)(SN)"
+				(at 19.05 -894.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/bm04b-gvhs-tb-lf-sn/jst-manufacturing?utm_currency=USD&region=europe"
+				(at 19.05 -994.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "BM04B-GVHS-TB_LF__SN__1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 17.78 -10.16)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "MP1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MP1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "MP2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MP2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 0 180)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -2.54 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -5.08 180)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -7.62 180)
+					(length 5.08)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "C0603C104K5RACTU:C0603C104K5RACTU"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 8.89 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "C0603C104K5RACTU"
+				(at 8.89 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "C0603"
+				(at 8.89 -96.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf"
+				(at 8.89 -196.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "SMD Comm X7R, Ceramic, 0.1 uF, 10%, 50 VDC, 125 VDC, 125C, -55C, X7R, SMD, MLCC, Temperature Stable, Class II, 2.5 % , 5 GOhms, 7.3 mg, 0603, 1.6mm, 0.8mm, 0.8mm, 0.7mm, 0.35mm, 4000, 78  Weeks, 80"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "0.87"
+				(at 8.89 -396.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "KEMET"
+				(at 8.89 -496.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "C0603C104K5RACTU"
+				(at 8.89 -596.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "80-C0603C104K5R"
+				(at 8.89 -696.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KEMET/C0603C104K5RACTU?qs=l5k%252BbMnNDkkVcnZPSAaaiQ%3D%3D"
+				(at 8.89 -796.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" "C0603C104K5RACTU"
+				(at 8.89 -896.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/c0603c104k5ractu/kemet-corporation?utm_currency=USD&region=nac"
+				(at 8.89 -996.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "C0603C104K5RACTU_1_1"
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 5.588 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.588 2.54) (xy 5.588 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.112 2.54) (xy 7.112 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.112 0) (xy 7.62 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 0 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1339,6 +2575,389 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "OSTTE040104:OSTTE040104"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 16.51 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "OSTTE040104"
+				(at 16.51 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "OSTTE040104"
+				(at 16.51 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.on-shore.com/wp-content/uploads/OSTTEXX0104.pdf"
+				(at 16.51 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "TERM BLK 4POS SIDE ENT 3.5MM PCB"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "8.7"
+				(at 16.51 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "On Shore Technology Inc."
+				(at 16.51 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "OSTTE040104"
+				(at 16.51 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" ""
+				(at 16.51 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" ""
+				(at 16.51 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" "OSTTE040104"
+				(at 16.51 -894.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/ostte040104/on-shore-technology?utm_currency=USD&region=nac"
+				(at 16.51 -994.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "OSTTE040104_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 15.24 -10.16)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 0)
+					(length 5.08)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "RC0603FR-07220RL:RC0603FR-07220RL"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 13.97 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "RC0603FR-07220RL"
+				(at 13.97 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "RESC1608X55N"
+				(at 13.97 -96.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.yageo.com/documents/recent/PYu-RC0603_51_RoHS_L_v5.pdf"
+				(at 13.97 -196.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "YAGEO (PHYCOMP) - RC0603FR-07220RL - RES, THICK FILM, 220R, 1%, 0.1W, 0603"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "0.55"
+				(at 13.97 -396.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "KEMET"
+				(at 13.97 -496.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "RC0603FR-07220RL"
+				(at 13.97 -596.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "603-RC0603FR-07220RL"
+				(at 13.97 -696.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/YAGEO/RC0603FR-07220RL?qs=VU8sRB4EgwA1IyQ0vhXEEw%3D%3D"
+				(at 13.97 -796.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" "RC0603FR-07220RL"
+				(at 13.97 -896.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/rc0603fr-07220rl/yageo?region=nac"
+				(at 13.97 -996.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "RC0603FR-07220RL_1_1"
+				(rectangle
+					(start 5.08 1.27)
+					(end 12.7 -1.27)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 0 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "RR0816P-103-D:RR0816P-103-D"
 			(pin_names
 				(hide yes)
@@ -2137,6 +3756,131 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:+5V"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+5V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+5V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+5V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+5V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -2251,7 +3995,7 @@
 	)
 	(text "Reset Button"
 		(exclude_from_sim no)
-		(at 89.408 89.154 0)
+		(at 89.662 114.046 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2266,22 +4010,28 @@
 		(uuid "0462792d-cb71-4964-89dc-5f64d02b303d")
 	)
 	(junction
-		(at 100.33 67.31)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "078cd15c-673f-4371-a6d5-30d62ec3c1e4")
-	)
-	(junction
 		(at 181.61 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "082a09fa-5e82-4998-b415-821e5b1c6a83")
 	)
 	(junction
+		(at 99.06 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0e9d7cb2-844d-47a0-a7a7-318166a34b37")
+	)
+	(junction
 		(at 181.61 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "104e97b6-252f-4454-8425-640b716f4c1e")
+	)
+	(junction
+		(at 278.13 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "144c7ff7-3d6e-457c-9927-e1538a8ab0cd")
 	)
 	(junction
 		(at 181.61 120.65)
@@ -2314,16 +4064,34 @@
 		(uuid "72cd3234-dd5e-4925-9f09-742edbbcf3d0")
 	)
 	(junction
+		(at 135.89 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8db6b559-ee0d-4a84-928f-9f8193541147")
+	)
+	(junction
 		(at 181.61 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9a5b4c2b-9165-4231-bf8c-4b38f3d8e7e3")
 	)
 	(junction
+		(at 127 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a7c3109f-bbeb-4f15-a108-ce061700d617")
+	)
+	(junction
 		(at 110.49 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b3b35cea-dd1e-4dbb-9362-97d30b593644")
+	)
+	(junction
+		(at 278.13 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b9ee04ce-67d6-4a15-8142-1ba40e53c8cf")
 	)
 	(junction
 		(at 130.81 67.31)
@@ -2383,7 +4151,17 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 43.18) (xy 127 43.18)
+			(xy 173.99 41.91) (xy 191.77 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04252c03-c485-43f0-97ba-3fd937c4417b")
+	)
+	(wire
+		(pts
+			(xy 146.05 41.91) (xy 127 41.91)
 		)
 		(stroke
 			(width 0)
@@ -2413,6 +4191,26 @@
 	)
 	(wire
 		(pts
+			(xy 252.73 99.06) (xy 247.65 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "082bf488-49eb-4cd5-8ed7-a0eefc3f90c1")
+	)
+	(wire
+		(pts
+			(xy 139.7 149.86) (xy 201.93 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e9a6679-541a-4477-997e-1240389d89ed")
+	)
+	(wire
+		(pts
 			(xy 44.45 52.07) (xy 36.83 52.07)
 		)
 		(stroke
@@ -2420,6 +4218,16 @@
 			(type default)
 		)
 		(uuid "14af18d2-45aa-41dc-a713-fd3dbe9b9801")
+	)
+	(wire
+		(pts
+			(xy 144.78 27.94) (xy 144.78 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1572747b-384d-4dec-a23b-7730f905f9fc")
 	)
 	(wire
 		(pts
@@ -2443,6 +4251,16 @@
 	)
 	(wire
 		(pts
+			(xy 181.61 58.42) (xy 142.24 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a0d1c66-7291-4fdf-aa1e-4e1f695e5da3")
+	)
+	(wire
+		(pts
 			(xy 181.61 125.73) (xy 181.61 128.27)
 		)
 		(stroke
@@ -2453,7 +4271,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 45.72) (xy 166.37 45.72)
+			(xy 173.99 44.45) (xy 177.8 44.45)
 		)
 		(stroke
 			(width 0)
@@ -2483,13 +4301,53 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 81.28) (xy 83.82 60.96)
+			(xy 187.96 36.83) (xy 187.96 33.02)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2fa7e75a-ddf9-42b5-a0a9-d1e7991e6199")
+		(uuid "244be656-d645-42c4-858d-93e912f9c8a7")
+	)
+	(wire
+		(pts
+			(xy 139.7 125.73) (xy 139.7 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26e8e1f2-1c4c-4d9d-9afd-4ca1b6887b26")
+	)
+	(wire
+		(pts
+			(xy 201.93 149.86) (xy 201.93 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f32a80c-721e-453d-afa2-575357ae4af5")
+	)
+	(wire
+		(pts
+			(xy 278.13 120.65) (xy 266.7 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2fbc775f-7bcc-4ba1-b5ad-d31c41e53695")
+	)
+	(wire
+		(pts
+			(xy 133.35 144.78) (xy 133.35 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "322078a7-68c9-4fdf-9bd0-e1cfabc7a80c")
 	)
 	(wire
 		(pts
@@ -2500,6 +4358,16 @@
 			(type default)
 		)
 		(uuid "339bc107-2ce8-40aa-a994-02839a4f996c")
+	)
+	(wire
+		(pts
+			(xy 266.7 139.7) (xy 278.13 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3423b620-a304-4dd8-b944-672d66eaf0a1")
 	)
 	(wire
 		(pts
@@ -2523,6 +4391,36 @@
 	)
 	(wire
 		(pts
+			(xy 187.96 46.99) (xy 187.96 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a70415f-70e0-4551-8ab1-87ba84a119a2")
+	)
+	(wire
+		(pts
+			(xy 177.8 82.55) (xy 181.61 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3cced157-009f-478f-afa2-8b0741004843")
+	)
+	(wire
+		(pts
+			(xy 196.85 100.33) (xy 196.85 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3dc4434e-ca2f-471b-832b-519ed25910bc")
+	)
+	(wire
+		(pts
 			(xy 181.61 115.57) (xy 181.61 118.11)
 		)
 		(stroke
@@ -2530,6 +4428,26 @@
 			(type default)
 		)
 		(uuid "415b60f8-8806-4a22-a7f4-feeb4712d092")
+	)
+	(wire
+		(pts
+			(xy 177.8 100.33) (xy 196.85 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "465bc4f2-3216-4af5-8f78-a45ddcc21573")
+	)
+	(wire
+		(pts
+			(xy 278.13 99.06) (xy 278.13 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46dd09fc-e56a-4fc1-9534-8f3a8c0b5831")
 	)
 	(wire
 		(pts
@@ -2543,7 +4461,27 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 67.31) (xy 100.33 67.31)
+			(xy 124.46 128.27) (xy 129.54 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4da867bd-6754-4583-a61a-2607821904ed")
+	)
+	(wire
+		(pts
+			(xy 251.46 120.65) (xy 247.65 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4dadffce-184b-4c7a-9761-9b5b3ffd9e9c")
+	)
+	(wire
+		(pts
+			(xy 36.83 67.31) (xy 99.06 67.31)
 		)
 		(stroke
 			(width 0)
@@ -2563,6 +4501,16 @@
 	)
 	(wire
 		(pts
+			(xy 278.13 139.7) (xy 278.13 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "578b6f1e-b2b1-4fac-9f02-d9d3620c3615")
+	)
+	(wire
+		(pts
 			(xy 86.36 52.07) (xy 80.01 52.07)
 		)
 		(stroke
@@ -2570,6 +4518,16 @@
 			(type default)
 		)
 		(uuid "584b2ad4-3b5a-48ea-89bb-3f53aceb600b")
+	)
+	(wire
+		(pts
+			(xy 191.77 36.83) (xy 187.96 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "584cc9d4-19d7-4f2d-8360-587d5a1d68e2")
 	)
 	(wire
 		(pts
@@ -2593,6 +4551,36 @@
 	)
 	(wire
 		(pts
+			(xy 124.46 125.73) (xy 139.7 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c905524-9dde-41df-885a-0db35da67a37")
+	)
+	(wire
+		(pts
+			(xy 124.46 120.65) (xy 135.89 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "620c1de1-7244-47a0-8eda-9a6d90101ec0")
+	)
+	(wire
+		(pts
+			(xy 187.96 44.45) (xy 191.77 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "634ba920-e0c5-4e1d-ae36-ef768a2dd759")
+	)
+	(wire
+		(pts
 			(xy 110.49 97.79) (xy 104.14 97.79)
 		)
 		(stroke
@@ -2603,13 +4591,43 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 60.96) (xy 86.36 60.96)
+			(xy 99.06 102.87) (xy 104.14 102.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "76186d74-1aaa-4966-8039-94c70052d6b0")
+		(uuid "6a804183-ae25-4d7b-b2a0-281d87bbc435")
+	)
+	(wire
+		(pts
+			(xy 142.24 44.45) (xy 146.05 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d3db6b9-e290-4b90-ab86-c7e84737e884")
+	)
+	(wire
+		(pts
+			(xy 129.54 128.27) (xy 129.54 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7383cf61-b801-4125-852c-94704a956afe")
+	)
+	(wire
+		(pts
+			(xy 201.93 102.87) (xy 177.8 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7abd5c55-96e4-4c17-842c-25c96eb7fa67")
 	)
 	(wire
 		(pts
@@ -2633,7 +4651,17 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 45.72) (xy 166.37 53.34)
+			(xy 251.46 139.7) (xy 247.65 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "805a9fe0-34b0-479f-a2b2-3185a976e04a")
+	)
+	(wire
+		(pts
+			(xy 177.8 44.45) (xy 177.8 53.34)
 		)
 		(stroke
 			(width 0)
@@ -2653,23 +4681,23 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 67.31) (xy 120.65 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8399512e-22e5-48a2-bf45-7f7a85a5479a")
-	)
-	(wire
-		(pts
-			(xy 144.78 77.47) (xy 127 77.47)
+			(xy 144.78 77.47) (xy 135.89 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "876fdfbb-be23-46e2-981f-ab33bf69c1ad")
+	)
+	(wire
+		(pts
+			(xy 196.85 144.78) (xy 133.35 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8810c92e-b3e6-4c01-8f7e-3e854c8e2bad")
 	)
 	(wire
 		(pts
@@ -2723,6 +4751,16 @@
 	)
 	(wire
 		(pts
+			(xy 127 41.91) (xy 127 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "912fdc01-28a5-4e41-8a7d-70d4600f307a")
+	)
+	(wire
+		(pts
 			(xy 121.92 97.79) (xy 110.49 97.79)
 		)
 		(stroke
@@ -2733,13 +4771,23 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 67.31) (xy 100.33 100.33)
+			(xy 181.61 82.55) (xy 181.61 58.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9646f32f-e22a-4ddc-b459-7fa742515081")
+		(uuid "97ae2dff-5b6e-4846-b710-13615ee74da1")
+	)
+	(wire
+		(pts
+			(xy 184.15 80.01) (xy 184.15 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97e9fa27-1139-470e-a1d5-0abdd107e90d")
 	)
 	(wire
 		(pts
@@ -2753,23 +4801,33 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 102.87) (xy 100.33 102.87)
+			(xy 278.13 139.7) (xy 278.13 120.65)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a3de72ca-5cb5-4bdf-8f78-8bcbcfea1c0a")
+		(uuid "9c992862-cb7f-42d7-995f-b4c79d9fc64e")
 	)
 	(wire
 		(pts
-			(xy 130.81 40.64) (xy 130.81 67.31)
+			(xy 130.81 39.37) (xy 130.81 67.31)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "a42d79a4-6369-4ac9-bb58-a446e51859a8")
+	)
+	(wire
+		(pts
+			(xy 144.78 36.83) (xy 146.05 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "adb28336-1cb9-44d4-abd7-2b1fcccf0d59")
 	)
 	(wire
 		(pts
@@ -2783,7 +4841,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 40.64) (xy 130.81 40.64)
+			(xy 146.05 39.37) (xy 130.81 39.37)
 		)
 		(stroke
 			(width 0)
@@ -2810,6 +4868,16 @@
 			(type default)
 		)
 		(uuid "be4c1eb8-4ece-4220-a54c-3795424df2f2")
+	)
+	(wire
+		(pts
+			(xy 135.89 77.47) (xy 127 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf791a21-4f6c-4f1d-bf7e-644b6181f876")
 	)
 	(wire
 		(pts
@@ -2873,6 +4941,16 @@
 	)
 	(wire
 		(pts
+			(xy 173.99 39.37) (xy 191.77 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d034c9f5-626d-41df-a3f1-d0c7728dec47")
+	)
+	(wire
+		(pts
 			(xy 177.8 120.65) (xy 181.61 120.65)
 		)
 		(stroke
@@ -2880,6 +4958,36 @@
 			(type default)
 		)
 		(uuid "d6b19c78-93c8-4d00-8eb0-86fce8fd5ef6")
+	)
+	(wire
+		(pts
+			(xy 133.35 123.19) (xy 124.46 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dbbb4901-8739-4585-8ec2-3bc4b9eb6e58")
+	)
+	(wire
+		(pts
+			(xy 99.06 67.31) (xy 120.65 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e42dcd49-49b4-49da-a962-4673410b3eb1")
+	)
+	(wire
+		(pts
+			(xy 135.89 120.65) (xy 135.89 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4b64fc4-8ae9-462b-a2d2-f8fbbd02026d")
 	)
 	(wire
 		(pts
@@ -2893,13 +5001,43 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 53.34) (xy 127 53.34)
+			(xy 177.8 80.01) (xy 184.15 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb03fe65-d3c3-4aa3-a770-95b5e28b2628")
+	)
+	(wire
+		(pts
+			(xy 113.03 43.18) (xy 127 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebbd9468-ca78-4041-b7a6-394b3337e2bd")
+	)
+	(wire
+		(pts
+			(xy 177.8 53.34) (xy 127 53.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "ed760931-ad43-4479-8c7c-f2bbd68f2fed")
+	)
+	(wire
+		(pts
+			(xy 142.24 58.42) (xy 142.24 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef39f742-4bce-43f9-a76c-a679bcb53b9f")
 	)
 	(wire
 		(pts
@@ -2921,6 +5059,521 @@
 		)
 		(uuid "f16b71ef-98a9-417c-aa5c-6caa22be8533")
 	)
+	(wire
+		(pts
+			(xy 99.06 67.31) (xy 99.06 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f242e210-b913-41e3-804b-92e1febb0ff5")
+	)
+	(wire
+		(pts
+			(xy 184.15 27.94) (xy 144.78 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbb67a62-1c4a-4b9a-a0c3-87532734ba66")
+	)
+	(wire
+		(pts
+			(xy 267.97 99.06) (xy 278.13 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc74ae41-1fcf-4613-b896-9bcca8ac6abd")
+	)
+	(symbol
+		(lib_id "RC0603FR-07220RL:RC0603FR-07220RL")
+		(at 247.65 139.7 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0c2d6d44-77be-4a6e-b892-911f5f7bc6d7")
+		(property "Reference" "R4"
+			(at 238.76 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RC0603FR-07220RL"
+			(at 238.76 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "RESC1608X55N"
+			(at 233.68 43.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.yageo.com/documents/recent/PYu-RC0603_51_RoHS_L_v5.pdf"
+			(at 233.68 -56.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "YAGEO (PHYCOMP) - RC0603FR-07220RL - RES, THICK FILM, 220R, 1%, 0.1W, 0603"
+			(at 247.65 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.55"
+			(at 233.68 -256.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "KEMET"
+			(at 233.68 -356.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RC0603FR-07220RL"
+			(at 233.68 -456.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "603-RC0603FR-07220RL"
+			(at 233.68 -556.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/YAGEO/RC0603FR-07220RL?qs=VU8sRB4EgwA1IyQ0vhXEEw%3D%3D"
+			(at 233.68 -656.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "RC0603FR-07220RL"
+			(at 233.68 -756.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/rc0603fr-07220rl/yageo?region=nac"
+			(at 233.68 -856.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d9c0dae0-64bb-41fc-b652-388df62d1303")
+		)
+		(pin "1"
+			(uuid "208df3a7-1940-43d8-81bc-5ef86f748e41")
+		)
+		(instances
+			(project ""
+				(path "/4aa40e3f-f3c5-4de8-9da3-6f9316e48f5b"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "150080BS75000:150080BS75000")
+		(at 267.97 99.06 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "105be1d6-30ed-429a-b216-de93f3a5bc29")
+		(property "Reference" "BLINK_LED1"
+			(at 260.35 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "150080BS75000"
+			(at 260.35 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LEDC2012X70N"
+			(at 255.27 5.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/components/products/download/150080xS75000_3D+%28rev1%29.pdf"
+			(at 255.27 -94.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "WL-SMCW SMT Mono-Color Chip LED Waterclear 0805, Blue Typ.(@20mA): 470nm, 145mcd, 3.2V, 140 InGaN"
+			(at 267.97 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.7"
+			(at 255.27 -294.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Wurth Elektronik"
+			(at 255.27 -394.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "150080BS75000"
+			(at 255.27 -494.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "710-150080BS75000"
+			(at 255.27 -594.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/150080BS75000?qs=2kOmHSv6VfT2tBo3UPVqAQ%3D%3D"
+			(at 255.27 -694.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 255.27 -794.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 255.27 -894.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "82e8c341-b8d1-4490-adbc-36675f1c38d9")
+		)
+		(pin "2"
+			(uuid "20431b7f-0f39-49e8-9759-f963ad640d60")
+		)
+		(instances
+			(project ""
+				(path "/4aa40e3f-f3c5-4de8-9da3-6f9316e48f5b"
+					(reference "BLINK_LED1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "150080RS75000:150080RS75000")
+		(at 266.7 139.7 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1b3509ba-a628-4087-b43a-2b2ddd3ee3ef")
+		(property "Reference" "PWR_LED1"
+			(at 259.08 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "150080RS75000"
+			(at 259.08 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LEDC2012X70N"
+			(at 254 46.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/components/products/download/Download_3D_150080RS75000+%28rev1%29.pdf"
+			(at 254 -53.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "WL-SMCW SMT Mono-Color Chip LED Waterclear 0805, Red Typ.(@20mA): 625nm, 150mcd, 2.0V, 140 AlInGaP"
+			(at 266.7 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.7"
+			(at 254 -253.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Wurth Elektronik"
+			(at 254 -353.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "150080RS75000"
+			(at 254 -453.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "710-150080RS75000"
+			(at 254 -553.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/150080RS75000?qs=LlUlMxKIyB2jdCo7bnfgew%3D%3D"
+			(at 254 -653.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 254 -753.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 254 -853.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "616bd3a1-4902-4403-93a4-c8c52ae91129")
+		)
+		(pin "1"
+			(uuid "5573e39d-7775-41e8-a0d5-407327f4088f")
+		)
+		(instances
+			(project ""
+				(path "/4aa40e3f-f3c5-4de8-9da3-6f9316e48f5b"
+					(reference "PWR_LED1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 129.54 139.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1ddf2def-2ecc-4c83-b4c6-a2a180551220")
+		(property "Reference" "#PWR04"
+			(at 129.54 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 129.54 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 129.54 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 129.54 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "25612d84-2e93-48fb-8d0f-a980e12f8aa6")
+		)
+		(instances
+			(project ""
+				(path "/4aa40e3f-f3c5-4de8-9da3-6f9316e48f5b"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(symbol
 		(lib_id "power:GND")
 		(at 181.61 137.16 0)
@@ -2931,7 +5584,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2bbd74c3-833e-46bd-89ef-4d927b9791a4")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR05"
 			(at 181.61 143.51 0)
 			(effects
 				(font
@@ -2981,7 +5634,7 @@
 		(instances
 			(project ""
 				(path "/4aa40e3f-f3c5-4de8-9da3-6f9316e48f5b"
-					(reference "#PWR03")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -2997,7 +5650,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "33aefa00-d259-4dc3-9007-0210c2f80037")
-		(property "Reference" "IC3"
+		(property "Reference" "IC1"
 			(at 62.23 39.37 0)
 			(effects
 				(font
@@ -3145,7 +5798,7 @@
 		(instances
 			(project ""
 				(path "/4aa40e3f-f3c5-4de8-9da3-6f9316e48f5b"
-					(reference "IC3")
+					(reference "IC1")
 					(unit 1)
 				)
 			)
@@ -3153,7 +5806,7 @@
 	)
 	(symbol
 		(lib_id "TL3301FF160QG:TL3301FF160QG")
-		(at 80.01 100.33 0)
+		(at 99.06 102.87 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3161,8 +5814,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3c34a2dc-c736-4bba-8704-c8b44c9db2c0")
-		(property "Reference" "S2"
-			(at 90.17 92.71 0)
+		(property "Reference" "S1"
+			(at 88.9 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3170,7 +5823,7 @@
 			)
 		)
 		(property "Value" "TL3301FF160QG"
-			(at 90.17 95.25 0)
+			(at 88.9 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3178,7 +5831,7 @@
 			)
 		)
 		(property "Footprint" "TL3301FF160QG"
-			(at 96.52 195.25 0)
+			(at 82.55 7.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3188,7 +5841,7 @@
 			)
 		)
 		(property "Datasheet" "https://configured-product-images.s3.amazonaws.com/2D/specs/TL3301FF160QG.pdf"
-			(at 96.52 295.25 0)
+			(at 82.55 -92.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3198,7 +5851,7 @@
 			)
 		)
 		(property "Description" "TACT, 50mA, 12VDC SPST-NO, Off-(On) Surface Mount"
-			(at 80.01 100.33 0)
+			(at 99.06 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3207,7 +5860,7 @@
 			)
 		)
 		(property "Height" "7"
-			(at 96.52 495.25 0)
+			(at 82.55 -292.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3217,7 +5870,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "E-Switch"
-			(at 96.52 595.25 0)
+			(at 82.55 -392.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3227,7 +5880,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "TL3301FF160QG"
-			(at 96.52 695.25 0)
+			(at 82.55 -492.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3237,7 +5890,7 @@
 			)
 		)
 		(property "Mouser Part Number" "612-TL3301F"
-			(at 96.52 795.25 0)
+			(at 82.55 -592.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3247,7 +5900,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/E-Switch/TL3301FF160QG?qs=xDsBkp9LkocS2rMBI2Cp5w%3D%3D"
-			(at 96.52 895.25 0)
+			(at 82.55 -692.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3257,7 +5910,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 96.52 995.25 0)
+			(at 82.55 -792.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3267,7 +5920,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 96.52 1095.25 0)
+			(at 82.55 -892.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3277,7 +5930,7 @@
 			)
 		)
 		(property "Simulation Data" "https://configured-product-images.s3.amazonaws.com/Datasheets/TL3301.pdf"
-			(at 96.52 1195.25 0)
+			(at 82.55 -992.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3301,7 +5954,155 @@
 		(instances
 			(project ""
 				(path "/4aa40e3f-f3c5-4de8-9da3-6f9316e48f5b"
-					(reference "S2")
+					(reference "S1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "OSTTE040104:OSTTE040104")
+		(at 191.77 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3c66bcbd-8015-4d65-ac13-80db03b62447")
+		(property "Reference" "J2"
+			(at 208.28 39.3699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "OSTTE040104"
+			(at 208.28 41.9099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "OSTTE040104"
+			(at 208.28 131.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.on-shore.com/wp-content/uploads/OSTTEXX0104.pdf"
+			(at 208.28 231.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "TERM BLK 4POS SIDE ENT 3.5MM PCB"
+			(at 191.77 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "8.7"
+			(at 208.28 431.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "On Shore Technology Inc."
+			(at 208.28 531.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "OSTTE040104"
+			(at 208.28 631.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 208.28 731.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 208.28 831.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "OSTTE040104"
+			(at 208.28 931.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/ostte040104/on-shore-technology?utm_currency=USD&region=nac"
+			(at 208.28 1031.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2fe830f0-081c-4ec4-a8b5-5bc20ffdb496")
+		)
+		(pin "2"
+			(uuid "cf1f3ff5-7feb-45ec-a799-ae7d194fae33")
+		)
+		(pin "3"
+			(uuid "5eb08c5f-c3ad-4031-9103-110d1e903706")
+		)
+		(pin "4"
+			(uuid "1feba4d3-1bf5-40cd-a3e7-8ac80ed84f90")
+		)
+		(instances
+			(project ""
+				(path "/4aa40e3f-f3c5-4de8-9da3-6f9316e48f5b"
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -3317,7 +6118,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "43eb3fa4-2de3-4d6c-ac82-6173e4156f3c")
-		(property "Reference" "IC1"
+		(property "Reference" "IC2"
 			(at 161.29 67.31 0)
 			(effects
 				(font
@@ -3582,7 +6383,493 @@
 		(instances
 			(project ""
 				(path "/4aa40e3f-f3c5-4de8-9da3-6f9316e48f5b"
-					(reference "IC1")
+					(reference "IC2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "C0603C104K5RACTU:C0603C104K5RACTU")
+		(at 100.33 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "641fdc64-ad56-4a1d-912c-d6cbc4410441")
+		(property "Reference" "C1"
+			(at 106.68 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "C0603C104K5RACTU"
+			(at 106.68 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "C0603"
+			(at 109.22 139.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf"
+			(at 109.22 239.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD Comm X7R, Ceramic, 0.1 uF, 10%, 50 VDC, 125 VDC, 125C, -55C, X7R, SMD, MLCC, Temperature Stable, Class II, 2.5 % , 5 GOhms, 7.3 mg, 0603, 1.6mm, 0.8mm, 0.8mm, 0.7mm, 0.35mm, 4000, 78  Weeks, 80"
+			(at 100.33 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.87"
+			(at 109.22 439.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "KEMET"
+			(at 109.22 539.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "C0603C104K5RACTU"
+			(at 109.22 639.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "80-C0603C104K5R"
+			(at 109.22 739.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KEMET/C0603C104K5RACTU?qs=l5k%252BbMnNDkkVcnZPSAaaiQ%3D%3D"
+			(at 109.22 839.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "C0603C104K5RACTU"
+			(at 109.22 939.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/c0603c104k5ractu/kemet-corporation?utm_currency=USD&region=nac"
+			(at 109.22 1039.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8c447c83-0fe4-4992-ac17-8f90fe32a43e")
+		)
+		(pin "1"
+			(uuid "281727af-bfaf-46b4-a6c6-116da868ab64")
+		)
+		(instances
+			(project ""
+				(path "/4aa40e3f-f3c5-4de8-9da3-6f9316e48f5b"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "RC0603FR-07220RL:RC0603FR-07220RL")
+		(at 247.65 99.06 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "69260714-36a7-42e3-baac-dfe906883afa")
+		(property "Reference" "R2"
+			(at 238.76 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RC0603FR-07220RL"
+			(at 238.76 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "RESC1608X55N"
+			(at 233.68 2.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.yageo.com/documents/recent/PYu-RC0603_51_RoHS_L_v5.pdf"
+			(at 233.68 -97.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "YAGEO (PHYCOMP) - RC0603FR-07220RL - RES, THICK FILM, 220R, 1%, 0.1W, 0603"
+			(at 247.65 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.55"
+			(at 233.68 -297.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "KEMET"
+			(at 233.68 -397.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RC0603FR-07220RL"
+			(at 233.68 -497.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "603-RC0603FR-07220RL"
+			(at 233.68 -597.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/YAGEO/RC0603FR-07220RL?qs=VU8sRB4EgwA1IyQ0vhXEEw%3D%3D"
+			(at 233.68 -697.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "RC0603FR-07220RL"
+			(at 233.68 -797.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/rc0603fr-07220rl/yageo?region=nac"
+			(at 233.68 -897.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f7785fc6-e74f-4511-8df2-51bf3fae2fb5")
+		)
+		(pin "2"
+			(uuid "57b8e38e-18e7-46ce-8c92-fe0ded789161")
+		)
+		(instances
+			(project ""
+				(path "/4aa40e3f-f3c5-4de8-9da3-6f9316e48f5b"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 187.96 46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9711f3d3-7c17-4a1d-9575-a845bee47557")
+		(property "Reference" "#PWR07"
+			(at 187.96 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 187.96 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 187.96 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 187.96 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 187.96 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "75860fc1-14b7-40fd-8a9c-1d27a1176a25")
+		)
+		(instances
+			(project ""
+				(path "/4aa40e3f-f3c5-4de8-9da3-6f9316e48f5b"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "RC0603FR-07220RL:RC0603FR-07220RL")
+		(at 247.65 120.65 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a83dd88f-0e9d-450c-b396-14bebd64ea50")
+		(property "Reference" "R3"
+			(at 238.76 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RC0603FR-07220RL"
+			(at 238.76 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "RESC1608X55N"
+			(at 233.68 24.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.yageo.com/documents/recent/PYu-RC0603_51_RoHS_L_v5.pdf"
+			(at 233.68 -75.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "YAGEO (PHYCOMP) - RC0603FR-07220RL - RES, THICK FILM, 220R, 1%, 0.1W, 0603"
+			(at 247.65 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.55"
+			(at 233.68 -275.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "KEMET"
+			(at 233.68 -375.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RC0603FR-07220RL"
+			(at 233.68 -475.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "603-RC0603FR-07220RL"
+			(at 233.68 -575.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/YAGEO/RC0603FR-07220RL?qs=VU8sRB4EgwA1IyQ0vhXEEw%3D%3D"
+			(at 233.68 -675.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "RC0603FR-07220RL"
+			(at 233.68 -775.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/rc0603fr-07220rl/yageo?region=nac"
+			(at 233.68 -875.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "08df54b2-0e62-4516-bd70-1c201d2988e2")
+		)
+		(pin "2"
+			(uuid "43303b6d-3d24-40c4-89a0-30cb31fbd7bf")
+		)
+		(instances
+			(project ""
+				(path "/4aa40e3f-f3c5-4de8-9da3-6f9316e48f5b"
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -3598,7 +6885,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ad8f9a0b-ef3d-445b-858c-4fd0e61094c2")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR03"
 			(at 120.65 57.15 0)
 			(effects
 				(font
@@ -3648,7 +6935,7 @@
 		(instances
 			(project ""
 				(path "/4aa40e3f-f3c5-4de8-9da3-6f9316e48f5b"
-					(reference "#PWR02")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -3797,6 +7084,224 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 187.96 33.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c184516d-5ac0-47d2-92a9-5459a60bbf05")
+		(property "Reference" "#PWR06"
+			(at 187.96 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 187.96 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 187.96 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 187.96 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 187.96 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ff8490b8-6286-4994-ae76-adf753c9e570")
+		)
+		(instances
+			(project ""
+				(path "/4aa40e3f-f3c5-4de8-9da3-6f9316e48f5b"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "BM04B-GVHS-TB_LF__SN_:BM04B-GVHS-TB_LF__SN_")
+		(at 101.6 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c699a460-cc31-441c-874e-c4452d029c2e")
+		(property "Reference" "J1"
+			(at 113.03 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BM04B-GVHS-TB_LF__SN_"
+			(at 113.03 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "BM04BGVHSTBLFSN"
+			(at 120.65 215.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.jst-mfg.com/product/pdf/eng/eGVH.pdf"
+			(at 120.65 315.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "CONN HEADER SMD 4POS 1.25MM"
+			(at 101.6 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "4.05"
+			(at 120.65 515.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "JST (JAPAN SOLDERLESS TERMINALS)"
+			(at 120.65 615.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "BM04B-GVHS-TB(LF)(SN)"
+			(at 120.65 715.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 120.65 815.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 120.65 915.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "BM04B-GVHS-TB(LF)(SN)"
+			(at 120.65 1015.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/bm04b-gvhs-tb-lf-sn/jst-manufacturing?utm_currency=USD&region=europe"
+			(at 120.65 1115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "85eb1a6c-32e0-4e06-ad5b-bf000076da8c")
+		)
+		(pin "4"
+			(uuid "756f6893-f72a-4b39-81d9-d4d07fd7ea60")
+		)
+		(pin "MP1"
+			(uuid "8c6b4f37-6944-4903-869e-88e7e42a000c")
+		)
+		(pin "2"
+			(uuid "1132f59f-bd7a-4b7b-9591-9934af0cc563")
+		)
+		(pin "1"
+			(uuid "999530f3-8693-4e87-9f2b-a1348f299ad2")
+		)
+		(pin "MP2"
+			(uuid "f0720c79-a0f3-4e11-8e69-63123901e69a")
+		)
+		(instances
+			(project ""
+				(path "/4aa40e3f-f3c5-4de8-9da3-6f9316e48f5b"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 110.49 59.69 0)
 		(unit 1)
@@ -3806,7 +7311,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cb5c4d63-2c70-4bb6-b33d-9cc9f1f600a9")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR02"
 			(at 110.49 63.5 0)
 			(effects
 				(font
@@ -3856,7 +7361,7 @@
 		(instances
 			(project ""
 				(path "/4aa40e3f-f3c5-4de8-9da3-6f9316e48f5b"
-					(reference "#PWR01")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -3864,7 +7369,7 @@
 	)
 	(symbol
 		(lib_id "TJA1050T_CM_118:TJA1050T_CM,118")
-		(at 134.62 38.1 0)
+		(at 146.05 36.83 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3872,8 +7377,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "da5e7d72-41f2-481d-a9e8-c7756b000542")
-		(property "Reference" "IC2"
-			(at 148.59 30.48 0)
+		(property "Reference" "IC3"
+			(at 160.02 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3881,7 +7386,7 @@
 			)
 		)
 		(property "Value" "TJA1050T_CM,118"
-			(at 148.59 33.02 0)
+			(at 160.02 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3889,7 +7394,7 @@
 			)
 		)
 		(property "Footprint" "SOIC127P600X175-8N"
-			(at 158.75 133.02 0)
+			(at 170.18 131.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3899,7 +7404,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.nxp.com/docs/en/data-sheet/TJA1050.pdf"
-			(at 158.75 233.02 0)
+			(at 170.18 231.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3909,7 +7414,7 @@
 			)
 		)
 		(property "Description" "NXP - TJA1050T/CM,118 - CAN TRANSCEIVER, 1TX/RX, SOIC-8"
-			(at 134.62 38.1 0)
+			(at 146.05 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3918,7 +7423,7 @@
 			)
 		)
 		(property "Height" "1.75"
-			(at 158.75 433.02 0)
+			(at 170.18 431.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3928,7 +7433,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "NXP"
-			(at 158.75 533.02 0)
+			(at 170.18 531.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3938,7 +7443,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "TJA1050T/CM,118"
-			(at 158.75 633.02 0)
+			(at 170.18 631.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3948,7 +7453,7 @@
 			)
 		)
 		(property "Mouser Part Number" "771-TJA1050T/CM118"
-			(at 158.75 733.02 0)
+			(at 170.18 731.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3958,7 +7463,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/NXP-Semiconductors/TJA1050T-CM118?qs=5XOdhvmYM0NFFspw0VP5sA%3D%3D"
-			(at 158.75 833.02 0)
+			(at 170.18 831.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3968,7 +7473,7 @@
 			)
 		)
 		(property "Arrow Part Number" "TJA1050T/CM,118"
-			(at 158.75 933.02 0)
+			(at 170.18 931.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3978,7 +7483,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/tja1050tcm118/nxp-semiconductors?utm_currency=USD&region=nac"
-			(at 158.75 1033.02 0)
+			(at 170.18 1031.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4014,7 +7519,7 @@
 		(instances
 			(project ""
 				(path "/4aa40e3f-f3c5-4de8-9da3-6f9316e48f5b"
-					(reference "IC2")
+					(reference "IC3")
 					(unit 1)
 				)
 			)
@@ -4030,7 +7535,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e4d42ef9-2ba4-4874-b8f1-52709b6a8e9b")
-		(property "Reference" "S1"
+		(property "Reference" "S2"
 			(at 207.01 69.85 0)
 			(effects
 				(font
@@ -4170,7 +7675,280 @@
 		(instances
 			(project ""
 				(path "/4aa40e3f-f3c5-4de8-9da3-6f9316e48f5b"
-					(reference "S1")
+					(reference "S2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 100.33 43.18 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eea8510a-a010-4cb4-b46c-9f6790163d1e")
+		(property "Reference" "#PWR01"
+			(at 93.98 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 96.52 43.1799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 100.33 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.33 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 100.33 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b1869cac-685b-4ed5-b1eb-023313cf1228")
+		)
+		(instances
+			(project ""
+				(path "/4aa40e3f-f3c5-4de8-9da3-6f9316e48f5b"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 278.13 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eeb07fae-4a52-49d6-905c-bf16d0f3020e")
+		(property "Reference" "#PWR08"
+			(at 278.13 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 278.13 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 278.13 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 278.13 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 278.13 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f06b2712-b9ed-405a-9eb7-1e4b9e9a08f5")
+		)
+		(instances
+			(project ""
+				(path "/4aa40e3f-f3c5-4de8-9da3-6f9316e48f5b"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "150080GS75000:150080GS75000")
+		(at 266.7 120.65 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f93e160b-c05e-4545-8a0e-809922311ac8")
+		(property "Reference" "CAN_LED1"
+			(at 259.08 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "150080GS75000"
+			(at 259.08 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LEDM2012X70N"
+			(at 254 27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/components/products/download/Download_3D_150080GS75000+%28rev1%29.pdf"
+			(at 254 -73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "WL-SMCW SMT Mono-Color Chip LED Waterclear 0805, Green Typ.(@20mA): 520nm, 450mcd, 3.2V, 140 InGaN"
+			(at 266.7 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.7"
+			(at 254 -273 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Wurth Elektronik"
+			(at 254 -373 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "150080GS75000"
+			(at 254 -473 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "710-150080GS75000"
+			(at 254 -573 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/150080GS75000?qs=2kOmHSv6VfQRoTEZVk1mGA%3D%3D"
+			(at 254 -673 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 254 -773 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 254 -873 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "da82c970-0ff9-4654-9cc2-2eeb95a6d8f0")
+		)
+		(pin "2"
+			(uuid "6c9f58c0-307f-4f04-9d60-ef1d363b14cd")
+		)
+		(instances
+			(project ""
+				(path "/4aa40e3f-f3c5-4de8-9da3-6f9316e48f5b"
+					(reference "CAN_LED1")
 					(unit 1)
 				)
 			)

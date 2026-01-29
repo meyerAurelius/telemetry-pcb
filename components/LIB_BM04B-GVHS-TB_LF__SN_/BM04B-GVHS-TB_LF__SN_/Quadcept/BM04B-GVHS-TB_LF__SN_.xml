@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--/1173854/1875749/2.50/6/4/Connector/-->
+<quadcept_library>
+  <setting unit="mil" />
+  <textstyle name="Default" height="47.244094488189" strokewidth="7.8740157480315" charwidth="47.244094488189" />
+  <textstyle name="Dimension" height="19.6850393700787" strokewidth="0" charwidth="19.6850393700787" />
+  <textstyle name="H127W0635TH00762" height="50" strokewidth="3" charwidth="25" />
+  <textstyle name="H15W15TH02" height="59.0551181102362" strokewidth="7.8740157480315" charwidth="59.0551181102362" />
+  <padstyle name="r170_60" surface="True" plated="False" isvia="False" nopaste="False" nomask="True" complex="False" holesize="0">
+    <padshape layer="TOP" shape="rectangle" width="23.622047244094" height="66.929133858267" />
+    <padshape layer="TOP_SOLDER_MASK" shape="rectangle" width="31.496062992126" height="74.803149606298" />
+    <padshape layer="TOP_SOLDER_PASTE" shape="rectangle" width="23.622047244094" height="66.929133858267" />
+  </padstyle>
+  <padstyle name="r280_100" surface="True" plated="False" isvia="False" nopaste="False" nomask="True" complex="False" holesize="0">
+    <padshape layer="TOP" shape="rectangle" width="39.370078740157" height="110.23622047244" />
+    <padshape layer="TOP_SOLDER_MASK" shape="rectangle" width="47.244094488188" height="118.11023622047" />
+    <padshape layer="TOP_SOLDER_PASTE" shape="rectangle" width="39.370078740157" height="110.23622047244" />
+  </padstyle>
+  <footprint name="BM04BGVHSTBLFSN" originx="0" originy="0" pickpointx="0" pickpointy="0">
+    <pcbpin number="1" name="1" style="r170_60" originx="-73.818897637794" originy="87.598425196849" rotation="0" />
+    <pcbpin number="2" name="2" style="r170_60" originx="-24.606299212598" originy="87.598425196849" rotation="0" />
+    <pcbpin number="3" name="3" style="r170_60" originx="24.606299212598" originy="87.598425196849" rotation="0" />
+    <pcbpin number="4" name="4" style="r170_60" originx="73.818897637794" originy="87.598425196849" rotation="0" />
+    <pcbpin number="5" name="MP1" style="r280_100" originx="-146.65354330708" originy="-44.291338582677" rotation="0" />
+    <pcbpin number="6" name="MP2" style="r280_100" originx="146.65354330708" originy="-44.291338582677" rotation="0" />
+    <line layer="TOP_ASSEMBLY" originx="-162.40157480315" originy="79.724409448818" endx="162.40157480315" endy="79.724409448818" width="7.8740157480314" />
+    <line layer="TOP_ASSEMBLY" originx="162.40157480315" originy="79.724409448818" endx="162.40157480315" endy="-87.598425196849" width="7.8740157480314" />
+    <line layer="TOP_ASSEMBLY" originx="162.40157480315" originy="-87.598425196849" endx="-162.40157480315" endy="-87.598425196849" width="7.8740157480314" />
+    <line layer="TOP_ASSEMBLY" originx="-162.40157480315" originy="-87.598425196849" endx="-162.40157480315" endy="79.724409448818" width="7.8740157480314" />
+    <line layer="TOP_PLACE_BOUND" originx="-205.70866141732" originy="160.43307086614" endx="205.70866141732" endy="160.43307086614" width="3.9370078740157" />
+    <line layer="TOP_PLACE_BOUND" originx="205.70866141732" originy="160.43307086614" endx="205.70866141732" endy="-138.77952755905" width="3.9370078740157" />
+    <line layer="TOP_PLACE_BOUND" originx="205.70866141732" originy="-138.77952755905" endx="-205.70866141732" endy="-138.77952755905" width="3.9370078740157" />
+    <line layer="TOP_PLACE_BOUND" originx="-205.70866141732" originy="-138.77952755905" endx="-205.70866141732" endy="160.43307086614" width="3.9370078740157" />
+    <line layer="TOP_SILKSCREEN" originx="-118.11023622047" originy="-87.598425196849" endx="110.23622047244" endy="-87.598425196849" width="3.9370078740157" />
+    <line layer="TOP_SILKSCREEN" originx="-162.40157480315" originy="23.622047244094" endx="-162.40157480315" endy="79.724409448818" width="3.9370078740157" />
+    <line layer="TOP_SILKSCREEN" originx="-162.40157480315" originy="79.724409448818" endx="-94.488188976377" endy="79.724409448818" width="3.9370078740157" />
+    <line layer="TOP_SILKSCREEN" originx="162.40157480315" originy="23.622047244094" endx="162.40157480315" endy="79.724409448818" width="3.9370078740157" />
+    <line layer="TOP_SILKSCREEN" originx="162.40157480315" originy="79.724409448818" endx="94.488188976377" endy="79.724409448818" width="3.9370078740157" />
+  </footprint>
+  <symbol name="BM04B-GVHS-TB_LF__SN_" originx="0" originy="0">
+    <line originx="200" originy="100" endx="700" endy="100" width="0" />
+    <line originx="700" originy="-400" endx="700" endy="100" width="0" />
+    <line originx="700" originy="-400" endx="200" endy="-400" width="0" />
+    <line originx="200" originy="100" endx="200" endy="-400" width="0" />
+    <sympin number="1" originx="700" originy="0" rotation="0" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="670" originy="0" style="Default" rotation="0" justify="right" flipped="False" hidden="False" data="1" />
+      <text name="pindes" originx="760" originy="20" style="Default" rotation="0" justify="lowerleft" flipped="False" hidden="False" data="1" />
+    </sympin>
+    <sympin number="2" originx="700" originy="-100" rotation="0" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="670" originy="-100" style="Default" rotation="0" justify="right" flipped="False" hidden="False" data="2" />
+      <text name="pindes" originx="760" originy="-80" style="Default" rotation="0" justify="lowerleft" flipped="False" hidden="False" data="2" />
+    </sympin>
+    <sympin number="3" originx="700" originy="-200" rotation="0" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="670" originy="-200" style="Default" rotation="0" justify="right" flipped="False" hidden="False" data="3" />
+      <text name="pindes" originx="760" originy="-180" style="Default" rotation="0" justify="lowerleft" flipped="False" hidden="False" data="3" />
+    </sympin>
+    <sympin number="4" originx="700" originy="-300" rotation="0" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="670" originy="-300" style="Default" rotation="0" justify="right" flipped="False" hidden="False" data="4" />
+      <text name="pindes" originx="760" originy="-280" style="Default" rotation="0" justify="lowerleft" flipped="False" hidden="False" data="4" />
+    </sympin>
+    <sympin number="5" originx="200" originy="0" rotation="180" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="230" originy="0" style="Default" rotation="0" justify="left" flipped="False" hidden="False" data="MP1" />
+      <text name="pindes" originx="140" originy="20" style="Default" rotation="0" justify="lowerright" flipped="False" hidden="False" data="MP1" />
+    </sympin>
+    <sympin number="6" originx="200" originy="-100" rotation="180" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="230" originy="-100" style="Default" rotation="0" justify="left" flipped="False" hidden="False" data="MP2" />
+      <text name="pindes" originx="140" originy="-80" style="Default" rotation="0" justify="lowerright" flipped="False" hidden="False" data="MP2" />
+    </sympin>
+  </symbol>
+  <component name="BM04B-GVHS-TB_LF__SN_" designatorprefix="J" height="159.44881889764" footprint="BM04BGVHSTBLFSN">
+    <comppin designator="1" sympin="1" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="1" />
+    <comppin designator="2" sympin="2" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="2" />
+    <comppin designator="3" sympin="3" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="3" />
+    <comppin designator="4" sympin="4" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="4" />
+    <comppin designator="MP1" sympin="5" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="MP1" />
+    <comppin designator="MP2" sympin="6" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="MP2" />
+    <attached_symbol gate="1" name="BM04B-GVHS-TB_LF__SN_" />
+    <pinmap designator="1" footprintpin="1" />
+    <pinmap designator="2" footprintpin="2" />
+    <pinmap designator="3" footprintpin="3" />
+    <pinmap designator="4" footprintpin="4" />
+    <pinmap designator="MP1" footprintpin="5" />
+    <pinmap designator="MP2" footprintpin="6" />
+    <text name="Datasheet" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="http://www.jst-mfg.com/product/pdf/eng/eGVH.pdf" />
+    <text name="Description" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="CONN HEADER SMD 4POS 1.25MM" />
+    <text name="Manufacturer_Name" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="JST (JAPAN SOLDERLESS TERMINALS)" />
+    <text name="Manufacturer_Part_Number" originx="750" originy="200" style="Default" rotation="0" justify="left" flipped="False" hidden="False" data="BM04B-GVHS-TB(LF)(SN)" />
+    <text name="Mouser Part Number" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="" />
+    <text name="Mouser Price/Stock" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="" />
+    <text name="Arrow Part Number" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="BM04B-GVHS-TB(LF)(SN)" />
+    <text name="Arrow Price/Stock" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="https://www.arrow.com/en/products/bm04b-gvhs-tb-lf-sn/jst-manufacturing?utm_currency=USD&amp;region=europe" />
+  </component>
+</quadcept_library>

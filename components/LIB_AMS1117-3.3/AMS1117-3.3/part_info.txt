@@ -1,0 +1,9 @@
+Manufacturer=Advanced
+PartNumber=AMS1117-3.3
+PartCategory=Integrated Circuit
+PackageCategory=SOT223 (3-Pin)
+PinCount=4
+Version=2.1
+Released=2020-11-15 13:12:14
+Downloaded=2026-01-30 15:36:35
+3D=Y

@@ -1,4 +1,4 @@
-27262483515766611
+27264253664454677
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -71875,6 +71875,13 @@ Integrated Circuit
 0
 10
 10
+Library
+SOT229P700X180-4N
+3 LEAD SOT-223 PLASTIC PACKAGE
+Integrated Circuit
+0
+4
+4
 Library
 TL3301FF160QG
 TL3301FF160QG-2

@@ -1,0 +1,18 @@
+.AMS1117-3.3 :1 ;Descriptions of ams AMS1117-3.3 provided by its distributors.
+SOT229P700X180-4N
+*STM IC
+*NGS
+*PLB 1="GND/ADJ" 2="VOUT" 3="VIN" 4="NC"
+*MXP 4
+*DFN AMS1117-3.3
+~!Manufacturer_Name (Advanced)
+~!Manufacturer_Part_Number (AMS1117-3.3)
+~!Mouser Part Number (-)
+~!Mouser Price/Stock (-)
+~!Arrow Part Number (-)
+~!Arrow Price/Stock (-)
+~!Link Datasheet (https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-28/DSA-550594.pdf)
+~!Height (1.8mm)
+~!3D_Model (AMS1117-3.3)
+AMS1117-3.3
+1.1!U 2.1!U 3.1!U 4.1!U 

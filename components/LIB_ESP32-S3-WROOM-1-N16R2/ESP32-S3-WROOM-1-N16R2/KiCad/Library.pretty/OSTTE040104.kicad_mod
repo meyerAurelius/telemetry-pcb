@@ -228,4 +228,15 @@
 			(xyz 0 0 0)
 		)
 	)
+	(model "/home/marcus/Desktop/telemetry_pcb_1/components/LIB_OSTTE040104/OSTTE040104/3D/OSTTE040104.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
 )

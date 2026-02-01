@@ -4603,7 +4603,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 24.13) (xy 223.52 24.13)
+			(xy 234.95 26.67) (xy 240.03 26.67)
 		)
 		(stroke
 			(width 0)
@@ -4643,7 +4643,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 31.75) (xy 218.44 29.21)
+			(xy 234.95 34.29) (xy 234.95 31.75)
 		)
 		(stroke
 			(width 0)
@@ -4803,7 +4803,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 26.67) (xy 223.52 26.67)
+			(xy 229.87 29.21) (xy 240.03 29.21)
 		)
 		(stroke
 			(width 0)
@@ -4983,7 +4983,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 20.32) (xy 218.44 24.13)
+			(xy 234.95 22.86) (xy 234.95 26.67)
 		)
 		(stroke
 			(width 0)
@@ -5313,7 +5313,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 29.21) (xy 223.52 29.21)
+			(xy 234.95 31.75) (xy 240.03 31.75)
 		)
 		(stroke
 			(width 0)
@@ -6038,7 +6038,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 213.36 26.67 90)
+		(at 229.87 29.21 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6047,7 +6047,7 @@
 		(fields_autoplaced yes)
 		(uuid "35b6df55-eda4-4a42-9d30-f96aa2dcb598")
 		(property "Reference" "#PWR011"
-			(at 217.17 26.67 0)
+			(at 233.68 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6056,7 +6056,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 209.55 26.6699 90)
+			(at 226.06 29.2099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6065,7 +6065,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 213.36 26.67 0)
+			(at 229.87 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6074,7 +6074,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 213.36 26.67 0)
+			(at 229.87 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6083,7 +6083,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 213.36 26.67 0)
+			(at 229.87 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7036,7 +7036,7 @@
 	)
 	(symbol
 		(lib_id "AMS1117-3_3:AMS1117-3.3")
-		(at 223.52 24.13 0)
+		(at 240.03 26.67 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7045,7 +7045,7 @@
 		(fields_autoplaced yes)
 		(uuid "905224a7-5b78-4217-8528-5e41fea320ac")
 		(property "Reference" "IC4"
-			(at 238.76 16.51 0)
+			(at 255.27 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7053,7 +7053,7 @@
 			)
 		)
 		(property "Value" "AMS1117-3.3"
-			(at 238.76 19.05 0)
+			(at 255.27 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7061,7 +7061,7 @@
 			)
 		)
 		(property "Footprint" "SOT229P700X180-4N"
-			(at 250.19 119.05 0)
+			(at 266.7 121.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7071,7 +7071,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-28/DSA-550594.pdf"
-			(at 250.19 219.05 0)
+			(at 266.7 221.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7081,7 +7081,7 @@
 			)
 		)
 		(property "Description" "Descriptions of ams AMS1117-3.3 provided by its distributors."
-			(at 223.52 24.13 0)
+			(at 240.03 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7090,7 +7090,7 @@
 			)
 		)
 		(property "Height" "1.8"
-			(at 250.19 419.05 0)
+			(at 266.7 421.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7100,7 +7100,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Advanced"
-			(at 250.19 519.05 0)
+			(at 266.7 521.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7110,7 +7110,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "AMS1117-3.3"
-			(at 250.19 619.05 0)
+			(at 266.7 621.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7120,7 +7120,7 @@
 			)
 		)
 		(property "Mouser Part Number" ""
-			(at 250.19 719.05 0)
+			(at 266.7 721.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7130,7 +7130,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at 250.19 819.05 0)
+			(at 266.7 821.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7140,7 +7140,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 250.19 919.05 0)
+			(at 266.7 921.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7150,7 +7150,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 250.19 1019.05 0)
+			(at 266.7 1021.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7248,7 +7248,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 218.44 31.75 180)
+		(at 234.95 34.29 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7257,7 +7257,7 @@
 		(fields_autoplaced yes)
 		(uuid "9c51ab73-9404-43e1-b5ae-6dd78efaebc2")
 		(property "Reference" "#PWR010"
-			(at 218.44 27.94 0)
+			(at 234.95 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7266,7 +7266,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 218.44 36.83 0)
+			(at 234.95 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7274,7 +7274,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 218.44 31.75 0)
+			(at 234.95 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7283,7 +7283,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 218.44 31.75 0)
+			(at 234.95 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7292,7 +7292,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 218.44 31.75 0)
+			(at 234.95 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7946,7 +7946,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 218.44 20.32 180)
+		(at 234.95 22.86 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7955,7 +7955,7 @@
 		(fields_autoplaced yes)
 		(uuid "d7f1469f-7b21-4b2d-92fc-3d94e19560ca")
 		(property "Reference" "#PWR09"
-			(at 218.44 13.97 0)
+			(at 234.95 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7964,7 +7964,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 218.44 15.24 0)
+			(at 234.95 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7972,7 +7972,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 218.44 20.32 0)
+			(at 234.95 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7981,7 +7981,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 218.44 20.32 0)
+			(at 234.95 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7990,7 +7990,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 218.44 20.32 0)
+			(at 234.95 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)

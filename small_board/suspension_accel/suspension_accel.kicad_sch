@@ -993,6 +993,250 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "BM04B-GVHS-TB_LF__SN_:BM04B-GVHS-TB_LF__SN_"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 19.05 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "BM04B-GVHS-TB_LF__SN_"
+				(at 19.05 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "BM04BGVHSTBLFSN"
+				(at 19.05 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.jst-mfg.com/product/pdf/eng/eGVH.pdf"
+				(at 19.05 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "CONN HEADER SMD 4POS 1.25MM"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "4.05"
+				(at 19.05 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "JST (JAPAN SOLDERLESS TERMINALS)"
+				(at 19.05 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "BM04B-GVHS-TB(LF)(SN)"
+				(at 19.05 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" ""
+				(at 19.05 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" ""
+				(at 19.05 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" "BM04B-GVHS-TB(LF)(SN)"
+				(at 19.05 -894.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/bm04b-gvhs-tb-lf-sn/jst-manufacturing?utm_currency=USD&region=europe"
+				(at 19.05 -994.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "BM04B-GVHS-TB_LF__SN__1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 17.78 -10.16)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "MP1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MP1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "MP2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MP2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 0 180)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -2.54 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -5.08 180)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -7.62 180)
+					(length 5.08)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "ESP32-S3-MINI-1-N8:ESP32-S3-MINI-1-N8"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2826,6 +3070,181 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "RR0816P-103-D:RR0816P-103-D"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 13.97 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "RR0816P-103-D"
+				(at 13.97 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "RESC1608X60N"
+				(at 13.97 -96.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://componentsearchengine.com/Datasheets/1/RR0816P-103-D.pdf"
+				(at 13.97 -196.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "RESISTOR, 0603 10 KOhm +/- 0.5% 0.0625 W"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" ""
+				(at 13.97 -396.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Susumu"
+				(at 13.97 -496.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "RR0816P-103-D"
+				(at 13.97 -596.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "754-RR0816P-103D"
+				(at 13.97 -696.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Susumu/RR0816P-103-D?qs=nCAm%252BcMdy9zJFUifGf2vtQ%3D%3D"
+				(at 13.97 -796.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" "RR0816P-103-D"
+				(at 13.97 -896.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/rr0816p-103-d/susumu"
+				(at 13.97 -996.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "RR0816P-103-D_1_1"
+				(rectangle
+					(start 5.08 1.27)
+					(end 12.7 -1.27)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "R1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 0 180)
+					(length 5.08)
+					(name "R2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "TJA1050T_CM_118:TJA1050T_CM,118"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -3096,6 +3515,224 @@
 						)
 					)
 					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "TL3301FF160QG:TL3301FF160QG"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "S"
+				(at 16.51 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "TL3301FF160QG"
+				(at 16.51 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "TL3301FF160QG"
+				(at 16.51 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://configured-product-images.s3.amazonaws.com/2D/specs/TL3301FF160QG.pdf"
+				(at 16.51 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "TACT, 50mA, 12VDC SPST-NO, Off-(On) Surface Mount"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "7"
+				(at 16.51 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "E-Switch"
+				(at 16.51 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "TL3301FF160QG"
+				(at 16.51 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "612-TL3301F"
+				(at 16.51 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/E-Switch/TL3301FF160QG?qs=xDsBkp9LkocS2rMBI2Cp5w%3D%3D"
+				(at 16.51 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" ""
+				(at 16.51 -894.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" ""
+				(at 16.51 -994.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Simulation Data" "https://configured-product-images.s3.amazonaws.com/Datasheets/TL3301.pdf"
+				(at 16.51 -1094.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "TL3301FF160QG_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 15.24 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 0 180)
+					(length 5.08)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 -2.54 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3464,6 +4101,22 @@
 		(color 0 0 0 0)
 		(uuid "587ebd12-ebd0-451e-b7d8-2bb6b6cc7cc2")
 	)
+	(junction
+		(at 189.23 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ca4334ff-76c4-4ec6-9a67-c4f139214719")
+	)
+	(wire
+		(pts
+			(xy 181.61 60.96) (xy 189.23 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04376680-7029-4758-a79b-cad97ae217ce")
+	)
 	(wire
 		(pts
 			(xy 91.44 63.5) (xy 91.44 129.54)
@@ -3476,6 +4129,36 @@
 	)
 	(wire
 		(pts
+			(xy 231.14 66.04) (xy 231.14 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "072db80c-db74-488c-9cb0-e5ffa6b93f14")
+	)
+	(wire
+		(pts
+			(xy 186.69 45.72) (xy 186.69 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07f710da-463f-4370-b433-3ef8550ab3c0")
+	)
+	(wire
+		(pts
+			(xy 121.92 58.42) (xy 127 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a927b06-3493-4a27-b6e7-c514b8230e1e")
+	)
+	(wire
+		(pts
 			(xy 38.1 81.28) (xy 38.1 78.74)
 		)
 		(stroke
@@ -3483,6 +4166,16 @@
 			(type default)
 		)
 		(uuid "0c974828-e767-46d9-8232-c0c6fdccccfb")
+	)
+	(wire
+		(pts
+			(xy 181.61 45.72) (xy 186.69 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f279b02-703a-42a6-bd81-85c0b1b576ed")
 	)
 	(wire
 		(pts
@@ -3526,7 +4219,17 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 48.26) (xy 105.41 48.26)
+			(xy 186.69 35.56) (xy 201.93 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3009020f-7a2a-4147-aca1-4d833c1b66b5")
+	)
+	(wire
+		(pts
+			(xy 127 48.26) (xy 148.59 48.26)
 		)
 		(stroke
 			(width 0)
@@ -3536,7 +4239,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 29.21) (xy 71.12 33.02)
+			(xy 58.42 16.51) (xy 58.42 20.32)
 		)
 		(stroke
 			(width 0)
@@ -3556,7 +4259,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 63.5) (xy 91.44 63.5)
+			(xy 148.59 63.5) (xy 91.44 63.5)
 		)
 		(stroke
 			(width 0)
@@ -3576,13 +4279,43 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 30.48) (xy 66.04 33.02)
+			(xy 53.34 17.78) (xy 53.34 20.32)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "4bb95117-98f6-4c29-bc2b-2090295a70c0")
+	)
+	(wire
+		(pts
+			(xy 196.85 33.02) (xy 201.93 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52f4fd5c-c490-4e62-b186-5f8856dc145b")
+	)
+	(wire
+		(pts
+			(xy 190.5 38.1) (xy 190.5 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62a203be-5940-4777-9f73-409066041850")
+	)
+	(wire
+		(pts
+			(xy 121.92 50.8) (xy 121.92 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64f41655-fcd2-4dc6-9584-6aff41228777")
 	)
 	(wire
 		(pts
@@ -3596,6 +4329,16 @@
 	)
 	(wire
 		(pts
+			(xy 196.85 30.48) (xy 196.85 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a83967b-a2ac-47a5-a9fa-e81029d0fd8a")
+	)
+	(wire
+		(pts
 			(xy 34.29 116.84) (xy 34.29 129.54)
 		)
 		(stroke
@@ -3603,6 +4346,26 @@
 			(type default)
 		)
 		(uuid "6f706edc-c845-4edc-a6a0-7a973eb511e9")
+	)
+	(wire
+		(pts
+			(xy 189.23 72.39) (xy 189.23 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "776c13ff-70d4-4a03-8710-a66a87f48947")
+	)
+	(wire
+		(pts
+			(xy 201.93 40.64) (xy 196.85 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77735c27-7489-400d-9666-d2a02abac362")
 	)
 	(wire
 		(pts
@@ -3646,6 +4409,16 @@
 	)
 	(wire
 		(pts
+			(xy 148.59 50.8) (xy 121.92 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9de0f537-a269-41d4-a81c-173a8ed47701")
+	)
+	(wire
+		(pts
 			(xy 33.02 38.1) (xy 33.02 36.83)
 		)
 		(stroke
@@ -3666,7 +4439,27 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 66.04) (xy 105.41 66.04)
+			(xy 190.5 48.26) (xy 181.61 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5b49b44-b85e-4a66-8e66-be6c23d8d710")
+	)
+	(wire
+		(pts
+			(xy 189.23 60.96) (xy 190.5 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bdfaacdc-22d7-47d9-ac69-aec14ac50e55")
+	)
+	(wire
+		(pts
+			(xy 99.06 66.04) (xy 148.59 66.04)
 		)
 		(stroke
 			(width 0)
@@ -3706,6 +4499,16 @@
 	)
 	(wire
 		(pts
+			(xy 228.6 72.39) (xy 189.23 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5ef739b-4f62-4790-8ba0-62ba8f2240ca")
+	)
+	(wire
+		(pts
 			(xy 40.64 83.82) (xy 40.64 81.28)
 		)
 		(stroke
@@ -3733,6 +4536,36 @@
 			(type default)
 		)
 		(uuid "e897b4f0-b8f6-4a5d-880e-b08171b5a18e")
+	)
+	(wire
+		(pts
+			(xy 201.93 38.1) (xy 190.5 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f257d73d-893e-4e0a-bd9b-187fbfa58082")
+	)
+	(wire
+		(pts
+			(xy 208.28 60.96) (xy 212.09 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6779f68-5c4a-4d89-9cf3-33f4e1706118")
+	)
+	(wire
+		(pts
+			(xy 196.85 40.64) (xy 196.85 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7f07773-437c-49ba-b4c2-a87886634228")
 	)
 	(wire
 		(pts
@@ -3812,7 +4645,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 68.58 33.02 0)
+		(at 55.88 20.32 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3821,7 +4654,7 @@
 		(fields_autoplaced yes)
 		(uuid "2429ce81-5571-4ecf-a636-60f47bceeba2")
 		(property "Reference" "#PWR07"
-			(at 68.58 36.83 0)
+			(at 55.88 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3830,7 +4663,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 68.58 27.94 0)
+			(at 55.88 15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3838,7 +4671,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 68.58 33.02 0)
+			(at 55.88 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3847,7 +4680,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 68.58 33.02 0)
+			(at 55.88 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3856,7 +4689,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 68.58 33.02 0)
+			(at 55.88 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4018,7 +4851,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 66.04 30.48 0)
+		(at 53.34 17.78 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4027,7 +4860,7 @@
 		(fields_autoplaced yes)
 		(uuid "3d40dd79-f1bc-4dc0-9745-32c95a4ddfd6")
 		(property "Reference" "#PWR06"
-			(at 66.04 34.29 0)
+			(at 53.34 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4036,7 +4869,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 66.04 25.4 0)
+			(at 53.34 12.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4044,7 +4877,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 66.04 30.48 0)
+			(at 53.34 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4053,7 +4886,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 66.04 30.48 0)
+			(at 53.34 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4062,7 +4895,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 66.04 30.48 0)
+			(at 53.34 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4363,7 +5196,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "5c63b031-db26-496d-838c-7bd98e77fffd")
 		(property "Reference" "IC1"
 			(at 44.45 63.4999 90)
@@ -4656,6 +5488,369 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 196.85 41.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6d1fb0e0-d03e-498b-93fe-6eaf84f35385")
+		(property "Reference" "#PWR012"
+			(at 196.85 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 196.85 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 196.85 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 196.85 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 196.85 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fd347a39-83ed-43e8-bf08-760d6a81bc6b")
+		)
+		(instances
+			(project ""
+				(path "/6a00afe5-a275-4064-a756-6aaff88eeb4d"
+					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TL3301FF160QG:TL3301FF160QG")
+		(at 101.6 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "775458cd-41a3-44c4-b8b4-e3fc18959d44")
+		(property "Reference" "S2"
+			(at 111.76 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TL3301FF160QG"
+			(at 111.76 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TL3301FF160QG"
+			(at 118.11 150.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://configured-product-images.s3.amazonaws.com/2D/specs/TL3301FF160QG.pdf"
+			(at 118.11 250.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "TACT, 50mA, 12VDC SPST-NO, Off-(On) Surface Mount"
+			(at 101.6 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "7"
+			(at 118.11 450.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "E-Switch"
+			(at 118.11 550.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "TL3301FF160QG"
+			(at 118.11 650.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "612-TL3301F"
+			(at 118.11 750.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/E-Switch/TL3301FF160QG?qs=xDsBkp9LkocS2rMBI2Cp5w%3D%3D"
+			(at 118.11 850.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 118.11 950.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 118.11 1050.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Simulation Data" "https://configured-product-images.s3.amazonaws.com/Datasheets/TL3301.pdf"
+			(at 118.11 1150.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "5e040e84-e9f6-4fb8-bc11-234ff4340777")
+		)
+		(pin "3"
+			(uuid "f36bc84c-3f21-49d9-b991-e74af40523e2")
+		)
+		(pin "2"
+			(uuid "2d1bcb34-7234-48e0-9cfe-68d781624f11")
+		)
+		(pin "1"
+			(uuid "a6ebb3e2-8fc8-4c3e-a582-a61a788ca46f")
+		)
+		(instances
+			(project ""
+				(path "/6a00afe5-a275-4064-a756-6aaff88eeb4d"
+					(reference "S2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "RR0816P-103-D:RR0816P-103-D")
+		(at 190.5 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "878b00db-3f21-4916-87ac-fa88e3dcb183")
+		(property "Reference" "R4"
+			(at 198.1199 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "RR0816P-103-D"
+			(at 200.6599 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "RESC1608X60N"
+			(at 204.47 157.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://componentsearchengine.com/Datasheets/1/RR0816P-103-D.pdf"
+			(at 204.47 257.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RESISTOR, 0603 10 KOhm +/- 0.5% 0.0625 W"
+			(at 190.5 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 204.47 457.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Susumu"
+			(at 204.47 557.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RR0816P-103-D"
+			(at 204.47 657.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "754-RR0816P-103D"
+			(at 204.47 757.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Susumu/RR0816P-103-D?qs=nCAm%252BcMdy9zJFUifGf2vtQ%3D%3D"
+			(at 204.47 857.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "RR0816P-103-D"
+			(at 204.47 957.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/rr0816p-103-d/susumu"
+			(at 204.47 1057.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "92841a33-1f16-4fa2-8ada-d9579de6d6fc")
+		)
+		(pin "2"
+			(uuid "be1bbf42-30ea-47f2-bdbd-6388c85a34c7")
+		)
+		(instances
+			(project ""
+				(path "/6a00afe5-a275-4064-a756-6aaff88eeb4d"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "RC0603FR-07220RL:RC0603FR-07220RL")
 		(at 62.23 104.14 0)
 		(unit 1)
@@ -4796,17 +5991,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 96.52 48.26 90)
+		(lib_id "power:+5V")
+		(at 196.85 30.48 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "95cc914b-ed51-4fe7-a6b1-44e3323d68ad")
-		(property "Reference" "#PWR010"
-			(at 100.33 48.26 0)
+		(uuid "908e5f29-2c69-4bb3-98ad-644cb82693df")
+		(property "Reference" "#PWR011"
+			(at 196.85 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4814,17 +6009,16 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3V"
-			(at 92.71 48.2599 90)
+		(property "Value" "+5V"
+			(at 196.85 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 96.52 48.26 0)
+			(at 196.85 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4833,7 +6027,74 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 96.52 48.26 0)
+			(at 196.85 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 196.85 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a22fc1a1-5083-4cea-b33d-630d1d69fa10")
+		)
+		(instances
+			(project ""
+				(path "/6a00afe5-a275-4064-a756-6aaff88eeb4d"
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 127 48.26 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "95cc914b-ed51-4fe7-a6b1-44e3323d68ad")
+		(property "Reference" "#PWR010"
+			(at 130.81 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 123.19 48.2599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 127 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4842,7 +6103,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 96.52 48.26 0)
+			(at 127 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5012,7 +6273,7 @@
 	)
 	(symbol
 		(lib_id "ESP32-S3-MINI-1-N8:ESP32-S3-MINI-1-N8")
-		(at 105.41 43.18 0)
+		(at 148.59 43.18 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5021,7 +6282,7 @@
 		(fields_autoplaced yes)
 		(uuid "a43d9803-d7bf-4cb3-8865-8b1851923000")
 		(property "Reference" "IC3"
-			(at 121.92 35.56 0)
+			(at 165.1 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5029,7 +6290,7 @@
 			)
 		)
 		(property "Value" "ESP32-S3-MINI-1-N8"
-			(at 121.92 38.1 0)
+			(at 165.1 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5037,7 +6298,7 @@
 			)
 		)
 		(property "Footprint" "ESP32S3MINI1N8"
-			(at 134.62 138.1 0)
+			(at 177.8 138.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5047,7 +6308,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.espressif.com/sites/default/files/documentation/esp32-s3-mini-1_mini-1u_datasheet_en.pdf"
-			(at 134.62 238.1 0)
+			(at 177.8 238.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5057,7 +6318,7 @@
 			)
 		)
 		(property "Description" "WiFi Development Tools - 802.11 [Engineering Samples] SMD Module, ESP32-S3FN8, 8 MB SPI Flash, PCB Antenna"
-			(at 105.41 43.18 0)
+			(at 148.59 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5066,7 +6327,7 @@
 			)
 		)
 		(property "Height" "2.55"
-			(at 134.62 438.1 0)
+			(at 177.8 438.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5076,7 +6337,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Espressif Systems"
-			(at 134.62 538.1 0)
+			(at 177.8 538.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5086,7 +6347,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "ESP32-S3-MINI-1-N8"
-			(at 134.62 638.1 0)
+			(at 177.8 638.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5096,7 +6357,7 @@
 			)
 		)
 		(property "Mouser Part Number" "356-ESP32-S3-MINI1N8"
-			(at 134.62 738.1 0)
+			(at 177.8 738.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5106,7 +6367,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Espressif-Systems/ESP32-S3-MINI-1-N8?qs=XAiT9M5g4x82rl6F%2FIYUQg%3D%3D"
-			(at 134.62 838.1 0)
+			(at 177.8 838.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5116,7 +6377,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 134.62 938.1 0)
+			(at 177.8 938.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5126,7 +6387,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 134.62 1038.1 0)
+			(at 177.8 1038.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5364,6 +6625,158 @@
 		)
 	)
 	(symbol
+		(lib_id "BM04B-GVHS-TB_LF__SN_:BM04B-GVHS-TB_LF__SN_")
+		(at 224.79 40.64 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ad905910-18c8-46ca-bab5-9eb7a4b43518")
+		(property "Reference" "J2"
+			(at 213.36 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BM04B-GVHS-TB_LF__SN_"
+			(at 213.36 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "BM04BGVHSTBLFSN"
+			(at 205.74 -54.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.jst-mfg.com/product/pdf/eng/eGVH.pdf"
+			(at 205.74 -154.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "CONN HEADER SMD 4POS 1.25MM"
+			(at 224.79 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "4.05"
+			(at 205.74 -354.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "JST (JAPAN SOLDERLESS TERMINALS)"
+			(at 205.74 -454.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "BM04B-GVHS-TB(LF)(SN)"
+			(at 205.74 -554.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 205.74 -654.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 205.74 -754.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "BM04B-GVHS-TB(LF)(SN)"
+			(at 205.74 -854.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/bm04b-gvhs-tb-lf-sn/jst-manufacturing?utm_currency=USD&region=europe"
+			(at 205.74 -954.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "MP2"
+			(uuid "7299dd70-ec8f-403e-8623-9d544eb9ce74")
+		)
+		(pin "MP1"
+			(uuid "5313f408-42af-40a4-9dab-2825a2f0a8dd")
+		)
+		(pin "4"
+			(uuid "65a8e631-a33d-4950-9a60-708c51c1578f")
+		)
+		(pin "3"
+			(uuid "2d86ea45-de82-4042-96ac-bb64e07421be")
+		)
+		(pin "2"
+			(uuid "4bece41a-a49a-4789-9c0c-7b9089a38fef")
+		)
+		(pin "1"
+			(uuid "2fcf543f-643b-4ba3-aa19-6d0d0aef015d")
+		)
+		(instances
+			(project ""
+				(path "/6a00afe5-a275-4064-a756-6aaff88eeb4d"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 35.56 83.82 0)
 		(unit 1)
@@ -5424,6 +6837,164 @@
 			(project ""
 				(path "/6a00afe5-a275-4064-a756-6aaff88eeb4d"
 					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TL3301FF160QG:TL3301FF160QG")
+		(at 231.14 72.39 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b6a09849-80d2-46d0-9fc3-433db2cfe2a5")
+		(property "Reference" "S1"
+			(at 234.95 81.2799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TL3301FF160QG"
+			(at 234.95 83.8199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TL3301FF160QG"
+			(at 136.22 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://configured-product-images.s3.amazonaws.com/2D/specs/TL3301FF160QG.pdf"
+			(at 36.22 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "TACT, 50mA, 12VDC SPST-NO, Off-(On) Surface Mount"
+			(at 231.14 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "7"
+			(at -163.78 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "E-Switch"
+			(at -263.78 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "TL3301FF160QG"
+			(at -363.78 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "612-TL3301F"
+			(at -463.78 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/E-Switch/TL3301FF160QG?qs=xDsBkp9LkocS2rMBI2Cp5w%3D%3D"
+			(at -563.78 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at -663.78 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at -763.78 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Simulation Data" "https://configured-product-images.s3.amazonaws.com/Datasheets/TL3301.pdf"
+			(at -863.78 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "20b20e9d-83f6-4270-a144-7845f552d828")
+		)
+		(pin "1"
+			(uuid "dd42f928-222a-4974-bb6e-129bad650ac7")
+		)
+		(pin "3"
+			(uuid "b5ef4793-7edc-4d05-98cc-47d31961a8e1")
+		)
+		(pin "2"
+			(uuid "0979f6f8-f8b6-4908-bbc4-e77ff9d01ac4")
+		)
+		(instances
+			(project ""
+				(path "/6a00afe5-a275-4064-a756-6aaff88eeb4d"
+					(reference "S1")
 					(unit 1)
 				)
 			)
@@ -5496,8 +7067,141 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 212.09 60.96 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bf958671-0c56-4a2c-a510-2dc5a0ba8f05")
+		(property "Reference" "#PWR013"
+			(at 208.28 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 215.9 60.9599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 212.09 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 212.09 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 212.09 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d376d4c8-2236-461f-aeab-b894e47b3e5b")
+		)
+		(instances
+			(project ""
+				(path "/6a00afe5-a275-4064-a756-6aaff88eeb4d"
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 231.14 66.04 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c0a59c19-62e7-447f-b3bf-4e144ac5639b")
+		(property "Reference" "#PWR014"
+			(at 231.14 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 231.14 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 231.14 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 231.14 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 231.14 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0f21cefd-a918-479f-a514-797a2f365c01")
+		)
+		(instances
+			(project ""
+				(path "/6a00afe5-a275-4064-a756-6aaff88eeb4d"
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "AMS1117-3_3:AMS1117-3.3")
-		(at 71.12 33.02 270)
+		(at 58.42 20.32 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5505,7 +7209,7 @@
 		(dnp no)
 		(uuid "d2a484f4-aa6a-4ad0-a5ff-64c0cdc24c9e")
 		(property "Reference" "IC2"
-			(at 74.93 46.9899 90)
+			(at 62.23 34.2899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5514,7 +7218,7 @@
 			)
 		)
 		(property "Value" "AMS1117-3.3"
-			(at 75.184 35.306 90)
+			(at 62.484 22.606 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5523,7 +7227,7 @@
 			)
 		)
 		(property "Footprint" "SOT229P700X180-4N"
-			(at -23.8 59.69 0)
+			(at -36.5 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5533,7 +7237,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-28/DSA-550594.pdf"
-			(at -123.8 59.69 0)
+			(at -136.5 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5543,7 +7247,7 @@
 			)
 		)
 		(property "Description" "Descriptions of ams AMS1117-3.3 provided by its distributors."
-			(at 71.12 33.02 0)
+			(at 58.42 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5552,7 +7256,7 @@
 			)
 		)
 		(property "Height" "1.8"
-			(at -323.8 59.69 0)
+			(at -336.5 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5562,7 +7266,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Advanced"
-			(at -423.8 59.69 0)
+			(at -436.5 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5572,7 +7276,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "AMS1117-3.3"
-			(at -523.8 59.69 0)
+			(at -536.5 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5582,7 +7286,7 @@
 			)
 		)
 		(property "Mouser Part Number" ""
-			(at -623.8 59.69 0)
+			(at -636.5 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5592,7 +7296,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at -723.8 59.69 0)
+			(at -736.5 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5602,7 +7306,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at -823.8 59.69 0)
+			(at -836.5 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5612,7 +7316,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at -923.8 59.69 0)
+			(at -936.5 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5703,6 +7407,73 @@
 			(project ""
 				(path "/6a00afe5-a275-4064-a756-6aaff88eeb4d"
 					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 127 58.42 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e505c784-0923-492e-9387-b62b6ad99213")
+		(property "Reference" "#PWR015"
+			(at 133.35 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 130.81 58.4199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 127 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 127 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fb5144b1-42cb-4c51-b386-fcda0f4fe46a")
+		)
+		(instances
+			(project ""
+				(path "/6a00afe5-a275-4064-a756-6aaff88eeb4d"
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -5850,7 +7621,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 71.12 29.21 180)
+		(at 58.42 16.51 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5859,7 +7630,7 @@
 		(fields_autoplaced yes)
 		(uuid "f9274085-256b-4b63-af40-ba8461feb33d")
 		(property "Reference" "#PWR08"
-			(at 71.12 22.86 0)
+			(at 58.42 10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5868,7 +7639,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 71.12 24.13 0)
+			(at 58.42 11.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5876,7 +7647,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 71.12 29.21 0)
+			(at 58.42 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5885,7 +7656,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 71.12 29.21 0)
+			(at 58.42 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5894,7 +7665,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 71.12 29.21 0)
+			(at 58.42 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)

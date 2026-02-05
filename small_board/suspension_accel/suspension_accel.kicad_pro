@@ -507,7 +507,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "suspension_accel-backups/suspension_accel.step",
       "svg": "",
       "vrml": ""
     },

@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "7914G1032E"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "7914G1032E")
+        (spec "default")
+    )
+)

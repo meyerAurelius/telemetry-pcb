@@ -1,0 +1,9 @@
+Manufacturer=Bourns
+PartNumber=7914G-1-032E
+PartCategory=Switch
+PackageCategory=Other
+PinCount=4
+Version=1.2
+Released=2020-04-01 10:50:19
+Downloaded=2026-02-05 02:10:46
+3D=Y

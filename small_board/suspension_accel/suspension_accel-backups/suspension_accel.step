@@ -1,7 +1,7 @@
 ISO-10303-21;
 HEADER;
 FILE_DESCRIPTION(('KiCad electronic assembly'),'2;1');
-FILE_NAME('suspension_accel.step','2026-02-04T22:21:07',('Pcbnew'),(
+FILE_NAME('suspension_accel.step','2026-02-06T20:37:18',('Pcbnew'),(
     'Kicad'),'Open CASCADE STEP processor 7.6','KiCad to STEP converter'
   ,'Unknown');
 FILE_SCHEMA(('AUTOMOTIVE_DESIGN { 1 0 10303 214 1 1 1 1 }'));

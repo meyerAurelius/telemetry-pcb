@@ -1,0 +1,18 @@
+.ADS1220IPWR :1 ;24-bit, 2-kSPS, 4-ch, low-power, small-size delta-sigma ADC w/ PGA, VREF, 2x IDACs & SPI interface
+SOP65P640X120-16N
+*STM IC
+*NGS
+*PLB 1="SCLK" 2="'CS'" 3="CLK" 4="DGND" 5="AVSS" 6="AIN3/REFN1" 7="AIN2" 8="REFN0" 9="REFP0" 10="AIN1" 11="AIN0/REFP1" 12="AVDD" 13="DVDD" 14="'DRDY'" 15="DOUT/'DRDY'" 16="DIN"
+*MXP 16
+*DFN ADS1220IPWR
+~!Manufacturer_Name (Texas Instruments)
+~!Manufacturer_Part_Number (ADS1220IPWR)
+~!Mouser Part Number (595-ADS1220IPWR)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Texas-Instruments/ADS1220IPWR?qs=5GI1giJCN%252BI6s%2FWJGbZXXQ%3D%3D)
+~!Arrow Part Number (ADS1220IPWR)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/ads1220ipwr/texas-instruments?utm_currency=USD&region=nac)
+~!Link Datasheet (http://www.ti.com/lit/gpn/ads1220)
+~!Height (1.2mm)
+~!3D_Model (ADS1220IPWR)
+ADS1220IPWR
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 16.1!U 15.1!U 14.1!U 13.1!U 12.1!U 11.1!U 10.1!U 9.1!U 

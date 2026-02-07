@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP CL10A106KP8NNNC
+D 10F +/-10% 10V Ceramic Capacitor X5R 0603 (1608 Metric)
+K
+F https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA10/2415998.pdf
+$ENDCMP
+#
+#End Doc Library

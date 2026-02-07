@@ -1,0 +1,68 @@
+(Japanese_coding: sjis)
+(function "ECS_13665833"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2023-03-07-08:59:06)
+    (utime 2025-01-03-16:57:01)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+    )
+    (property "symbolName" "GRM31CR61A107MEA8L")
+)
+
+
+(pinAssign "ECS_13665833"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2023-03-07-08:59:06)
+    (utime 2025-01-03-16:57:01)
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_13665833")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "GRM31CR61A107MEA8L")
+)
+
+
+(part "GRM31CR61A107MEA8L"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2023-03-07-08:59:06)
+    (utime 2025-01-03-16:57:01)
+    (packageRef "GRM31CR61A107MEA8L")
+    (pinAssignRef "ECS_13665833")
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "NO")
+    (property "refDesPrefix" "C")
+    (property "description" "MLCC, 1206")
+    (property "Manufacturer_Name" "Murata Electronics")
+    (property "Manufacturer_Part_Number" "GRM31CR61A107MEA8L")
+    (property "Mouser_Part_Number" "81-GRM31CR61A107MA8L")
+    (property "Mouser_Price/Stock" "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/GRM31CR61A107MEA8L?qs=hd1VzrDQEGidurXiDTJOCg%3D%3D")
+    (property "Arrow_Part_Number" "GRM31CR61A107MEA8L")
+    (property "Arrow_Price/Stock" "https://www.arrow.com/en/products/grm31cr61a107mea8l/murata-manufacturing?utm_currency=USD&region=europe")
+    (property "Datasheet_Link" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM31CR61A107MEA8-01A.pdf")
+    (property "compAreaTopHeight" 1.25)
+)
+
+

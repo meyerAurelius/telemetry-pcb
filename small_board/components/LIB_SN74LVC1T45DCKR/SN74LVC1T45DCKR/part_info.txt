@@ -1,0 +1,9 @@
+Manufacturer=Texas Instruments
+PartNumber=SN74LVC1T45DCKR
+PartCategory=Integrated Circuit
+PackageCategory=SOT23 (6-Pin)
+PinCount=6
+Version=6.2
+Released=2020-12-28 14:39:48
+Downloaded=2026-02-09 05:56:44
+3D=Y

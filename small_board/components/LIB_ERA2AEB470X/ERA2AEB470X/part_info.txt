@@ -1,0 +1,9 @@
+Manufacturer=Panasonic
+PartNumber=ERA2AEB470X
+PartCategory=Resistor
+PackageCategory=Other
+PinCount=2
+Version=3.2
+Released=2016-09-15 15:29:35
+Downloaded=2026-02-09 03:40:28
+3D=Y

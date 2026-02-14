@@ -9,6 +9,8 @@
 	(paper "A4")
 	(layers
 		(0 "F.Cu" signal)
+		(4 "In1.Cu" signal)
+		(6 "In2.Cu" signal)
 		(2 "B.Cu" signal)
 		(9 "F.Adhes" user "F.Adhesive")
 		(11 "B.Adhes" user "B.Adhesive")
@@ -34,6 +36,67 @@
 		(45 "User.4" user)
 	)
 	(setup
+		(stackup
+			(layer "F.SilkS"
+				(type "Top Silk Screen")
+			)
+			(layer "F.Paste"
+				(type "Top Solder Paste")
+			)
+			(layer "F.Mask"
+				(type "Top Solder Mask")
+				(thickness 0.01)
+			)
+			(layer "F.Cu"
+				(type "copper")
+				(thickness 0.035)
+			)
+			(layer "dielectric 1"
+				(type "prepreg")
+				(thickness 0.1)
+				(material "FR4")
+				(epsilon_r 4.5)
+				(loss_tangent 0.02)
+			)
+			(layer "In1.Cu"
+				(type "copper")
+				(thickness 0.035)
+			)
+			(layer "dielectric 2"
+				(type "core")
+				(thickness 1.24)
+				(material "FR4")
+				(epsilon_r 4.5)
+				(loss_tangent 0.02)
+			)
+			(layer "In2.Cu"
+				(type "copper")
+				(thickness 0.035)
+			)
+			(layer "dielectric 3"
+				(type "prepreg")
+				(thickness 0.1)
+				(material "FR4")
+				(epsilon_r 4.5)
+				(loss_tangent 0.02)
+			)
+			(layer "B.Cu"
+				(type "copper")
+				(thickness 0.035)
+			)
+			(layer "B.Mask"
+				(type "Bottom Solder Mask")
+				(thickness 0.01)
+			)
+			(layer "B.Paste"
+				(type "Bottom Solder Paste")
+			)
+			(layer "B.SilkS"
+				(type "Bottom Silk Screen")
+			)
+			(copper_finish "None")
+			(dielectric_constraints no)
+		)
 		(pad_to_mask_clearance 0)
 		(allow_soldermask_bridges_in_footprints no)
 		(tenting front back)
@@ -762,7 +825,7 @@
 		(property "Reference" "R8"
 			(at -0.012 -0.6 90)
 			(layer "F.SilkS")
-			(uuid "7057acb7-6d9d-4f05-b179-bfac4274e7e7")
+			(uuid "2c64993d-59a6-4a83-807f-84ee6bd47d91")
 			(effects
 				(font
 					(size 0.4 0.4)
@@ -774,7 +837,7 @@
 			(at 0 0 90)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "462afe4f-82e4-4cb1-9cba-c4dcf4edc799")
+			(uuid "6004ddd0-42c1-48cf-9059-63b4b69b5bf9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -786,7 +849,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "26f3f521-a444-43a2-bfa4-0261bcbb1aa3")
+			(uuid "67073caa-49c2-4f1a-95dd-ca72c166d780")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -798,7 +861,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0d3e481c-d400-4da6-94a3-af8425f8384c")
+			(uuid "fbadabfc-3cf7-4379-a57d-0c43bab7e77f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5358,14 +5421,14 @@
 	(footprint "Library:LEDM2012X70N"
 		(layer "F.Cu")
 		(uuid "5001bd55-d95f-4537-baba-105df3f1a04f")
-		(at 18.53 56.12 180)
+		(at 26.25 62.5 -90)
 		(descr "WL-SMCW")
 		(tags "LED")
 		(property "Reference" "CAN_LED1"
-			(at 0.15 2.2 0)
+			(at 0.15 2.2 90)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "f0b93d05-ab31-4634-a565-7cebac487afc")
+			(uuid "966847a4-2135-4e9b-aac8-44cd2fcb3c56")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5374,10 +5437,10 @@
 			)
 		)
 		(property "Value" "150080GS75000"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "bc773f0b-3f73-4fe8-a571-cc31b9c47cce")
+			(uuid "a2f6ad9d-8466-47a7-9f0a-9154df590248")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5386,10 +5449,10 @@
 			)
 		)
 		(property "Datasheet" "https://www.we-online.com/components/products/download/Download_3D_150080GS75000+%28rev1%29.pdf"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "acd07d4b-0270-46a4-ad70-b90827a2ac7a")
+			(uuid "8c88b69c-c6e3-4d66-8431-0d82e87863e7")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5398,10 +5461,10 @@
 			)
 		)
 		(property "Description" "WL-SMCW SMT Mono-Color Chip LED Waterclear 0805, Green Typ.(@20mA): 520nm, 450mcd, 3.2V, 140 InGaN"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "58a9d0b1-cd61-4a4f-a04c-403eda6ca1d2")
+			(uuid "2ba88ebc-6184-4103-b916-da2472f60164")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5410,7 +5473,7 @@
 			)
 		)
 		(property "Height" "0.7"
-			(at 0 0 180)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -5423,7 +5486,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Wurth Elektronik"
-			(at 0 0 180)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -5436,7 +5499,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "150080GS75000"
-			(at 0 0 180)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -5449,7 +5512,7 @@
 			)
 		)
 		(property "Mouser Part Number" "710-150080GS75000"
-			(at 0 0 180)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -5462,7 +5525,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/150080GS75000?qs=2kOmHSv6VfQRoTEZVk1mGA%3D%3D"
-			(at 0 0 180)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -5475,7 +5538,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 0 0 180)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -5488,7 +5551,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 0 0 180)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -5505,16 +5568,6 @@
 		(sheetfile "suspension_accel.kicad_sch")
 		(attr smd)
 		(fp_line
-			(start 1 -0.625)
-			(end -1.475 -0.625)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "565b9756-b482-481c-8ed6-caa9aa4d0a3f")
-		)
-		(fp_line
 			(start -1 0.625)
 			(end 1 0.625)
 			(stroke
@@ -5525,24 +5578,14 @@
 			(uuid "a39f09bd-0194-4661-92e8-b995c407bf49")
 		)
 		(fp_line
-			(start 1.8 0.925)
-			(end -1.8 0.925)
+			(start 1 -0.625)
+			(end -1.475 -0.625)
 			(stroke
-				(width 0.05)
+				(width 0.2)
 				(type solid)
 			)
-			(layer "F.CrtYd")
-			(uuid "4c137054-3086-4a96-993f-68a6c9b041a0")
-		)
-		(fp_line
-			(start 1.8 -0.925)
-			(end 1.8 0.925)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "a752d51f-850f-4172-a502-522276d4ccc1")
+			(layer "F.SilkS")
+			(uuid "565b9756-b482-481c-8ed6-caa9aa4d0a3f")
 		)
 		(fp_line
 			(start -1.8 0.925)
@@ -5555,6 +5598,16 @@
 			(uuid "e1c762be-a64a-4121-b964-26b503dce3a4")
 		)
 		(fp_line
+			(start 1.8 0.925)
+			(end -1.8 0.925)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "4c137054-3086-4a96-993f-68a6c9b041a0")
+		)
+		(fp_line
 			(start -1.8 -0.925)
 			(end 1.8 -0.925)
 			(stroke
@@ -5565,24 +5618,14 @@
 			(uuid "b117fdc8-2c4c-4c80-9311-1953391df52d")
 		)
 		(fp_line
-			(start 1 0.625)
-			(end -1 0.625)
+			(start 1.8 -0.925)
+			(end 1.8 0.925)
 			(stroke
-				(width 0.1)
+				(width 0.05)
 				(type solid)
 			)
-			(layer "F.Fab")
-			(uuid "68ad82d4-1b02-43c8-83f2-1cc0b5bd75fe")
-		)
-		(fp_line
-			(start 1 -0.625)
-			(end 1 0.625)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "a22c4567-20b3-40d6-b771-3c0a774b06bf")
+			(layer "F.CrtYd")
+			(uuid "a752d51f-850f-4172-a502-522276d4ccc1")
 		)
 		(fp_line
 			(start -1 0.625)
@@ -5593,6 +5636,16 @@
 			)
 			(layer "F.Fab")
 			(uuid "4da4c607-cb66-4f25-9fce-94be8a9098d2")
+		)
+		(fp_line
+			(start 1 0.625)
+			(end -1 0.625)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "68ad82d4-1b02-43c8-83f2-1cc0b5bd75fe")
 		)
 		(fp_line
 			(start -1 -0.1)
@@ -5614,8 +5667,18 @@
 			(layer "F.Fab")
 			(uuid "d870caad-90c4-4ac9-836d-5d9d7c603d05")
 		)
+		(fp_line
+			(start 1 -0.625)
+			(end 1 0.625)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "a22c4567-20b3-40d6-b771-3c0a774b06bf")
+		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(uuid "dbae0783-1c35-4513-b660-91a2d4a55fa8")
 			(effects
@@ -5626,7 +5689,7 @@
 			)
 		)
 		(pad "1" smd rect
-			(at -0.95 0 270)
+			(at -0.95 0)
 			(size 1.05 1.2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 2 "GND")
@@ -5635,7 +5698,7 @@
 			(uuid "b7a7c124-bdea-4be0-92d1-a028b13268fb")
 		)
 		(pad "2" smd rect
-			(at 0.95 0 270)
+			(at 0.95 0)
 			(size 1.05 1.2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 5 "Net-(CAN_LED1-A)")
@@ -7882,13 +7945,13 @@
 	(footprint "Library:RESC1608X55N"
 		(layer "F.Cu")
 		(uuid "a80d6e19-3ce5-410c-a838-4ce1de9a446f")
-		(at 14.88 56.12 180)
+		(at 26.25 66.15 -90)
 		(descr "RC0603")
 		(tags "Resistor")
 		(property "Reference" "R2"
-			(at -0.05 1.45 0)
+			(at -0.05 1.45 90)
 			(layer "F.SilkS")
-			(uuid "61e1f16a-e4aa-49f3-801a-d5eb7879478e")
+			(uuid "fed31f96-8201-4d39-8101-92d794a7817b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7897,10 +7960,10 @@
 			)
 		)
 		(property "Value" "RC0603FR-07220RL"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "2c158aa1-a930-474e-b392-9bb4e3b94157")
+			(uuid "f6e46b0b-1032-4e78-b739-f3cb58702fac")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7909,10 +7972,10 @@
 			)
 		)
 		(property "Datasheet" "http://www.yageo.com/documents/recent/PYu-RC0603_51_RoHS_L_v5.pdf"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9898d308-55ac-43d7-91f9-93b924e2d8a9")
+			(uuid "a3b9afa2-fd67-4444-b659-47d26cd8c5e9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7921,10 +7984,10 @@
 			)
 		)
 		(property "Description" "YAGEO (PHYCOMP) - RC0603FR-07220RL - RES, THICK FILM, 220R, 1%, 0.1W, 0603"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1d007e45-7408-4af6-a389-21c4288018dc")
+			(uuid "3654e729-6169-495e-b220-8127aecdbda9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7933,7 +7996,7 @@
 			)
 		)
 		(property "Height" "0.55"
-			(at 0 0 180)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -7946,7 +8009,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "KEMET"
-			(at 0 0 180)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -7959,7 +8022,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "RC0603FR-07220RL"
-			(at 0 0 180)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -7972,7 +8035,7 @@
 			)
 		)
 		(property "Mouser Part Number" "603-RC0603FR-07220RL"
-			(at 0 0 180)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -7985,7 +8048,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/YAGEO/RC0603FR-07220RL?qs=VU8sRB4EgwA1IyQ0vhXEEw%3D%3D"
-			(at 0 0 180)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -7998,7 +8061,7 @@
 			)
 		)
 		(property "Arrow Part Number" "RC0603FR-07220RL"
-			(at 0 0 180)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -8011,7 +8074,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/rc0603fr-07220rl/yageo?region=nac"
-			(at 0 0 180)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -8038,26 +8101,6 @@
 			(uuid "a85e65dc-00fb-400a-89b8-735b5d3b72ae")
 		)
 		(fp_line
-			(start 1.45 0.75)
-			(end -1.45 0.75)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "da19ed4c-af54-47f9-8487-71fd7997eeb6")
-		)
-		(fp_line
-			(start 1.45 -0.75)
-			(end 1.45 0.75)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "120b940d-a058-4977-93bf-13f1cdf7949c")
-		)
-		(fp_line
 			(start -1.45 0.75)
 			(end -1.45 -0.75)
 			(stroke
@@ -8066,6 +8109,16 @@
 			)
 			(layer "F.CrtYd")
 			(uuid "4e509ef6-5295-46e7-b075-02179b90787b")
+		)
+		(fp_line
+			(start 1.45 0.75)
+			(end -1.45 0.75)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "da19ed4c-af54-47f9-8487-71fd7997eeb6")
 		)
 		(fp_line
 			(start -1.45 -0.75)
@@ -8078,24 +8131,14 @@
 			(uuid "dcb293e6-75d6-4c37-a5ef-b4c0cf07cd7a")
 		)
 		(fp_line
-			(start 0.8 0.4)
-			(end -0.8 0.4)
+			(start 1.45 -0.75)
+			(end 1.45 0.75)
 			(stroke
-				(width 0.1)
+				(width 0.05)
 				(type solid)
 			)
-			(layer "F.Fab")
-			(uuid "bd477a4d-83a9-4d00-aaf3-f888ece29114")
-		)
-		(fp_line
-			(start 0.8 -0.4)
-			(end 0.8 0.4)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "e1f2a075-e1bc-4ae8-9472-b905d84e918e")
+			(layer "F.CrtYd")
+			(uuid "120b940d-a058-4977-93bf-13f1cdf7949c")
 		)
 		(fp_line
 			(start -0.8 0.4)
@@ -8108,6 +8151,16 @@
 			(uuid "1d5fb582-c90d-4737-9eaa-585b1b98d31b")
 		)
 		(fp_line
+			(start 0.8 0.4)
+			(end -0.8 0.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "bd477a4d-83a9-4d00-aaf3-f888ece29114")
+		)
+		(fp_line
 			(start -0.8 -0.4)
 			(end 0.8 -0.4)
 			(stroke
@@ -8117,8 +8170,18 @@
 			(layer "F.Fab")
 			(uuid "dcd70cfb-a3c1-4dbd-ac17-62bc1ecc1a51")
 		)
+		(fp_line
+			(start 0.8 -0.4)
+			(end 0.8 0.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "e1f2a075-e1bc-4ae8-9472-b905d84e918e")
+		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(uuid "b0e0392c-e293-4a12-ae99-80b4182b7ac1")
 			(effects
@@ -8129,7 +8192,7 @@
 			)
 		)
 		(pad "1" smd rect
-			(at -0.8 0 180)
+			(at -0.8 0 270)
 			(size 0.8 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 5 "Net-(CAN_LED1-A)")
@@ -8138,7 +8201,7 @@
 			(uuid "4b93cc68-385e-4d93-94f8-5f3b7aa72e71")
 		)
 		(pad "2" smd rect
-			(at 0.8 0 180)
+			(at 0.8 0 270)
 			(size 0.8 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 19 "Net-(IC4-IO6)")
@@ -9095,14 +9158,14 @@
 	(footprint "Library:LEDC2012X70N"
 		(layer "F.Cu")
 		(uuid "c96a1d2e-3a15-48e0-ac31-f20a8858664d")
-		(at 15.7 59.9)
+		(at 30.03 65.33 90)
 		(descr "150080BS75000")
 		(tags "LED")
 		(property "Reference" "BLINK_LED1"
-			(at 0.1 -3.1 0)
+			(at 0.1 -3.1 90)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "89a1bb21-5f19-42f3-9850-1b35961fac60")
+			(uuid "ff010740-605f-41ee-ac7c-cca74633b72d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9111,10 +9174,10 @@
 			)
 		)
 		(property "Value" "150080BS75000"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "5193926c-7af6-4995-a629-cbc95d184959")
+			(uuid "ee544515-a902-416b-9e2a-70e1a86222a2")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9123,10 +9186,10 @@
 			)
 		)
 		(property "Datasheet" "https://www.we-online.com/components/products/download/150080xS75000_3D+%28rev1%29.pdf"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "58670f03-ae36-448c-99c2-677d1df6d061")
+			(uuid "5a4387aa-deda-4918-8ff7-34b761cecde5")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9135,10 +9198,10 @@
 			)
 		)
 		(property "Description" "WL-SMCW SMT Mono-Color Chip LED Waterclear 0805, Blue Typ.(@20mA): 470nm, 145mcd, 3.2V, 140 InGaN"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "09981ef0-855f-4dbb-8196-f832503d8a8e")
+			(uuid "a9e3a10d-ac7c-43cb-8a5c-e8c07b82df16")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9147,7 +9210,7 @@
 			)
 		)
 		(property "Height" "0.7"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -9160,7 +9223,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Wurth Elektronik"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -9173,7 +9236,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "150080BS75000"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -9186,7 +9249,7 @@
 			)
 		)
 		(property "Mouser Part Number" "710-150080BS75000"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -9199,7 +9262,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/150080BS75000?qs=2kOmHSv6VfT2tBo3UPVqAQ%3D%3D"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -9212,7 +9275,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -9225,7 +9288,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -9241,6 +9304,16 @@
 		(sheetname "/")
 		(sheetfile "suspension_accel.kicad_sch")
 		(attr smd)
+		(fp_line
+			(start 0.95 -1.05)
+			(end -1.75 -1.05)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "83c25b9c-c132-4d2b-b259-cb6b9bea1bcf")
+		)
 		(fp_line
 			(start -1.75 -1.05)
 			(end -1.75 1.05)
@@ -9262,14 +9335,14 @@
 			(uuid "f914eff5-06f4-40bd-a23a-4a2dc66066e3")
 		)
 		(fp_line
-			(start 0.95 -1.05)
-			(end -1.75 -1.05)
+			(start 1.85 -1.15)
+			(end 1.85 1.15)
 			(stroke
-				(width 0.2)
+				(width 0.05)
 				(type solid)
 			)
-			(layer "F.SilkS")
-			(uuid "83c25b9c-c132-4d2b-b259-cb6b9bea1bcf")
+			(layer "F.CrtYd")
+			(uuid "97b28749-bff5-405b-8f6d-bade2342fb9d")
 		)
 		(fp_line
 			(start -1.85 -1.15)
@@ -9282,6 +9355,16 @@
 			(uuid "95bd2141-a8e1-4272-a0ca-49ba53e711ca")
 		)
 		(fp_line
+			(start 1.85 1.15)
+			(end -1.85 1.15)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "f7639610-0f53-482a-a248-6ec0dad2f641")
+		)
+		(fp_line
 			(start -1.85 1.15)
 			(end -1.85 -1.15)
 			(stroke
@@ -9292,24 +9375,14 @@
 			(uuid "9778e3dd-9dd6-48fd-a1ca-2fe3932d2d24")
 		)
 		(fp_line
-			(start 1.85 -1.15)
-			(end 1.85 1.15)
+			(start 1 -0.625)
+			(end 1 0.625)
 			(stroke
-				(width 0.05)
+				(width 0.1)
 				(type solid)
 			)
-			(layer "F.CrtYd")
-			(uuid "97b28749-bff5-405b-8f6d-bade2342fb9d")
-		)
-		(fp_line
-			(start 1.85 1.15)
-			(end -1.85 1.15)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "f7639610-0f53-482a-a248-6ec0dad2f641")
+			(layer "F.Fab")
+			(uuid "e3d8bc2b-af97-45a4-a657-e843da2e3038")
 		)
 		(fp_line
 			(start -1 -0.625)
@@ -9332,26 +9405,6 @@
 			(uuid "21e7bd07-3103-428c-bdd8-dad800d82bbc")
 		)
 		(fp_line
-			(start -1 0.625)
-			(end -1 -0.625)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "7536cca0-9ffe-4943-9479-b75abac23726")
-		)
-		(fp_line
-			(start 1 -0.625)
-			(end 1 0.625)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "e3d8bc2b-af97-45a4-a657-e843da2e3038")
-		)
-		(fp_line
 			(start 1 0.625)
 			(end -1 0.625)
 			(stroke
@@ -9361,8 +9414,18 @@
 			(layer "F.Fab")
 			(uuid "edb21f61-c3ff-4b80-b613-6f4107280fd9")
 		)
+		(fp_line
+			(start -1 0.625)
+			(end -1 -0.625)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "7536cca0-9ffe-4943-9479-b75abac23726")
+		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(uuid "a58483b2-f867-4705-b3b8-ecef8eb0176b")
 			(effects
@@ -9373,7 +9436,7 @@
 			)
 		)
 		(pad "1" smd rect
-			(at -0.95 0)
+			(at -0.95 0 90)
 			(size 0.9 1.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 2 "GND")
@@ -9382,7 +9445,7 @@
 			(uuid "02f1cbc2-1356-44b1-b0e7-d48b37793a4b")
 		)
 		(pad "2" smd rect
-			(at 0.95 0)
+			(at 0.95 0 90)
 			(size 0.9 1.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 4 "Net-(BLINK_LED1-A)")
@@ -9715,7 +9778,7 @@
 		(property "Reference" "R9"
 			(at 0.012 -0.6 90)
 			(layer "F.SilkS")
-			(uuid "d810495a-56aa-4130-9787-f8f1b6893554")
+			(uuid "ef349c63-fd8c-43db-8de5-742c476149cf")
 			(effects
 				(font
 					(size 0.4 0.4)
@@ -9727,7 +9790,7 @@
 			(at 0 0 90)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "53903d79-4881-4689-b664-2cf41b1c370e")
+			(uuid "b9762dc8-56c2-4bf5-b717-545a264ad0f6")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9739,7 +9802,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e9db85e5-6418-4ed1-98d2-0cbb14105cf7")
+			(uuid "0251525c-d474-4f22-995d-73334c2aef89")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9751,7 +9814,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "fa66cb4f-b26a-4d62-986e-809d3fcb7a67")
+			(uuid "f7725e45-ae92-4d88-a39a-3d8a2de662ef")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10343,7 +10406,7 @@
 		(property "Reference" "R7"
 			(at -0.012 0.4 90)
 			(layer "F.SilkS")
-			(uuid "028b31a2-bedd-4f92-955c-d39a66f7ef93")
+			(uuid "f9e3d301-8194-44d2-a526-ff9c82f6f3e5")
 			(effects
 				(font
 					(size 0.4 0.4)
@@ -10355,7 +10418,7 @@
 			(at 0 0 90)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "5097ce4a-3a25-4633-ada3-9767e73de7d8")
+			(uuid "a00a70d3-d7f1-4ad6-8a7e-38fe8da86fb2")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10367,7 +10430,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6de78493-0597-4f9d-a5f1-9a89f9093b5f")
+			(uuid "25b622ae-8ebb-4308-9a7b-4e4a739f757a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10379,7 +10442,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c4543cdd-8580-44a5-a5b6-0f291a137c5a")
+			(uuid "1f85594c-0a79-4fcf-93f4-69fff866b6e0")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11989,13 +12052,13 @@
 	(footprint "Library:RESC1608X55N"
 		(layer "F.Cu")
 		(uuid "f25be248-f3fe-4876-ba35-6fcc575123b2")
-		(at 18.94 59.9)
+		(at 30.03 62.09 90)
 		(descr "RC0603")
 		(tags "Resistor")
 		(property "Reference" "R3"
-			(at 0.05 -1.75 0)
+			(at 0.05 -1.75 90)
 			(layer "F.SilkS")
-			(uuid "34d3857b-49f4-44fd-a6c9-c404ebeeae42")
+			(uuid "b0467fd8-786d-45ad-9939-e96cd898006d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12004,10 +12067,10 @@
 			)
 		)
 		(property "Value" "RC0603FR-07220RL"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "9eaa5402-8d26-4d86-b143-3ec774afb572")
+			(uuid "b814615e-55d4-4783-a40d-95149b06474c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12016,10 +12079,10 @@
 			)
 		)
 		(property "Datasheet" "http://www.yageo.com/documents/recent/PYu-RC0603_51_RoHS_L_v5.pdf"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "fae43cab-fea1-46d8-8549-6bd3ceeee150")
+			(uuid "fa210fbe-9287-4bd2-b192-d3122b7906bb")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12028,10 +12091,10 @@
 			)
 		)
 		(property "Description" "YAGEO (PHYCOMP) - RC0603FR-07220RL - RES, THICK FILM, 220R, 1%, 0.1W, 0603"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8be191b6-112a-4088-89c0-9631252f91ed")
+			(uuid "188b6950-583b-41b8-94e9-7d116bb91768")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12040,7 +12103,7 @@
 			)
 		)
 		(property "Height" "0.55"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -12053,7 +12116,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "KEMET"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -12066,7 +12129,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "RC0603FR-07220RL"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -12079,7 +12142,7 @@
 			)
 		)
 		(property "Mouser Part Number" "603-RC0603FR-07220RL"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -12092,7 +12155,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/YAGEO/RC0603FR-07220RL?qs=VU8sRB4EgwA1IyQ0vhXEEw%3D%3D"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -12105,7 +12168,7 @@
 			)
 		)
 		(property "Arrow Part Number" "RC0603FR-07220RL"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -12118,7 +12181,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/rc0603fr-07220rl/yageo?region=nac"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -12145,26 +12208,6 @@
 			(uuid "766bf152-12fc-43a8-8cd7-27c65effb9cf")
 		)
 		(fp_line
-			(start -1.45 -0.75)
-			(end 1.45 -0.75)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "ea04bf9f-5e69-4f39-b886-57147201ca7a")
-		)
-		(fp_line
-			(start -1.45 0.75)
-			(end -1.45 -0.75)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "5ed70b07-e0fc-4957-8ddf-1305dcc6b03d")
-		)
-		(fp_line
 			(start 1.45 -0.75)
 			(end 1.45 0.75)
 			(stroke
@@ -12173,6 +12216,16 @@
 			)
 			(layer "F.CrtYd")
 			(uuid "79de37d7-7b9b-4b8b-9832-88ec8d247625")
+		)
+		(fp_line
+			(start -1.45 -0.75)
+			(end 1.45 -0.75)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "ea04bf9f-5e69-4f39-b886-57147201ca7a")
 		)
 		(fp_line
 			(start 1.45 0.75)
@@ -12185,24 +12238,14 @@
 			(uuid "4a6ba84e-c8cf-4c63-8d47-6f557ff843c9")
 		)
 		(fp_line
-			(start -0.8 -0.4)
-			(end 0.8 -0.4)
+			(start -1.45 0.75)
+			(end -1.45 -0.75)
 			(stroke
-				(width 0.1)
+				(width 0.05)
 				(type solid)
 			)
-			(layer "F.Fab")
-			(uuid "e960c619-95b2-4c93-aae4-b1848d8ce76b")
-		)
-		(fp_line
-			(start -0.8 0.4)
-			(end -0.8 -0.4)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "6125848e-4ae6-4dc3-83af-1dfb298325f0")
+			(layer "F.CrtYd")
+			(uuid "5ed70b07-e0fc-4957-8ddf-1305dcc6b03d")
 		)
 		(fp_line
 			(start 0.8 -0.4)
@@ -12215,6 +12258,16 @@
 			(uuid "f2be733d-0d36-4d9e-9b01-18997ed064ad")
 		)
 		(fp_line
+			(start -0.8 -0.4)
+			(end 0.8 -0.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "e960c619-95b2-4c93-aae4-b1848d8ce76b")
+		)
+		(fp_line
 			(start 0.8 0.4)
 			(end -0.8 0.4)
 			(stroke
@@ -12224,8 +12277,18 @@
 			(layer "F.Fab")
 			(uuid "16fb70e1-64eb-4f55-a78f-4982f7ac8e71")
 		)
+		(fp_line
+			(start -0.8 0.4)
+			(end -0.8 -0.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "6125848e-4ae6-4dc3-83af-1dfb298325f0")
+		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(uuid "dafae07f-7ab0-4924-9530-92db3bcf3d63")
 			(effects
@@ -12236,7 +12299,7 @@
 			)
 		)
 		(pad "1" smd rect
-			(at -0.8 0)
+			(at -0.8 0 90)
 			(size 0.8 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 4 "Net-(BLINK_LED1-A)")
@@ -12245,7 +12308,7 @@
 			(uuid "fd5610fc-54f2-42de-a6e2-b8a31cc136b8")
 		)
 		(pad "2" smd rect
-			(at 0.8 0)
+			(at 0.8 0 90)
 			(size 0.8 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 30 "Net-(IC4-IO5)")
@@ -13284,22 +13347,6 @@
 		(layer "F.Cu")
 		(net 65)
 		(uuid "7564889b-0b68-4209-a5d5-c30557f1efb4")
-	)
-	(segment
-		(start 39.625 72.675)
-		(end 39.625 71.638)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 66)
-		(uuid "067d7824-12a7-4b7f-9582-f4ffe84032f5")
-	)
-	(segment
-		(start 38.1 74.2)
-		(end 39.625 72.675)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 66)
-		(uuid "c9c2dbd8-1e70-4b7c-9864-6f378b470907")
 	)
 	(segment
 		(start 40.275 73.301)

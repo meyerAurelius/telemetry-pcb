@@ -265,266 +265,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "150080GS75000:150080GS75000"
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "LED"
-				(at 12.7 8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "150080GS75000"
-				(at 12.7 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "LEDM2012X70N"
-				(at 12.7 -93.65 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.we-online.com/components/products/download/Download_3D_150080GS75000+%28rev1%29.pdf"
-				(at 12.7 -193.65 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Description" "WL-SMCW SMT Mono-Color Chip LED Waterclear 0805, Green Typ.(@20mA): 520nm, 450mcd, 3.2V, 140 InGaN"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Height" "0.7"
-				(at 12.7 -393.65 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Name" "Wurth Elektronik"
-				(at 12.7 -493.65 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "150080GS75000"
-				(at 12.7 -593.65 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Mouser Part Number" "710-150080GS75000"
-				(at 12.7 -693.65 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/150080GS75000?qs=2kOmHSv6VfQRoTEZVk1mGA%3D%3D"
-				(at 12.7 -793.65 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Arrow Part Number" ""
-				(at 12.7 -893.65 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Arrow Price/Stock" ""
-				(at 12.7 -993.65 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(symbol "150080GS75000_1_1"
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 5.08 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 2.54) (xy 5.08 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 0) (xy 10.16 2.54) (xy 10.16 -2.54) (xy 5.08 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.334 4.318) (xy 4.572 3.556) (xy 3.81 5.08) (xy 5.334 4.318)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 6.35 2.54) (xy 3.81 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.874 4.318) (xy 7.112 3.556) (xy 6.35 5.08) (xy 7.874 4.318)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 8.89 2.54) (xy 6.35 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 0) (xy 12.7 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 15.24 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "150080RS75000:150080RS75000"
 			(pin_names
 				(hide yes)
@@ -2355,6 +2095,218 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "C0603C103F3GECTU:C0603C103F3GECTU"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 8.89 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "C0603C103F3GECTU"
+				(at 8.89 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "CAPC1608X87N"
+				(at 8.89 -96.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1003_C0G_SMD.pdf"
+				(at 8.89 -196.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "ESD SMD Comm C0G, Ceramic, 0.01 uF, 1%, 25 VDC, 62.5 VDC, 125C, -55C, C0G, SMD, MLCC, Temperature Stable, Electro Static Discharge, Class I, 0.1 % , 100 GOhms, 3.7 mg, 0603, 1.6mm, 0.8mm, 0.8mm, 0.7mm, 0.35mm, 4000, 78  Weeks, 120"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "0.87"
+				(at 8.89 -396.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "YAGEO"
+				(at 8.89 -496.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "C0603C103F3GECTU"
+				(at 8.89 -596.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "80-C0603C103F3GEC"
+				(at 8.89 -696.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KEMET/C0603C103F3GECTU?qs=Mv7BduZupUjWMY5EogEjUg%3D%3D"
+				(at 8.89 -796.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" ""
+				(at 8.89 -896.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" ""
+				(at 8.89 -996.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "C0603C103F3GECTU_1_1"
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 5.588 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.588 2.54) (xy 5.588 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.112 2.54) (xy 7.112 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.112 0) (xy 7.62 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 0 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "C0603C104K5RACTU:C0603C104K5RACTU"
 			(pin_names
 				(hide yes)
@@ -2760,6 +2712,181 @@
 				)
 				(pin passive line
 					(at 12.7 0 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "ERA-2AEB101X:ERA-2AEB101X"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 13.97 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "ERA-2AEB101X"
+				(at 13.97 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "ERA2AED122X"
+				(at 13.97 -96.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf"
+				(at 13.97 -196.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "PANASONIC ELECTRONIC COMPONENTS - ERA-2AEB101X - METAL FILM RESISTOR, 100OHM, 63mW,  0.1%, FULL REEL"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "0.4"
+				(at 13.97 -396.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Panasonic"
+				(at 13.97 -496.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "ERA-2AEB101X"
+				(at 13.97 -596.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "667-ERA-2AEB101X"
+				(at 13.97 -696.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Panasonic/ERA-2AEB101X?qs=YFwoyZoVY0i6%2FzAzf7zwiw%3D%3D"
+				(at 13.97 -796.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" "ERA-2AEB101X"
+				(at 13.97 -896.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/era-2aeb101x/panasonic?utm_currency=USD&region=europe"
+				(at 13.97 -996.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "ERA-2AEB101X_1_1"
+				(rectangle
+					(start 5.08 1.27)
+					(end 12.7 -1.27)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 0 180)
 					(length 5.08)
 					(name "2"
 						(effects
@@ -7050,6 +7177,12 @@
 		(uuid "71f18e8c-7173-4708-bf3b-85a881bb2447")
 	)
 	(junction
+		(at 190.5 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0983bd2c-f06d-4039-8eeb-349d9850fdcc")
+	)
+	(junction
 		(at 123.19 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7152,6 +7285,12 @@
 		(uuid "65d5dfcc-8804-4ede-9c45-f4f0516da88e")
 	)
 	(junction
+		(at 234.95 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "664521cb-3cd1-4e34-8d59-239d15eb2742")
+	)
+	(junction
 		(at 184.15 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7176,6 +7315,12 @@
 		(uuid "7557ebab-c929-4f59-8964-11cf60cba760")
 	)
 	(junction
+		(at 91.44 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "79196ce1-c476-43dd-bf6c-2c95a57a6c9a")
+	)
+	(junction
 		(at 182.88 151.13)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7198,6 +7343,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "999daa69-3dc1-4a81-a204-ccb83c843642")
+	)
+	(junction
+		(at 233.68 148.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bb05bd7b-d594-4fdc-88df-fc5ffb47a407")
 	)
 	(junction
 		(at 184.15 111.76)
@@ -7289,6 +7440,22 @@
 		(color 0 0 0 0)
 		(uuid "f8396980-3b7c-4235-bda4-0b812b5fc3c0")
 	)
+	(junction
+		(at 185.42 148.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f89b84d3-de91-423e-ade0-05e2d1cb82ed")
+	)
+	(wire
+		(pts
+			(xy 210.82 171.45) (xy 210.82 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "008f8aa7-cff3-4e63-b9ab-aef6ec51da27")
+	)
 	(wire
 		(pts
 			(xy 170.18 80.01) (xy 151.13 80.01)
@@ -7341,13 +7508,33 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 63.5) (xy 91.44 129.54)
+			(xy 91.44 63.5) (xy 91.44 64.77)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "04df3136-6284-4734-bd58-2ebae170b22f")
+	)
+	(wire
+		(pts
+			(xy 242.57 137.16) (xy 234.95 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05ce3c8a-d689-4f14-8f1e-243688b25ca1")
+	)
+	(wire
+		(pts
+			(xy 184.15 43.18) (xy 165.1 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0679baf2-c906-423c-b526-28557c00622f")
 	)
 	(wire
 		(pts
@@ -7398,16 +7585,6 @@
 			(type default)
 		)
 		(uuid "0a927b06-3493-4a27-b6e7-c514b8230e1e")
-	)
-	(wire
-		(pts
-			(xy 257.81 144.78) (xy 247.65 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0b2706c7-8c65-4aa5-b2c2-bded10b69658")
 	)
 	(wire
 		(pts
@@ -7481,16 +7658,6 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 104.14) (xy 34.29 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "10e9f51c-4f3a-478d-a806-d19b6b40bc26")
-	)
-	(wire
-		(pts
 			(xy 106.68 93.98) (xy 106.68 130.81)
 		)
 		(stroke
@@ -7521,6 +7688,16 @@
 	)
 	(wire
 		(pts
+			(xy 190.5 146.05) (xy 193.04 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "136158e7-612d-4ce4-99a4-d70b911bc4f2")
+	)
+	(wire
+		(pts
 			(xy 58.42 129.54) (xy 63.5 129.54)
 		)
 		(stroke
@@ -7548,16 +7725,6 @@
 			(type default)
 		)
 		(uuid "161823fc-c726-419c-abd5-5c8119ec1c29")
-	)
-	(wire
-		(pts
-			(xy 247.65 139.7) (xy 236.22 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "175e414e-fe03-4922-972f-0e3f81097f99")
 	)
 	(wire
 		(pts
@@ -7651,6 +7818,16 @@
 	)
 	(wire
 		(pts
+			(xy 220.98 135.89) (xy 220.98 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25794251-782b-4ace-9ac0-6124b76cbf4e")
+	)
+	(wire
+		(pts
 			(xy 40.64 82.55) (xy 40.64 81.28)
 		)
 		(stroke
@@ -7681,6 +7858,16 @@
 	)
 	(wire
 		(pts
+			(xy 91.44 64.77) (xy 91.44 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d71d175-f79e-43b3-ad83-b0f7fda3cc25")
+	)
+	(wire
+		(pts
 			(xy 123.19 90.17) (xy 104.14 90.17)
 		)
 		(stroke
@@ -7698,6 +7885,16 @@
 			(type default)
 		)
 		(uuid "2ea59d10-e16d-4a49-94ad-e49294e4fa55")
+	)
+	(wire
+		(pts
+			(xy 210.82 146.05) (xy 220.98 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f786ff4-9e42-468a-a342-a42832ae8671")
 	)
 	(wire
 		(pts
@@ -7721,7 +7918,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 148.59) (xy 184.15 148.59)
+			(xy 186.69 148.59) (xy 185.42 148.59)
 		)
 		(stroke
 			(width 0)
@@ -7811,6 +8008,16 @@
 	)
 	(wire
 		(pts
+			(xy 269.24 152.4) (xy 269.24 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3744697d-1745-4b3a-9a7f-3217c80554ec")
+	)
+	(wire
+		(pts
 			(xy 31.75 82.55) (xy 35.56 82.55)
 		)
 		(stroke
@@ -7818,6 +8025,16 @@
 			(type default)
 		)
 		(uuid "37b80fa2-16a4-4c85-b633-4d761d18ddc6")
+	)
+	(wire
+		(pts
+			(xy 165.1 43.18) (xy 165.1 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37ff21e3-8a42-42d9-86f3-567942668af5")
 	)
 	(wire
 		(pts
@@ -7861,6 +8078,16 @@
 	)
 	(wire
 		(pts
+			(xy 185.42 148.59) (xy 184.15 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c74a2e4-ce13-43f3-9227-3eb086ea7971")
+	)
+	(wire
+		(pts
 			(xy 184.15 63.5) (xy 184.15 66.04)
 		)
 		(stroke
@@ -7871,17 +8098,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 63.5) (xy 91.44 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3d81d205-8829-4961-831d-50b3be1de77a")
-	)
-	(wire
-		(pts
-			(xy 186.69 146.05) (xy 220.98 146.05)
+			(xy 186.69 146.05) (xy 190.5 146.05)
 		)
 		(stroke
 			(width 0)
@@ -7968,26 +8185,6 @@
 			(type default)
 		)
 		(uuid "46826c9d-bc02-4e29-a5ba-fca4bd73b481")
-	)
-	(wire
-		(pts
-			(xy 241.3 147.32) (xy 241.3 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "470c654c-3a1a-4d2c-914a-021cea720499")
-	)
-	(wire
-		(pts
-			(xy 257.81 138.43) (xy 257.81 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "476d18f1-0fd9-4e0e-b054-3e850feab061")
 	)
 	(wire
 		(pts
@@ -8081,6 +8278,16 @@
 	)
 	(wire
 		(pts
+			(xy 243.84 132.08) (xy 243.84 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4dfa5345-6324-4e1b-bedc-092c12a7c610")
+	)
+	(wire
+		(pts
 			(xy 92.71 13.97) (xy 196.85 13.97)
 		)
 		(stroke
@@ -8088,16 +8295,6 @@
 			(type default)
 		)
 		(uuid "4e986fd8-e608-4800-9aca-413621660c9c")
-	)
-	(wire
-		(pts
-			(xy 223.52 137.16) (xy 223.52 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4ecc5a2d-1c4f-4410-993b-4040c19805f2")
 	)
 	(wire
 		(pts
@@ -8231,7 +8428,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 147.32) (xy 241.3 147.32)
+			(xy 261.62 142.24) (xy 241.3 142.24)
 		)
 		(stroke
 			(width 0)
@@ -8281,16 +8478,6 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 135.89) (xy 220.98 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6c6f770d-117c-4427-8676-6898265afa35")
-	)
-	(wire
-		(pts
 			(xy 262.89 113.03) (xy 262.89 123.19)
 		)
 		(stroke
@@ -8308,6 +8495,16 @@
 			(type default)
 		)
 		(uuid "6d9eb64e-ffa7-4ed9-b2b6-a44058cea1e3")
+	)
+	(wire
+		(pts
+			(xy 261.62 132.08) (xy 261.62 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e3a861d-0d84-4b08-a9e0-01b70e2ed228")
 	)
 	(wire
 		(pts
@@ -8341,7 +8538,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 142.24) (xy 234.95 142.24)
+			(xy 261.62 137.16) (xy 260.35 137.16)
 		)
 		(stroke
 			(width 0)
@@ -8358,6 +8555,26 @@
 			(type default)
 		)
 		(uuid "722920ce-c286-45e3-b7cb-2ec189ad7183")
+	)
+	(wire
+		(pts
+			(xy 185.42 171.45) (xy 196.85 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "727b9a40-f410-4668-ba2b-c29d8ef2b712")
+	)
+	(wire
+		(pts
+			(xy 273.05 139.7) (xy 273.05 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73365f71-de55-467b-984c-004b5f727fb9")
 	)
 	(wire
 		(pts
@@ -8381,7 +8598,7 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 142.24) (xy 234.95 146.05)
+			(xy 234.95 137.16) (xy 234.95 146.05)
 		)
 		(stroke
 			(width 0)
@@ -8431,6 +8648,16 @@
 	)
 	(wire
 		(pts
+			(xy 236.22 134.62) (xy 243.84 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "776a6152-d41d-480a-bc88-94627370cf01")
+	)
+	(wire
+		(pts
 			(xy 189.23 73.66) (xy 189.23 60.96)
 		)
 		(stroke
@@ -8448,16 +8675,6 @@
 			(type default)
 		)
 		(uuid "77735c27-7489-400d-9666-d2a02abac362")
-	)
-	(wire
-		(pts
-			(xy 58.42 116.84) (xy 63.5 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "77eec73b-1e78-49b9-8df8-8ce09589e99c")
 	)
 	(wire
 		(pts
@@ -8488,6 +8705,16 @@
 			(type default)
 		)
 		(uuid "813fb290-06df-40f0-aee1-f604de5b5042")
+	)
+	(wire
+		(pts
+			(xy 240.03 152.4) (xy 269.24 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81bb34af-c863-410c-ae7d-24858b8c6717")
 	)
 	(wire
 		(pts
@@ -8541,7 +8768,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 139.7) (xy 236.22 148.59)
+			(xy 236.22 134.62) (xy 236.22 148.59)
 		)
 		(stroke
 			(width 0)
@@ -8601,7 +8828,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 137.16) (xy 223.52 137.16)
+			(xy 184.15 137.16) (xy 190.5 137.16)
 		)
 		(stroke
 			(width 0)
@@ -8641,7 +8868,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 148.59) (xy 229.87 148.59)
+			(xy 236.22 148.59) (xy 233.68 148.59)
 		)
 		(stroke
 			(width 0)
@@ -8811,13 +9038,23 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 146.05) (xy 229.87 146.05)
+			(xy 229.87 146.05) (xy 234.95 146.05)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "9f60894a-6b30-461c-85e2-bd6d10fc50a5")
+	)
+	(wire
+		(pts
+			(xy 165.1 64.77) (xy 91.44 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9fc2e60e-1dce-49db-b1e1-39b08b90b279")
 	)
 	(wire
 		(pts
@@ -8838,6 +9075,16 @@
 			(type default)
 		)
 		(uuid "a007a05b-ff60-4ab8-88b7-2d9dbb7b7037")
+	)
+	(wire
+		(pts
+			(xy 234.95 146.05) (xy 240.03 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1ea2f7a-0cc7-4379-9816-8a6839fe3f6a")
 	)
 	(wire
 		(pts
@@ -8901,26 +9148,6 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 116.84) (xy 99.06 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a875ceba-e25c-4e30-a1a2-1362c4ac5e6c")
-	)
-	(wire
-		(pts
-			(xy 273.05 138.43) (xy 257.81 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ab3ff7f1-b4ea-4010-9c76-3305f74acd47")
-	)
-	(wire
-		(pts
 			(xy 180.34 152.4) (xy 180.34 153.67)
 		)
 		(stroke
@@ -8928,6 +9155,16 @@
 			(type default)
 		)
 		(uuid "ac18fb0f-e3e5-401d-91c8-e41bb713d4d4")
+	)
+	(wire
+		(pts
+			(xy 190.5 151.13) (xy 190.5 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "acae87cc-7830-4daa-8db5-0174c2e04a6e")
 	)
 	(wire
 		(pts
@@ -8951,6 +9188,16 @@
 	)
 	(wire
 		(pts
+			(xy 273.05 148.59) (xy 290.83 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae303579-4860-4818-8735-7c6f8bdfecfc")
+	)
+	(wire
+		(pts
 			(xy 116.84 74.93) (xy 116.84 76.2)
 		)
 		(stroke
@@ -8958,6 +9205,16 @@
 			(type default)
 		)
 		(uuid "af14e421-ba6f-41e0-820a-e9113b868cc6")
+	)
+	(wire
+		(pts
+			(xy 233.68 148.59) (xy 233.68 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "afc1bedb-0723-40ca-983f-f32e5ba8a80d")
 	)
 	(wire
 		(pts
@@ -9001,6 +9258,16 @@
 	)
 	(wire
 		(pts
+			(xy 185.42 148.59) (xy 185.42 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b43a5073-c5b9-435b-9a68-8bc0a8e84812")
+	)
+	(wire
+		(pts
 			(xy 137.16 48.26) (xy 151.13 48.26)
 		)
 		(stroke
@@ -9018,6 +9285,16 @@
 			(type default)
 		)
 		(uuid "b5b49b44-b85e-4a66-8e66-be6c23d8d710")
+	)
+	(wire
+		(pts
+			(xy 49.53 102.87) (xy 58.42 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b604a5aa-393e-4813-9d3e-08080bef43e3")
 	)
 	(wire
 		(pts
@@ -9091,6 +9368,16 @@
 	)
 	(wire
 		(pts
+			(xy 233.68 148.59) (xy 229.87 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf3f2dce-2f05-41f2-a668-33abc2fdacac")
+	)
+	(wire
+		(pts
 			(xy 212.09 158.75) (xy 212.09 81.28)
 		)
 		(stroke
@@ -9098,16 +9385,6 @@
 			(type default)
 		)
 		(uuid "bf550f59-b8b5-428c-9226-e5661c91f335")
-	)
-	(wire
-		(pts
-			(xy 99.06 66.04) (xy 151.13 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bfabd83f-e082-4af5-a9e0-390b6fe0f186")
 	)
 	(wire
 		(pts
@@ -9221,16 +9498,6 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 116.84) (xy 43.18 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cda489b9-0e56-439a-ae03-b53f8598b8bd")
-	)
-	(wire
-		(pts
 			(xy 184.15 124.46) (xy 184.15 127)
 		)
 		(stroke
@@ -9258,16 +9525,6 @@
 			(type default)
 		)
 		(uuid "cf82c9c6-c854-44e8-be01-9c6fbb1b5800")
-	)
-	(wire
-		(pts
-			(xy 81.28 116.84) (xy 99.06 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d1a50897-ab33-4aa2-82a2-1772f387488f")
 	)
 	(wire
 		(pts
@@ -9308,6 +9565,26 @@
 			(type default)
 		)
 		(uuid "d5ef739b-4f62-4790-8ba0-62ba8f2240ca")
+	)
+	(wire
+		(pts
+			(xy 241.3 120.65) (xy 241.3 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7b514b2-99e0-4cd4-9c98-f8f4e2da4304")
+	)
+	(wire
+		(pts
+			(xy 240.03 146.05) (xy 240.03 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d97b2bae-c273-4f06-aa40-9f5531c27a89")
 	)
 	(wire
 		(pts
@@ -9401,7 +9678,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 104.14) (xy 34.29 116.84)
+			(xy 34.29 102.87) (xy 34.29 116.84)
 		)
 		(stroke
 			(width 0)
@@ -9431,6 +9708,16 @@
 	)
 	(wire
 		(pts
+			(xy 233.68 180.34) (xy 269.24 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e38ac31c-e5a1-4240-b637-8b1a7f478328")
+	)
+	(wire
+		(pts
 			(xy 166.37 152.4) (xy 180.34 152.4)
 		)
 		(stroke
@@ -9438,6 +9725,16 @@
 			(type default)
 		)
 		(uuid "e5d30c10-fac8-4462-ad98-a8502ca9435b")
+	)
+	(wire
+		(pts
+			(xy 210.82 151.13) (xy 190.5 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6d91e2f-76c3-400a-a4d6-52fcfc6470b1")
 	)
 	(wire
 		(pts
@@ -9458,6 +9755,16 @@
 			(type default)
 		)
 		(uuid "e897b4f0-b8f6-4a5d-880e-b08171b5a18e")
+	)
+	(wire
+		(pts
+			(xy 210.82 171.45) (xy 209.55 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8da96ac-49f9-484c-935d-b487b9894d9f")
 	)
 	(wire
 		(pts
@@ -9508,6 +9815,16 @@
 			(type default)
 		)
 		(uuid "ed69d951-08cf-456b-98c3-cef1467e379b")
+	)
+	(wire
+		(pts
+			(xy 208.28 137.16) (xy 220.98 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "edc20ed0-d901-4959-9cfe-64f9a11982e5")
 	)
 	(wire
 		(pts
@@ -9591,6 +9908,16 @@
 	)
 	(wire
 		(pts
+			(xy 290.83 148.59) (xy 290.83 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa5081e5-028c-43d1-abb7-062a3abe421b")
+	)
+	(wire
+		(pts
 			(xy 168.91 93.98) (xy 151.13 93.98)
 		)
 		(stroke
@@ -9618,6 +9945,16 @@
 			(type default)
 		)
 		(uuid "fc6c4049-2610-4e10-a53e-d54835ce2ba5")
+	)
+	(wire
+		(pts
+			(xy 58.42 102.87) (xy 58.42 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc8c6f55-e91f-4bdf-b2d1-86b2bd2b635c")
 	)
 	(wire
 		(pts
@@ -9649,8 +9986,18 @@
 		)
 		(uuid "fddb7967-5ba8-468d-98fa-cce7c62689d9")
 	)
+	(wire
+		(pts
+			(xy 261.62 139.7) (xy 273.05 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe82edb9-7070-43c7-82e9-9529510dc8da")
+	)
 	(label "EXC+"
-		(at 242.57 147.32 0)
+		(at 242.57 142.24 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10570,8 +10917,8 @@
 	)
 	(symbol
 		(lib_id "150080RS75000:150080RS75000")
-		(at 43.18 104.14 0)
-		(mirror y)
+		(at 34.29 102.87 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10579,7 +10926,7 @@
 		(dnp no)
 		(uuid "29f7a0de-4caf-4212-bbfa-9f02c7331f6b")
 		(property "Reference" "PWR_LED1"
-			(at 35.56 93.98 0)
+			(at 41.91 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10587,7 +10934,7 @@
 			)
 		)
 		(property "Value" "150080RS75000"
-			(at 35.56 96.52 0)
+			(at 41.91 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10595,7 +10942,7 @@
 			)
 		)
 		(property "Footprint" "LEDC2012X70N"
-			(at 30.48 197.79 0)
+			(at 46.99 9.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10605,7 +10952,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.we-online.com/components/products/download/Download_3D_150080RS75000+%28rev1%29.pdf"
-			(at 30.48 297.79 0)
+			(at 46.99 -90.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10615,7 +10962,7 @@
 			)
 		)
 		(property "Description" "WL-SMCW SMT Mono-Color Chip LED Waterclear 0805, Red Typ.(@20mA): 625nm, 150mcd, 2.0V, 140 AlInGaP"
-			(at 43.18 104.14 0)
+			(at 34.29 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10624,7 +10971,7 @@
 			)
 		)
 		(property "Height" "0.7"
-			(at 30.48 497.79 0)
+			(at 46.99 -290.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10634,7 +10981,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Wurth Elektronik"
-			(at 30.48 597.79 0)
+			(at 46.99 -390.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10644,7 +10991,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "150080RS75000"
-			(at 30.48 697.79 0)
+			(at 46.99 -490.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10654,7 +11001,7 @@
 			)
 		)
 		(property "Mouser Part Number" "710-150080RS75000"
-			(at 30.48 797.79 0)
+			(at 46.99 -590.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10664,7 +11011,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/150080RS75000?qs=LlUlMxKIyB2jdCo7bnfgew%3D%3D"
-			(at 30.48 897.79 0)
+			(at 46.99 -690.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10674,7 +11021,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 30.48 997.79 0)
+			(at 46.99 -790.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10684,7 +11031,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 30.48 1097.79 0)
+			(at 46.99 -890.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11580,6 +11927,146 @@
 		)
 	)
 	(symbol
+		(lib_id "C0603C103F3GECTU:C0603C103F3GECTU")
+		(at 196.85 171.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3e200916-676c-437f-aedc-f606fab3c9f4")
+		(property "Reference" "C8"
+			(at 203.2 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "C0603C103F3GECTU"
+			(at 203.2 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "CAPC1608X87N"
+			(at 205.74 267.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1003_C0G_SMD.pdf"
+			(at 205.74 367.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "ESD SMD Comm C0G, Ceramic, 0.01 uF, 1%, 25 VDC, 62.5 VDC, 125C, -55C, C0G, SMD, MLCC, Temperature Stable, Electro Static Discharge, Class I, 0.1 % , 100 GOhms, 3.7 mg, 0603, 1.6mm, 0.8mm, 0.8mm, 0.7mm, 0.35mm, 4000, 78  Weeks, 120"
+			(at 196.85 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.87"
+			(at 205.74 567.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "YAGEO"
+			(at 205.74 667.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "C0603C103F3GECTU"
+			(at 205.74 767.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "80-C0603C103F3GEC"
+			(at 205.74 867.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KEMET/C0603C103F3GECTU?qs=Mv7BduZupUjWMY5EogEjUg%3D%3D"
+			(at 205.74 967.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 205.74 1067.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 205.74 1167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2c26cf90-e298-489a-b5df-fd722ddbdb8b")
+		)
+		(pin "2"
+			(uuid "d278bedc-c1db-49d7-8169-85c46545bf2d")
+		)
+		(instances
+			(project ""
+				(path "/6a00afe5-a275-4064-a756-6aaff88eeb4d"
+					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "ADS1220IPWR:ADS1220IPWR")
 		(at 229.87 161.29 180)
 		(unit 1)
@@ -11756,6 +12243,148 @@
 			(project ""
 				(path "/6a00afe5-a275-4064-a756-6aaff88eeb4d"
 					(reference "IC5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "C0603C103F3GECTU:C0603C103F3GECTU")
+		(at 269.24 180.34 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "47d585cd-231a-4495-877d-86ef4ed07e92")
+		(property "Reference" "C7"
+			(at 273.05 172.7199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "C0603C103F3GECTU"
+			(at 273.05 175.2599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "CAPC1608X87N"
+			(at 365.43 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1003_C0G_SMD.pdf"
+			(at 465.43 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "ESD SMD Comm C0G, Ceramic, 0.01 uF, 1%, 25 VDC, 62.5 VDC, 125C, -55C, C0G, SMD, MLCC, Temperature Stable, Electro Static Discharge, Class I, 0.1 % , 100 GOhms, 3.7 mg, 0603, 1.6mm, 0.8mm, 0.8mm, 0.7mm, 0.35mm, 4000, 78  Weeks, 120"
+			(at 269.24 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.87"
+			(at 665.43 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "YAGEO"
+			(at 765.43 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "C0603C103F3GECTU"
+			(at 865.43 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "80-C0603C103F3GEC"
+			(at 965.43 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KEMET/C0603C103F3GECTU?qs=Mv7BduZupUjWMY5EogEjUg%3D%3D"
+			(at 1065.43 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 1165.43 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 1265.43 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4ff0318d-36cf-447d-ae5e-50db24eb7946")
+		)
+		(pin "1"
+			(uuid "d0b24852-2a1c-4f36-a55f-14fc9a889ae3")
+		)
+		(instances
+			(project ""
+				(path "/6a00afe5-a275-4064-a756-6aaff88eeb4d"
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -12244,6 +12873,146 @@
 		)
 	)
 	(symbol
+		(lib_id "ERA-2AEB101X:ERA-2AEB101X")
+		(at 190.5 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "589a299b-1d87-428c-986b-3ef6752ca528")
+		(property "Reference" "R13"
+			(at 199.39 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ERA-2AEB101X"
+			(at 199.39 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ERA2AED122X"
+			(at 204.47 233.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf"
+			(at 204.47 333.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "PANASONIC ELECTRONIC COMPONENTS - ERA-2AEB101X - METAL FILM RESISTOR, 100OHM, 63mW,  0.1%, FULL REEL"
+			(at 190.5 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.4"
+			(at 204.47 533.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Panasonic"
+			(at 204.47 633.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ERA-2AEB101X"
+			(at 204.47 733.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "667-ERA-2AEB101X"
+			(at 204.47 833.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Panasonic/ERA-2AEB101X?qs=YFwoyZoVY0i6%2FzAzf7zwiw%3D%3D"
+			(at 204.47 933.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "ERA-2AEB101X"
+			(at 204.47 1033.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/era-2aeb101x/panasonic?utm_currency=USD&region=europe"
+			(at 204.47 1133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "91b43ffa-24ae-4ae9-8ac7-49e03e2fa44b")
+		)
+		(pin "1"
+			(uuid "d481c53b-4d1f-4004-90ce-d13d5c71a0b9")
+		)
+		(instances
+			(project "suspension_accel"
+				(path "/6a00afe5-a275-4064-a756-6aaff88eeb4d"
+					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "TJA1050T_CM_118:TJA1050T_CM,118")
 		(at 33.02 78.74 90)
 		(unit 1)
@@ -12555,53 +13324,53 @@
 		)
 	)
 	(symbol
-		(lib_id "150080GS75000:150080GS75000")
-		(at 43.18 116.84 0)
+		(lib_id "ERA-2AEB101X:ERA-2AEB101X")
+		(at 242.57 137.16 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "5d27613f-e349-4ce7-8e4f-8fd3acedbd40")
-		(property "Reference" "CAN_LED1"
-			(at 50.8 106.68 0)
+		(uuid "5f33ccf6-1229-4ebc-9f11-62adb9253a6a")
+		(property "Reference" "R12"
+			(at 251.46 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "150080GS75000"
-			(at 50.8 109.22 0)
+		(property "Value" "ERA-2AEB101X"
+			(at 251.46 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "LEDM2012X70N"
-			(at 55.88 210.49 0)
+		(property "Footprint" "ERA2AED122X"
+			(at 256.54 233.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.we-online.com/components/products/download/Download_3D_150080GS75000+%28rev1%29.pdf"
-			(at 55.88 310.49 0)
+		(property "Datasheet" "http://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf"
+			(at 256.54 333.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Description" "WL-SMCW SMT Mono-Color Chip LED Waterclear 0805, Green Typ.(@20mA): 520nm, 450mcd, 3.2V, 140 InGaN"
-			(at 43.18 116.84 0)
+		(property "Description" "PANASONIC ELECTRONIC COMPONENTS - ERA-2AEB101X - METAL FILM RESISTOR, 100OHM, 63mW,  0.1%, FULL REEL"
+			(at 242.57 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12609,86 +13378,86 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "0.7"
-			(at 55.88 510.49 0)
+		(property "Height" "0.4"
+			(at 256.54 533.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Wurth Elektronik"
-			(at 55.88 610.49 0)
+		(property "Manufacturer_Name" "Panasonic"
+			(at 256.54 633.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "150080GS75000"
-			(at 55.88 710.49 0)
+		(property "Manufacturer_Part_Number" "ERA-2AEB101X"
+			(at 256.54 733.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "710-150080GS75000"
-			(at 55.88 810.49 0)
+		(property "Mouser Part Number" "667-ERA-2AEB101X"
+			(at 256.54 833.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/150080GS75000?qs=2kOmHSv6VfQRoTEZVk1mGA%3D%3D"
-			(at 55.88 910.49 0)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Panasonic/ERA-2AEB101X?qs=YFwoyZoVY0i6%2FzAzf7zwiw%3D%3D"
+			(at 256.54 933.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Arrow Part Number" ""
-			(at 55.88 1010.49 0)
+		(property "Arrow Part Number" "ERA-2AEB101X"
+			(at 256.54 1033.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Arrow Price/Stock" ""
-			(at 55.88 1110.49 0)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/era-2aeb101x/panasonic?utm_currency=USD&region=europe"
+			(at 256.54 1133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify left top)
 				(hide yes)
 			)
 		)
 		(pin "2"
-			(uuid "d54fcebe-4501-4baa-8128-d80198faba54")
+			(uuid "ec929605-f4ec-403e-8127-1d503d779c0c")
 		)
 		(pin "1"
-			(uuid "d94ab94f-1d80-4f51-a48b-70131ec8501a")
+			(uuid "e14d4329-4eda-4272-86fe-1bec2be54d9d")
 		)
 		(instances
-			(project ""
+			(project "suspension_accel"
 				(path "/6a00afe5-a275-4064-a756-6aaff88eeb4d"
-					(reference "CAN_LED1")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -13254,6 +14023,146 @@
 			(project ""
 				(path "/6a00afe5-a275-4064-a756-6aaff88eeb4d"
 					(reference "#PWR0105")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ERA-2AEB101X:ERA-2AEB101X")
+		(at 243.84 132.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6e2c1d7c-261f-490e-b291-55ef79292cb7")
+		(property "Reference" "R11"
+			(at 252.73 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ERA-2AEB101X"
+			(at 252.73 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ERA2AED122X"
+			(at 257.81 228.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf"
+			(at 257.81 328.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "PANASONIC ELECTRONIC COMPONENTS - ERA-2AEB101X - METAL FILM RESISTOR, 100OHM, 63mW,  0.1%, FULL REEL"
+			(at 243.84 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.4"
+			(at 257.81 528.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Panasonic"
+			(at 257.81 628.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ERA-2AEB101X"
+			(at 257.81 728.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "667-ERA-2AEB101X"
+			(at 257.81 828.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Panasonic/ERA-2AEB101X?qs=YFwoyZoVY0i6%2FzAzf7zwiw%3D%3D"
+			(at 257.81 928.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "ERA-2AEB101X"
+			(at 257.81 1028.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/era-2aeb101x/panasonic?utm_currency=USD&region=europe"
+			(at 257.81 1128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "08a4dde5-19d7-4629-93f2-e000654b517b")
+		)
+		(pin "1"
+			(uuid "c3fff716-8fb0-4f59-8dc0-f0a2265534cc")
+		)
+		(instances
+			(project ""
+				(path "/6a00afe5-a275-4064-a756-6aaff88eeb4d"
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -15456,7 +16365,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 273.05 138.43 90)
+		(at 290.83 139.7 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15465,7 +16374,7 @@
 		(fields_autoplaced yes)
 		(uuid "ae6a2dba-e006-4251-9069-555e98f7cd2a")
 		(property "Reference" "#PWR018"
-			(at 279.4 138.43 0)
+			(at 297.18 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15474,7 +16383,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 276.86 138.4299 90)
+			(at 294.64 139.6999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15483,7 +16392,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 273.05 138.43 0)
+			(at 290.83 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15492,7 +16401,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 273.05 138.43 0)
+			(at 290.83 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15501,7 +16410,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 273.05 138.43 0)
+			(at 290.83 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16260,6 +17169,146 @@
 		)
 	)
 	(symbol
+		(lib_id "ERA-2AEB101X:ERA-2AEB101X")
+		(at 193.04 146.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c32122c7-be76-46ad-85bc-1ac0ebb14f58")
+		(property "Reference" "R14"
+			(at 201.93 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ERA-2AEB101X"
+			(at 201.93 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ERA2AED122X"
+			(at 207.01 242.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf"
+			(at 207.01 342.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "PANASONIC ELECTRONIC COMPONENTS - ERA-2AEB101X - METAL FILM RESISTOR, 100OHM, 63mW,  0.1%, FULL REEL"
+			(at 193.04 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.4"
+			(at 207.01 542.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Panasonic"
+			(at 207.01 642.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ERA-2AEB101X"
+			(at 207.01 742.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "667-ERA-2AEB101X"
+			(at 207.01 842.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Panasonic/ERA-2AEB101X?qs=YFwoyZoVY0i6%2FzAzf7zwiw%3D%3D"
+			(at 207.01 942.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "ERA-2AEB101X"
+			(at 207.01 1042.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/era-2aeb101x/panasonic?utm_currency=USD&region=europe"
+			(at 207.01 1142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b6057fe3-cb0b-4f1e-9387-0d84fb23554b")
+		)
+		(pin "1"
+			(uuid "5688137c-a6a1-42ba-b88b-455461857811")
+		)
+		(instances
+			(project "suspension_accel"
+				(path "/6a00afe5-a275-4064-a756-6aaff88eeb4d"
+					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at -15.24 109.22 90)
 		(unit 1)
@@ -16620,7 +17669,7 @@
 	(symbol
 		(lib_name "BM04B-GVHS-TB_LF__SN__2")
 		(lib_id "BM04B-GVHS-TB_LF__SN_:BM04B-GVHS-TB_LF__SN_")
-		(at 270.51 147.32 180)
+		(at 284.48 142.24 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16629,7 +17678,7 @@
 		(fields_autoplaced yes)
 		(uuid "cd7bd707-ab1d-4125-82c5-da4b64d863fb")
 		(property "Reference" "STRAIN2"
-			(at 259.08 132.08 0)
+			(at 273.05 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16637,7 +17686,7 @@
 			)
 		)
 		(property "Value" "BM04B-GVHS-TB_LF__SN_"
-			(at 259.08 134.62 0)
+			(at 273.05 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16645,7 +17694,7 @@
 			)
 		)
 		(property "Footprint" "BM04BGVHSTBLFSN"
-			(at 251.46 52.4 0)
+			(at 265.43 47.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16655,7 +17704,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.jst-mfg.com/product/pdf/eng/eGVH.pdf"
-			(at 251.46 -47.6 0)
+			(at 265.43 -52.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16665,7 +17714,7 @@
 			)
 		)
 		(property "Description" "CONN HEADER SMD 4POS 1.25MM"
-			(at 270.51 147.32 0)
+			(at 284.48 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16674,7 +17723,7 @@
 			)
 		)
 		(property "Height" "4.05"
-			(at 251.46 -247.6 0)
+			(at 265.43 -252.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16684,7 +17733,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "JST (JAPAN SOLDERLESS TERMINALS)"
-			(at 251.46 -347.6 0)
+			(at 265.43 -352.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16694,7 +17743,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "BM04B-GVHS-TB(LF)(SN)"
-			(at 251.46 -447.6 0)
+			(at 265.43 -452.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16704,7 +17753,7 @@
 			)
 		)
 		(property "Mouser Part Number" ""
-			(at 251.46 -547.6 0)
+			(at 265.43 -552.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16714,7 +17763,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at 251.46 -647.6 0)
+			(at 265.43 -652.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16724,7 +17773,7 @@
 			)
 		)
 		(property "Arrow Part Number" "BM04B-GVHS-TB(LF)(SN)"
-			(at 251.46 -747.6 0)
+			(at 265.43 -752.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16734,7 +17783,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/bm04b-gvhs-tb-lf-sn/jst-manufacturing?utm_currency=USD&region=europe"
-			(at 251.46 -847.6 0)
+			(at 265.43 -852.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17878,146 +18927,6 @@
 			(project ""
 				(path "/6a00afe5-a275-4064-a756-6aaff88eeb4d"
 					(reference "#PWR0109")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "RC0603FR-07220RL:RC0603FR-07220RL")
-		(at 63.5 116.84 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f95e928c-5d68-48bd-9071-7c0064a64a3d")
-		(property "Reference" "R2"
-			(at 72.39 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "RC0603FR-07220RL"
-			(at 72.39 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "RESC1608X55N"
-			(at 77.47 213.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.yageo.com/documents/recent/PYu-RC0603_51_RoHS_L_v5.pdf"
-			(at 77.47 313.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "YAGEO (PHYCOMP) - RC0603FR-07220RL - RES, THICK FILM, 220R, 1%, 0.1W, 0603"
-			(at 63.5 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.55"
-			(at 77.47 513.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "KEMET"
-			(at 77.47 613.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "RC0603FR-07220RL"
-			(at 77.47 713.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "603-RC0603FR-07220RL"
-			(at 77.47 813.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/YAGEO/RC0603FR-07220RL?qs=VU8sRB4EgwA1IyQ0vhXEEw%3D%3D"
-			(at 77.47 913.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" "RC0603FR-07220RL"
-			(at 77.47 1013.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/rc0603fr-07220rl/yageo?region=nac"
-			(at 77.47 1113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "7990bb9b-3964-45e8-9fdc-e8ff5bd22eb6")
-		)
-		(pin "1"
-			(uuid "826a5740-6f64-4589-8ec7-85de98f85122")
-		)
-		(instances
-			(project ""
-				(path "/6a00afe5-a275-4064-a756-6aaff88eeb4d"
-					(reference "R2")
 					(unit 1)
 				)
 			)

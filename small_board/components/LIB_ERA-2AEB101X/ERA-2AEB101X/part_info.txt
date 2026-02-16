@@ -1,0 +1,9 @@
+Manufacturer=Panasonic
+PartNumber=ERA-2AEB101X
+PartCategory=Resistor
+PackageCategory=Other
+PinCount=2
+Version=3.2
+Released=2019-06-16 19:07:03
+Downloaded=2026-02-16 07:53:58
+3D=Y

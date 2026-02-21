@@ -5,6 +5,540 @@
 	(uuid "472c6254-7e2c-4691-b7bb-8b0b9534cc21")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Car_Parts _library:Deutsch_8_way_connect"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at -7.62 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Deutsch_8_way_connect_0_1"
+				(rectangle
+					(start -10.16 15.24)
+					(end 13.97 -5.08)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Deutsch_8_way_connect_1_1"
+				(pin input line
+					(at -12.7 13.97 0)
+					(length 2.54)
+					(name "Input_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 11.43 0)
+					(length 2.54)
+					(name "input_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 8.89 0)
+					(length 2.54)
+					(name "input_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 6.35 0)
+					(length 2.54)
+					(name "input_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 3.81 0)
+					(length 2.54)
+					(name "input_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 1.27 0)
+					(length 2.54)
+					(name "input_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 -1.27 0)
+					(length 2.54)
+					(name "input_7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 -3.81 0)
+					(length 2.54)
+					(name "input_8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 16.51 13.97 180)
+					(length 2.54)
+					(name "Output_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 16.51 11.43 180)
+					(length 2.54)
+					(name "Output_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 16.51 8.89 180)
+					(length 2.54)
+					(name "Output_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 16.51 6.35 180)
+					(length 2.54)
+					(name "Output_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 16.51 3.81 180)
+					(length 2.54)
+					(name "Output_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 16.51 1.27 180)
+					(length 2.54)
+					(name "Output_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 16.51 -1.27 180)
+					(length 2.54)
+					(name "Output_7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 16.51 -3.81 180)
+					(length 2.54)
+					(name "Output_8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Car_Parts _library:Diff"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Diff_0_1"
+				(rectangle
+					(start -3.81 2.54)
+					(end 3.81 -2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Diff_1_1"
+				(pin input line
+					(at -6.35 1.27 0)
+					(length 2.54)
+					(name "Vin"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -6.35 -1.27 0)
+					(length 2.54)
+					(name "Gnd"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Car_Parts _library:Engine"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 3.048 -1.524 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Engine_0_1"
+				(rectangle
+					(start -3.81 2.54)
+					(end 3.81 -2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Engine_1_1"
+				(pin input line
+					(at -6.35 0 0)
+					(length 2.54)
+					(name "Spark"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Car_Parts _library:Polaris_taillight"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -113,6 +647,160 @@
 						)
 					)
 					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Car_Parts _library:Power_Bus"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -2.54 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Power_Bus_0_1"
+				(rectangle
+					(start -3.81 3.81)
+					(end 8.89 -6.35)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Power_Bus_1_1"
+				(pin input line
+					(at -6.35 -1.27 0)
+					(length 2.54)
+					(name "IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 11.43 2.54 180)
+					(length 2.54)
+					(name "Vout_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 11.43 0 180)
+					(length 2.54)
+					(name "Vout_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 11.43 -2.54 180)
+					(length 2.54)
+					(name "Vout_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 11.43 -5.08 180)
+					(length 2.54)
+					(name "Vout_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -327,6 +1015,334 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Power_Bus_1"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -2.54 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Power_Bus_1_0_1"
+				(rectangle
+					(start -3.81 3.81)
+					(end 8.89 -6.35)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Power_Bus_1_1_1"
+				(pin input line
+					(at -6.35 -1.27 0)
+					(length 2.54)
+					(name "IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 11.43 2.54 180)
+					(length 2.54)
+					(name "Vout_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 11.43 0 180)
+					(length 2.54)
+					(name "Vout_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 11.43 -2.54 180)
+					(length 2.54)
+					(name "Vout_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 11.43 -5.08 180)
+					(length 2.54)
+					(name "Vout_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Switch:SW_DPST_x2"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SW_DPST_x2"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Single Pole Single Throw (SPST) switch, separate symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch lever"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_DPST_x2_0_0"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 0.254) (xy 1.524 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SW_DPST_x2_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "SW_DPST_x2_2_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -430,63 +1446,385 @@
 		)
 	)
 	(junction
-		(at 48.26 87.63)
+		(at 176.53 147.32)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "8278854c-f837-4158-a6a3-ce4f8d411cdd")
+		(uuid "8182ba63-a1be-4e3f-8dc3-355ce44bcb8c")
+	)
+	(junction
+		(at 85.09 179.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "944f9b91-a68e-4d91-ada7-399064516875")
+	)
+	(junction
+		(at 151.13 149.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b88438f9-3a44-4dac-817f-a47407af0d65")
 	)
 	(wire
 		(pts
-			(xy 48.26 87.63) (xy 48.26 86.36)
+			(xy 85.09 179.07) (xy 85.09 176.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5d143aeb-13f5-4f50-ad9e-58b95c5ebd9e")
+		(uuid "0436872d-51c9-44f8-966d-6964379fd999")
 	)
 	(wire
 		(pts
-			(xy 95.25 52.07) (xy 95.25 87.63)
+			(xy 106.68 87.63) (xy 124.46 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "932b7752-5114-458e-97c0-e5df11ef2a92")
+		(uuid "06eb4454-335f-4ea2-b81a-11824b43e013")
 	)
 	(wire
 		(pts
-			(xy 95.25 87.63) (xy 48.26 87.63)
+			(xy 96.52 87.63) (xy 63.5 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ebd8703a-1c6d-4155-b1f9-b266e4f35aa6")
+		(uuid "0e55b2b2-210b-42cb-b25a-ad567c106674")
 	)
 	(wire
 		(pts
-			(xy 48.26 93.98) (xy 48.26 87.63)
+			(xy 54.61 179.07) (xy 54.61 175.26)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "edcc891c-4028-4f9b-9637-c83306b9d85e")
+		(uuid "0f760e2c-761d-4736-a6f7-b0a837dc99a9")
+	)
+	(wire
+		(pts
+			(xy 168.91 149.86) (xy 176.53 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1312f92d-6b3a-4b46-883a-391606aeb284")
+	)
+	(wire
+		(pts
+			(xy 63.5 152.4) (xy 63.5 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "160fed99-b565-4545-a5d9-1a2bfb4e61c7")
+	)
+	(wire
+		(pts
+			(xy 138.43 137.16) (xy 138.43 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ca4771a-0097-4338-a23d-5eaef9fc30c9")
+	)
+	(wire
+		(pts
+			(xy 167.64 143.51) (xy 176.53 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c70fab9-b420-410a-965d-7af045c655c4")
+	)
+	(wire
+		(pts
+			(xy 66.04 137.16) (xy 66.04 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36013e7d-1448-4c8e-a7e0-21e72ae9550e")
+	)
+	(wire
+		(pts
+			(xy 50.8 152.4) (xy 63.5 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47c943c0-1112-4250-bd70-c6f7685c7434")
+	)
+	(wire
+		(pts
+			(xy 81.28 154.94) (xy 81.28 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e8cfd70-d501-4f22-88c8-b32006149d62")
+	)
+	(wire
+		(pts
+			(xy 124.46 90.17) (xy 81.28 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51f75a18-7bfc-4719-9a2d-43963c9afb1a")
+	)
+	(wire
+		(pts
+			(xy 66.04 69.85) (xy 66.04 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59a85e9a-b200-42b7-8956-04675fdc15f7")
+	)
+	(wire
+		(pts
+			(xy 176.53 143.51) (xy 176.53 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e0e927d-3914-43f7-9dbc-e9a30d36feca")
+	)
+	(wire
+		(pts
+			(xy 81.28 90.17) (xy 81.28 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "644b7035-5860-4eb2-b50e-14237661607d")
+	)
+	(wire
+		(pts
+			(xy 81.28 137.16) (xy 81.28 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "697789d1-2049-486a-8b5c-9f0926e67433")
+	)
+	(wire
+		(pts
+			(xy 72.39 179.07) (xy 85.09 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c4bdfe6-7e7d-4c16-b83e-fadc217c279c")
+	)
+	(wire
+		(pts
+			(xy 138.43 154.94) (xy 81.28 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "828d3d76-dcb8-4b21-8564-0aaf849b9adb")
+	)
+	(wire
+		(pts
+			(xy 76.2 137.16) (xy 76.2 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "880166b6-c772-4f69-b488-9ff19b3484f3")
+	)
+	(wire
+		(pts
+			(xy 76.2 69.85) (xy 76.2 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96b36fc1-3ed0-40ec-bc0b-0809e00db43c")
+	)
+	(wire
+		(pts
+			(xy 50.8 157.48) (xy 50.8 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e329015-aa1a-41c7-9153-3fb904e93dbb")
+	)
+	(wire
+		(pts
+			(xy 151.13 149.86) (xy 151.13 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2f73087-3dfb-44cb-90ec-750cf9c24186")
+	)
+	(wire
+		(pts
+			(xy 53.34 154.94) (xy 53.34 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac136ff3-08f3-4f6b-906f-752f63292c31")
+	)
+	(wire
+		(pts
+			(xy 63.5 87.63) (xy 63.5 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ada29c34-bc41-4dc8-9d73-595b8b0ecd61")
+	)
+	(wire
+		(pts
+			(xy 151.13 149.86) (xy 158.75 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7381fdd-46a1-427a-a3e9-987cb5bd6bb1")
+	)
+	(wire
+		(pts
+			(xy 81.28 140.97) (xy 88.9 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c42d7327-c14c-400f-bd0a-40c3f57ebb66")
+	)
+	(wire
+		(pts
+			(xy 64.77 179.07) (xy 54.61 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4ba3b8d-9211-4062-a1d3-49c3763bbb0c")
+	)
+	(wire
+		(pts
+			(xy 85.09 182.88) (xy 85.09 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c88b5354-dea0-4f90-a87f-2c792cc56be2")
+	)
+	(wire
+		(pts
+			(xy 76.2 152.4) (xy 116.84 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cafaf42a-36ba-440d-887a-1e082989c42a")
+	)
+	(wire
+		(pts
+			(xy 66.04 154.94) (xy 53.34 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf487b5b-1ae9-464d-9fc5-6e37190e910d")
+	)
+	(wire
+		(pts
+			(xy 157.48 143.51) (xy 151.13 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4912f2c-4d83-4d29-b399-b9d4fa7f619c")
+	)
+	(wire
+		(pts
+			(xy 151.13 143.51) (xy 151.13 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d91d6056-8d3e-4851-a0da-f59c07099920")
+	)
+	(wire
+		(pts
+			(xy 88.9 140.97) (xy 88.9 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1d1e425-1cbb-46fb-9f9f-a895f1a3a5f0")
+	)
+	(wire
+		(pts
+			(xy 176.53 149.86) (xy 176.53 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e37ec6fb-d227-4935-a88e-3f9919ff3170")
+	)
+	(wire
+		(pts
+			(xy 116.84 152.4) (xy 116.84 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb7cf43b-364b-4c36-acfb-47d44ca8eed6")
 	)
 	(symbol
-		(lib_id "Device:Battery_Cell")
-		(at 48.26 83.82 0)
+		(lib_id "Car_Parts _library:Engine")
+		(at 182.88 147.32 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "28ba17ec-3109-408f-a0e0-5ab74786f864")
-		(property "Reference" "BT1"
-			(at 52.07 80.7084 0)
+		(uuid "05b1085d-7c1b-44e8-bd4e-4afaf7e1166d")
+		(property "Reference" "Engine"
+			(at 187.96 146.0499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -494,8 +1832,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Battery_Cell"
-			(at 52.07 83.2484 0)
+		(property "Value" "~"
+			(at 187.96 148.5899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -504,7 +1842,74 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 48.26 82.296 90)
+			(at 182.88 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 182.88 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 182.88 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "a0753e30-6b71-4db2-9a75-79dfe42a047f")
+		)
+		(instances
+			(project ""
+				(path "/472c6254-7e2c-4691-b7bb-8b0b9534cc21"
+					(reference "Engine")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Battery_Cell")
+		(at 69.85 179.07 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "28ba17ec-3109-408f-a0e0-5ab74786f864")
+		(property "Reference" "BT1"
+			(at 66.7384 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Battery_Cell"
+			(at 69.2784 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 68.326 179.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -513,7 +1918,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 48.26 82.296 90)
+			(at 68.326 179.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -522,7 +1927,7 @@
 			)
 		)
 		(property "Description" "Single-cell battery"
-			(at 48.26 83.82 0)
+			(at 69.85 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -531,7 +1936,7 @@
 			)
 		)
 		(property "Sim.Device" "V"
-			(at 48.26 83.82 0)
+			(at 69.85 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -540,7 +1945,7 @@
 			)
 		)
 		(property "Sim.Type" "DC"
-			(at 48.26 83.82 0)
+			(at 69.85 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -549,7 +1954,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=+ 2=-"
-			(at 48.26 83.82 0)
+			(at 69.85 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -573,16 +1978,18 @@
 		)
 	)
 	(symbol
-		(lib_id "Car_Parts _library:Polaris_taillight")
-		(at 80.01 55.88 0)
+		(lib_name "Power_Bus_1")
+		(lib_id "Car_Parts _library:Power_Bus")
+		(at 83.82 170.18 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "ab7ae464-8960-402a-8180-d3cf8b9c20f9")
-		(property "Reference" "U1"
-			(at 85.09 49.784 0)
+		(fields_autoplaced yes)
+		(uuid "520392c5-45a0-4518-a2be-57c972c18a11")
+		(property "Reference" "U3"
+			(at 74.93 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -590,7 +1997,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 84.836 51.054 0)
+			(at 77.47 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -598,7 +2005,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 80.01 55.88 0)
+			(at 83.82 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -607,7 +2014,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 80.01 55.88 0)
+			(at 83.82 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -616,7 +2023,160 @@
 			)
 		)
 		(property "Description" ""
-			(at 80.01 55.88 0)
+			(at 83.82 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "9843452f-f518-436a-a31f-d41f20b79d9c")
+		)
+		(pin ""
+			(uuid "f337471d-38d1-41f0-8fb3-a35b55dd0545")
+		)
+		(pin ""
+			(uuid "adc9c6e1-1cae-41c2-b9ef-2ee14b9efe20")
+		)
+		(pin ""
+			(uuid "9803b62b-0147-439f-96d1-bebce572c762")
+		)
+		(pin ""
+			(uuid "369a1042-d07b-40f6-aeca-c14c6bc364a3")
+		)
+		(instances
+			(project ""
+				(path "/472c6254-7e2c-4691-b7bb-8b0b9534cc21"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Car_Parts _library:Power_Bus")
+		(at 53.34 168.91 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "607d7be1-df58-441d-b537-8b8278af5a6f")
+		(property "Reference" "U2"
+			(at 44.45 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 46.99 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 53.34 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 53.34 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 53.34 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "1d853d4b-cb67-40f4-9b59-9d1af73cc6ff")
+		)
+		(pin ""
+			(uuid "0a255b72-e558-400e-8be0-06c2810befa0")
+		)
+		(pin ""
+			(uuid "19770677-75ea-4660-9899-e85970527752")
+		)
+		(pin ""
+			(uuid "ed7795e0-f2c1-499f-b540-d0f4c3bb5084")
+		)
+		(pin ""
+			(uuid "5a0a6d3a-9588-43cf-b1a7-50e2e9a399a8")
+		)
+		(instances
+			(project ""
+				(path "/472c6254-7e2c-4691-b7bb-8b0b9534cc21"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Car_Parts _library:Polaris_taillight")
+		(at 123.19 140.97 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ab7ae464-8960-402a-8180-d3cf8b9c20f9")
+		(property "Reference" "U1"
+			(at 128.27 134.874 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 128.016 136.144 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 123.19 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 123.19 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 123.19 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -643,26 +2203,25 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 48.26 93.98 0)
-		(unit 1)
+		(lib_id "Switch:SW_DPST_x2")
+		(at 71.12 69.85 0)
+		(mirror y)
+		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fa162d4c-5b4f-4dab-9700-6417d31ca069")
-		(property "Reference" "#PWR01"
-			(at 48.26 100.33 0)
+		(uuid "bf27895b-3962-4dc4-b248-a97b5be478a1")
+		(property "Reference" "Brake"
+			(at 71.12 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 48.26 99.06 0)
+		(property "Value" "SW_DPST_x2"
+			(at 71.12 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -670,7 +2229,157 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 48.26 93.98 0)
+			(at 71.12 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 71.12 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single Pole Single Throw (SPST) switch, separate symbol"
+			(at 71.12 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "c4a9122e-5f37-419c-8be8-053e3efcd331")
+		)
+		(pin "2"
+			(uuid "24f5ab01-9c43-45a7-85ab-ec93b4a8e7e4")
+		)
+		(pin "1"
+			(uuid "ede5cd15-f363-4402-944e-6c7a841c4684")
+		)
+		(pin "4"
+			(uuid "96ff22e9-dee4-4853-8ebb-5348054c3bd8")
+		)
+		(instances
+			(project "Car_Circuit"
+				(path "/472c6254-7e2c-4691-b7bb-8b0b9534cc21"
+					(reference "Brake")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_DPST_x2")
+		(at 162.56 143.51 180)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cb7b5298-070a-4c3d-9fc4-46f9b8e69875")
+		(property "Reference" "KSW1"
+			(at 162.56 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_DPST_x2"
+			(at 162.56 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 162.56 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 162.56 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single Pole Single Throw (SPST) switch, separate symbol"
+			(at 162.56 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "214bcc8c-78b3-4cef-8272-cfcaeac18af4")
+		)
+		(pin "2"
+			(uuid "24f5ab01-9c43-45a7-85ab-ec93b4a8e7e4")
+		)
+		(pin "1"
+			(uuid "ede5cd15-f363-4402-944e-6c7a841c4684")
+		)
+		(pin "4"
+			(uuid "18d42caa-d196-4f34-b357-2a920a2d2767")
+		)
+		(instances
+			(project ""
+				(path "/472c6254-7e2c-4691-b7bb-8b0b9534cc21"
+					(reference "KSW1")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Car_Parts _library:Deutsch_8_way_connect")
+		(at 77.47 124.46 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ce8ab2c6-1130-408f-9aae-ad4c16a0c982")
+		(property "Reference" "Deutsch_connector"
+			(at 83.82 121.2849 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "~"
+			(at 83.82 123.8249 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 77.47 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -679,7 +2388,337 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 48.26 93.98 0)
+			(at 77.47 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 77.47 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2d68def3-06b6-4bbf-ba91-e1c60b3997b0")
+		)
+		(pin "1"
+			(uuid "98f740fd-f0fe-4349-8305-acb775e16fe6")
+		)
+		(pin "2"
+			(uuid "7b4a907c-b62b-461b-a9a0-2fd7884d1ef1")
+		)
+		(pin "3"
+			(uuid "b00c5561-4f70-4a05-ba5a-957dcc4229bc")
+		)
+		(pin "4"
+			(uuid "de404e90-ada1-4471-8afc-e048925600f5")
+		)
+		(pin "5"
+			(uuid "44f4af7b-41fd-4c13-b7f1-88edb5652d9f")
+		)
+		(pin "6"
+			(uuid "14c74b82-a1cd-406e-bd6e-9fcbb70af348")
+		)
+		(pin "7"
+			(uuid "81332f56-b786-4f6e-9445-05d8bea11533")
+		)
+		(pin "8"
+			(uuid "12045e0a-a674-4c9d-8ba1-038c073088cb")
+		)
+		(pin "3"
+			(uuid "98a93452-b7b0-41a3-9dc6-b81cf64149e3")
+		)
+		(pin "4"
+			(uuid "143f4be6-e745-46dc-82e7-99e7f7fe1aab")
+		)
+		(pin "7"
+			(uuid "416abd01-7386-4b98-ae0d-4007eae8a583")
+		)
+		(pin "5"
+			(uuid "03333ae8-5026-4cd5-9a41-bd401d2538af")
+		)
+		(pin "2"
+			(uuid "0d92bc09-0878-424f-b418-81b98abf1fac")
+		)
+		(pin "8"
+			(uuid "882be885-a922-403b-ae0e-1de6f3a22d40")
+		)
+		(pin "6"
+			(uuid "05736efa-9080-4149-b041-234a56e2f352")
+		)
+		(instances
+			(project ""
+				(path "/472c6254-7e2c-4691-b7bb-8b0b9534cc21"
+					(reference "Deutsch_connector")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_DPST_x2")
+		(at 163.83 149.86 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d60205fe-2fa0-4771-9c08-3b66221286e5")
+		(property "Reference" "KSW1"
+			(at 163.83 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_DPST_x2"
+			(at 163.83 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 163.83 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 163.83 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single Pole Single Throw (SPST) switch, separate symbol"
+			(at 163.83 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "214bcc8c-78b3-4cef-8272-cfcaeac18af4")
+		)
+		(pin "2"
+			(uuid "24f5ab01-9c43-45a7-85ab-ec93b4a8e7e4")
+		)
+		(pin "1"
+			(uuid "ede5cd15-f363-4402-944e-6c7a841c4684")
+		)
+		(pin "4"
+			(uuid "18d42caa-d196-4f34-b357-2a920a2d2767")
+		)
+		(instances
+			(project ""
+				(path "/472c6254-7e2c-4691-b7bb-8b0b9534cc21"
+					(reference "KSW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Car_Parts _library:Diff")
+		(at 130.81 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f8173c46-4403-4965-b603-17d5317be168")
+		(property "Reference" "Diff"
+			(at 135.89 87.6299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 135.89 90.1699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 130.81 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 130.81 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 130.81 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "63832e0f-c549-45f0-afb6-4501083c5e3a")
+		)
+		(pin "2"
+			(uuid "1920a94b-1d34-4064-9740-ad74f25f98d0")
+		)
+		(instances
+			(project ""
+				(path "/472c6254-7e2c-4691-b7bb-8b0b9534cc21"
+					(reference "Diff")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_DPST_x2")
+		(at 101.6 87.63 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f9243ba2-2493-4ec8-8257-24956ec45249")
+		(property "Reference" "Diff_swich"
+			(at 101.6 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_DPST_x2"
+			(at 101.6 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 101.6 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 101.6 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single Pole Single Throw (SPST) switch, separate symbol"
+			(at 101.6 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "214bcc8c-78b3-4cef-8272-cfcaeac18af4")
+		)
+		(pin "2"
+			(uuid "38989c52-bcb2-4416-9884-2353eadc56c9")
+		)
+		(pin "1"
+			(uuid "aa2bcace-7115-41d4-90b5-8923a4731484")
+		)
+		(pin "4"
+			(uuid "18d42caa-d196-4f34-b357-2a920a2d2767")
+		)
+		(instances
+			(project "Car_Circuit"
+				(path "/472c6254-7e2c-4691-b7bb-8b0b9534cc21"
+					(reference "Diff_swich")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 85.09 182.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fa162d4c-5b4f-4dab-9700-6417d31ca069")
+		(property "Reference" "#PWR01"
+			(at 85.09 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 87.63 184.1499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 85.09 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 85.09 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -688,7 +2727,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 48.26 93.98 0)
+			(at 85.09 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -703,6 +2742,72 @@
 			(project ""
 				(path "/472c6254-7e2c-4691-b7bb-8b0b9534cc21"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 151.13 151.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fd030c92-401c-48c2-a76c-ec9f6e5e11d9")
+		(property "Reference" "#PWR03"
+			(at 151.13 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 151.13 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 151.13 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 151.13 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 151.13 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "49b8d5dd-d19f-4670-b098-ede2bbff082b")
+		)
+		(instances
+			(project ""
+				(path "/472c6254-7e2c-4691-b7bb-8b0b9534cc21"
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)

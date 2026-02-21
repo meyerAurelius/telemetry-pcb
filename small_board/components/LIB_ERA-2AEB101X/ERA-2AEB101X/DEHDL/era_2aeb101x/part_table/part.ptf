@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'ERA_2AEB101X'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Panasonic", "ERA-2AEB101X" (!) = "", "ERA2AED122X", "Other", "667-ERA-2AEB101X", "https://www.mouser.co.uk/ProductDetail/Panasonic/ERA-2AEB101X?qs=YFwoyZoVY0i6%2FzAzf7zwiw%3D%3D", "ERA-2AEB101X", "https://www.arrow.com/en/products/era-2aeb101x/panasonic?utm_currency=USD&region=europe", "PANASONIC ELECTRONIC COMPONENTS - ERA-2AEB101X - METAL FILM RESISTOR, 100OHM, 63mW,  0.1%, FULL REEL", "http://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf", "0.4 mm"
+END_PART
+
+END.

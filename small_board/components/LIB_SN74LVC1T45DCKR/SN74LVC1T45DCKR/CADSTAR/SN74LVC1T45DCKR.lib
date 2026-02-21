@@ -1,0 +1,18 @@
+.SN74LVC1T45DCKR :1 ;Texas Instruments SN74LVC1T45DCKR, Bus Transceiver Non-Inverting LVTTL, 1.65  5.5 V, 6-Pin SC-70
+SOT65P210X110-6N
+*STM IC
+*NGS
+*PLB 1="VCCA" 2="GND" 3="A" 4="B" 5="DIR" 6="VCCB"
+*MXP 6
+*DFN SN74LVC1T45DCKR
+~!Manufacturer_Name (Texas Instruments)
+~!Manufacturer_Part_Number (SN74LVC1T45DCKR)
+~!Mouser Part Number (595-SN74LVC1T45DCKR)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74LVC1T45DCKR?qs=gb35HGp1gQLgs5JLyVnp7g%3D%3D)
+~!Arrow Part Number (SN74LVC1T45DCKR)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/sn74lvc1t45dckr/texas-instruments?region=nac)
+~!Link Datasheet (http://www.ti.com/lit/gpn/sn74lvc1t45)
+~!Height (1.1mm)
+~!3D_Model (SN74LVC1T45DCKR)
+SN74LVC1T45DCKR
+1.1!U 2.1!U 3.1!U 6.1!U 5.1!U 4.1!U 

@@ -1,0 +1,9 @@
+Manufacturer=YAGEO
+PartNumber=C0603C103F3GECTU
+PartCategory=Capacitor
+PackageCategory=Capacitor Chip Non-polarised
+PinCount=2
+Version=5.2
+Released=2023-03-07 11:15:12
+Downloaded=2026-02-16 07:48:21
+3D=Y

@@ -1,4 +1,4 @@
-27296116294962232
+27303199350482472
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -71834,6 +71834,13 @@ Capacitor
 2
 2
 Library
+CAPC1608X87N
+C0603 (0.8 (0.87) thickness)
+Capacitor
+0
+2
+2
+Library
 CAPC1608X90N
 0603(thickness 0.9)
 Capacitor
@@ -71844,6 +71851,13 @@ Library
 CAPC1608X95N
 C0603(0.95T)_1
 Capacitor
+0
+2
+2
+Library
+ERA2AED122X
+ERA2A_(0402)
+Resistor
 0
 2
 2
@@ -71959,6 +71973,20 @@ Integrated Circuit
 0
 16
 16
+Library
+SOT65P210X110-6N
+DCK (R-PDSO-G6)
+Integrated Circuit
+0
+6
+6
+Library
+SOT95P237X112-3N
+SI2301CDS-T1-GE3
+Integrated Circuit
+0
+3
+3
 Library
 SOT95P280X145-5N
 DBV0005A

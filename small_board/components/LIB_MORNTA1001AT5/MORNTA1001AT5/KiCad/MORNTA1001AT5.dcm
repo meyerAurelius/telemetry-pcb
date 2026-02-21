@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MORNTA1001AT5
+D 1k Ohm +/-0.1% 50mW Power Per Element Isolated 4 Resistor Network/Array +/-25ppm/C 8-TSSOP, 8-MSOP (0.118", 3.00mm Width)
+K
+F https://www.vishay.com/docs/60129/morn.pdf
+$ENDCMP
+#
+#End Doc Library

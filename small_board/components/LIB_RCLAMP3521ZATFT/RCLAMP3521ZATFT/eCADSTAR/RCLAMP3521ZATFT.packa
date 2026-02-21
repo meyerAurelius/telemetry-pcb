@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "RCLAMP3521ZATFT"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2022-09-16-08:34:08)
+    (mountForm default
+        (footprintRef "RCLAMP3521ZATFT")
+        (spec "System")
+    )
+)

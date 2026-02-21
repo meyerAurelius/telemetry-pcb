@@ -1,4 +1,4 @@
-27303199350482472
+27304971059955045
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -71917,6 +71917,13 @@ Connector
 0
 4
 4
+Library
+RCLAMP3521ZATFT
+RCLAMP3521ZATFT-3
+TVS Diode (Bi-directional)
+0
+2
+2
 Library
 RESC1608X55N
 RC0603

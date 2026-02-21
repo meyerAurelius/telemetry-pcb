@@ -1,0 +1,9 @@
+Manufacturer=SEMTECH
+PartNumber=RCLAMP3521ZATFT
+PartCategory=TVS Diode (Bi-directional)
+PackageCategory=Other
+PinCount=2
+Version=1.4
+Released=2022-09-16 08:34:08
+Downloaded=2026-02-21 21:26:08
+3D=Y

@@ -17147,16 +17147,15 @@
 	)
 	(symbol
 		(lib_id "MORNTA1001AT5:MORNTA1001AT5")
-		(at 317.5 127 0)
+		(at 231.14 190.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "a95a9081-6607-4702-a3d8-0ce4138173af")
 		(property "Reference" "RN1"
-			(at 327.66 119.38 0)
+			(at 241.3 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17164,7 +17163,7 @@
 			)
 		)
 		(property "Value" "MORNTA1001AT5"
-			(at 327.66 121.92 0)
+			(at 241.3 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17172,7 +17171,7 @@
 			)
 		)
 		(property "Footprint" "MORNTA1001AT5"
-			(at 334.01 221.92 0)
+			(at 247.65 285.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17182,7 +17181,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/60129/morn.pdf"
-			(at 334.01 321.92 0)
+			(at 247.65 385.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17192,7 +17191,7 @@
 			)
 		)
 		(property "Description" "1k Ohm +/-0.1% 50mW Power Per Element Isolated 4 Resistor Network/Array +/-25ppm/C 8-TSSOP, 8-MSOP (0.118\", 3.00mm Width)"
-			(at 317.5 127 0)
+			(at 231.14 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17201,7 +17200,7 @@
 			)
 		)
 		(property "Height" "1.1"
-			(at 334.01 521.92 0)
+			(at 247.65 585.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17211,7 +17210,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Vishay"
-			(at 334.01 621.92 0)
+			(at 247.65 685.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17221,7 +17220,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "MORNTA1001AT5"
-			(at 334.01 721.92 0)
+			(at 247.65 785.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17231,7 +17230,7 @@
 			)
 		)
 		(property "Mouser Part Number" "71-MORNTA1001AT5"
-			(at 334.01 821.92 0)
+			(at 247.65 885.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17241,7 +17240,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Thin-Film/MORNTA1001AT5?qs=mlqvmmZDxoUQbRHGbp0kiA%3D%3D"
-			(at 334.01 921.92 0)
+			(at 247.65 985.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17251,7 +17250,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 334.01 1021.92 0)
+			(at 247.65 1085.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17261,7 +17260,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 334.01 1121.92 0)
+			(at 247.65 1185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18682,7 +18681,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "cc827c67-d939-49d5-ae6c-c3c19a906e96")
 		(property "Reference" "C4"
 			(at 274.32 116.8399 90)

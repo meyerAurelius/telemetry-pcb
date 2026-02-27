@@ -1,4 +1,4 @@
-27310287123236651
+27315603673341182
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -71897,6 +71897,13 @@ Capacitor
 2
 2
 Library
+IMU_vectors
+
+
+0
+0
+0
+Library
 LEDC2012X70N
 150080BS75000
 LED
@@ -72038,6 +72045,20 @@ Untitled
 0
 Library
 baja_logo
+
+
+0
+0
+0
+Library
+canada
+
+
+0
+0
+0
+Library
+tire_tracks
 
 
 0

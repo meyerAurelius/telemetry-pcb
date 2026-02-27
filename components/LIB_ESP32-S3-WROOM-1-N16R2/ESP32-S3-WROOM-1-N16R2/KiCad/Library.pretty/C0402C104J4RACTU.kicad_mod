@@ -1,0 +1,213 @@
+(footprint "C0402C104J4RACTU"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "C0402(BB)")
+	(tags "Capacitor")
+	(property "Reference" "C**"
+		(at 0.2 -1.6 0)
+		(layer "F.SilkS")
+		(uuid "f330c885-18d7-4619-82b2-d361f11df895")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "C0402C104J4RACTU"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "2b2e64f0-e2a9-4b22-8e2e-ecf84695484f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0b69f6d0-d675-4490-a53f-ae74f42f7566")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "64e5e8d4-39c2-4d85-b3f2-5b0a926c6068")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1 -0.05)
+		(end -1 -0.05)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "57389675-6e48-4410-991f-74c7de27b824")
+	)
+	(fp_line
+		(start -1 0.05)
+		(end -1 0.05)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d2c09b37-1145-4ac0-87dd-3c1ee6efcdcf")
+	)
+	(fp_arc
+		(start -1 -0.05)
+		(mid -0.95 0)
+		(end -1 0.05)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f358e669-77e2-433b-a0a2-0025074b464c")
+	)
+	(fp_arc
+		(start -1 0.05)
+		(mid -1.05 0)
+		(end -1 -0.05)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "63773c1f-e033-42f9-a68f-a434fb20e943")
+	)
+	(fp_line
+		(start -1.26 -0.81)
+		(end 1.26 -0.81)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "520c429d-90eb-411d-9a01-98d83412aa6f")
+	)
+	(fp_line
+		(start -1.26 0.81)
+		(end -1.26 -0.81)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b7d1053f-2bfb-4b10-84d8-43dc826f8abc")
+	)
+	(fp_line
+		(start 1.26 -0.81)
+		(end 1.26 0.81)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "302fb20f-3d3e-4b48-87e6-048c08d7f3f6")
+	)
+	(fp_line
+		(start 1.26 0.81)
+		(end -1.26 0.81)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "dbf9fcff-c161-41db-908d-c1d29949886c")
+	)
+	(fp_line
+		(start -0.5 -0.25)
+		(end 0.5 -0.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ed7c323a-09ec-43b9-ab40-3ac7701f250e")
+	)
+	(fp_line
+		(start -0.5 0.25)
+		(end -0.5 -0.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b268f454-e440-46df-98ce-ac34c72f452d")
+	)
+	(fp_line
+		(start 0.5 -0.25)
+		(end 0.5 0.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "de94f8f6-1aa7-4fcc-ac8b-d8917d58ee10")
+	)
+	(fp_line
+		(start 0.5 0.25)
+		(end -0.5 0.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e82a5364-6728-4c19-8555-9039f39b4f39")
+	)
+	(pad "1" smd rect
+		(at -0.45 0 90)
+		(size 0.62 0.62)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "e21fdc51-d3ce-468b-b73e-1e5577560653")
+	)
+	(pad "2" smd rect
+		(at 0.45 0 90)
+		(size 0.62 0.62)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "2ebdf562-f67d-48a3-af8a-790998a9a1f0")
+	)
+	(embedded_fonts no)
+	(model "C0402C104K9RACTU.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+	(model "/home/marcus/Desktop/telemetry_pcb_1/small_board/components/LIB_C0402C104K9RACTU/C0402C104K9RACTU/3D/C0402C104K9RACTU.stp"
+		(offset
+			(xyz 0.5 -0.3 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -180 -0)
+		)
+	)
+)

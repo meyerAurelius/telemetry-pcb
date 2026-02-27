@@ -1,0 +1,18 @@
+.RCLAMP3521ZATFT :1 ;TVS DIODE 3.5VWM 5V SLP0603P2X3F5V (Typ) Clamp 6A Ipp Tvs Diode Surface Mount SLP0603P2X3F
+RCLAMP3521ZATFT
+*STM D
+*NGS
+*PLB 1="1" 2="2"
+*MXP 2
+*DFN RCLAMP3521ZATFT
+~!Manufacturer_Name (SEMTECH)
+~!Manufacturer_Part_Number (RCLAMP3521ZATFT)
+~!Mouser Part Number (947-RCLAMP3521ZATFT)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Semtech/RCLAMP3521ZATFT?qs=5aG0NVq1C4x6ouY7l2JqqA%3D%3D)
+~!Arrow Part Number (RCLAMP3521ZATFT)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/rclamp3521zatft/semtech?utm_currency=USD&region=nac)
+~!Link Datasheet (https://semtech.my.salesforce.com/sfc/p/E0000000JelG/a/2R000000HTFj/RtolUnnSswHAEeYsM7sjR2dAo9HQRz.z1PGO8KUTcfs)
+~!Height (0.265mm)
+~!3D_Model (RCLAMP3521ZATFT)
+RCLAMP3521ZATFT
+1.1!U 2.1!U 

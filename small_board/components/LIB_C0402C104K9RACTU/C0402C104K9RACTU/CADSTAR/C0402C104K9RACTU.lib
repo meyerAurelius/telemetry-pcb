@@ -1,0 +1,18 @@
+.C0402C104K9RACTU :1 ;SMD Comm X7R, Ceramic, 0.1 uF, 10%, 6.3 VDC, 15.75 VDC, 125C, -55C, X7R, SMD, MLCC, Temperature Stable, Class II, 10 % , 5 GOhms, 1.21 mg, 0402, 1mm, 0.5mm, 0.5mm, 0.3mm, 0.3mm, 10000, 78  Weeks, 80
+C0402C104J4RACTU
+*STM C
+*NGS
+*PLB 1="1" 2="2"
+*MXP 2
+*DFN C0402C104K9RACTU
+~!Manufacturer_Name (Yageo Group)
+~!Manufacturer_Part_Number (C0402C104K9RACTU)
+~!Mouser Part Number (80-C0402C104K9R)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/KEMET/C0402C104K9RACTU?qs=DBJr%252BvBUjU5VnZSA4JeTzg%3D%3D)
+~!Arrow Part Number (C0402C104K9RACTU)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/c0402c104k9ractu/kemet-corporation?region=nac)
+~!Link Datasheet (https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf)
+~!Height (0.55mm)
+~!3D_Model (C0402C104K9RACTU)
+C0402C104K9RACTU
+1.1!U 2.1!U 

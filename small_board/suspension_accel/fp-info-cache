@@ -1,4 +1,4 @@
-27303199350482472
+27315603673341182
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -71827,6 +71827,13 @@ Connector
 6
 6
 Library
+C0402C104J4RACTU
+C0402(BB)
+Capacitor
+0
+2
+2
+Library
 C0603
 C0603
 Capacitor
@@ -71890,6 +71897,13 @@ Capacitor
 2
 2
 Library
+IMU_vectors
+
+
+0
+0
+0
+Library
 LEDC2012X70N
 150080BS75000
 LED
@@ -71911,12 +71925,26 @@ Integrated Circuit
 14
 14
 Library
+MORNTA1001AT5
+MORNTA1001AT5-1
+Resistor Network
+0
+8
+8
+Library
 OSTTE040104
 OSTTE040104-2
 Connector
 0
 4
 4
+Library
+RCLAMP3521ZATFT
+RCLAMP3521ZATFT-3
+TVS Diode (Bi-directional)
+0
+2
+2
 Library
 RESC1608X55N
 RC0603
@@ -72010,6 +72038,27 @@ Switch
 4
 Library
 Untitled
+
+
+0
+0
+0
+Library
+baja_logo
+
+
+0
+0
+0
+Library
+canada
+
+
+0
+0
+0
+Library
+tire_tracks
 
 
 0

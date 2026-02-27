@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'RCLAMP3521ZATFT'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "SEMTECH", "RCLAMP3521ZATFT" (!) = "", "RCLAMP3521ZATFT", "Other", "947-RCLAMP3521ZATFT", "https://www.mouser.co.uk/ProductDetail/Semtech/RCLAMP3521ZATFT?qs=5aG0NVq1C4x6ouY7l2JqqA%3D%3D", "RCLAMP3521ZATFT", "https://www.arrow.com/en/products/rclamp3521zatft/semtech?utm_currency=USD&region=nac", "TVS DIODE 3.5VWM 5V SLP0603P2X3F5V (Typ) Clamp 6A Ipp Tvs Diode Surface Mount SLP0603P2X3F", "https://semtech.my.salesforce.com/sfc/p/E0000000JelG/a/2R000000HTFj/RtolUnnSswHAEeYsM7sjR2dAo9HQRz.z1PGO8KUTcfs", "0.265 mm"
+END_PART
+
+END.

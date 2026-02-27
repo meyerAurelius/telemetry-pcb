@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "MORNTA1001AT5"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "MORNTA1001AT5")
+        (spec "default")
+    )
+)

@@ -58,7 +58,12 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "courtyards_overlap|23805000|24855000|8d5fe824-4286-40ba-9453-e41424d0839c|d5a95035-ca06-4863-bf64-482655420d18",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -507,7 +512,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "../manufacturing/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "suspension_accel-backups/suspension_accel.step",

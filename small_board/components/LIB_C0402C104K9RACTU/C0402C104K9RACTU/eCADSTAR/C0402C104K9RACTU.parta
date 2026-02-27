@@ -1,0 +1,68 @@
+(Japanese_coding: sjis)
+(function "ECS_395019"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2023-03-07-11:13:43)
+    (utime 2026-02-11-10:25:59)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+    )
+    (property "symbolName" "C0402C104K9RACTU")
+)
+
+
+(pinAssign "ECS_395019"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2023-03-07-11:13:43)
+    (utime 2026-02-11-10:25:59)
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_395019")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "C0402C104K9RACTU")
+)
+
+
+(part "C0402C104K9RACTU"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2023-03-07-11:13:43)
+    (utime 2026-02-11-10:25:59)
+    (packageRef "C0402C104K9RACTU")
+    (pinAssignRef "ECS_395019")
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "NO")
+    (property "refDesPrefix" "C")
+    (property "description" "SMD Comm X7R, Ceramic, 0.1 uF, 10%, 6.3 VDC, 15.75 VDC, 125C, -55C, X7R, SMD, MLCC, Temperature Stable, Class II, 10 % , 5 GOhms, 1.21 mg, 0402, 1mm, 0.5mm, 0.5mm, 0.3mm, 0.3mm, 10000, 78  Weeks, 80")
+    (property "Manufacturer_Name" "Yageo Group")
+    (property "Manufacturer_Part_Number" "C0402C104K9RACTU")
+    (property "Mouser_Part_Number" "80-C0402C104K9R")
+    (property "Mouser_Price/Stock" "https://www.mouser.co.uk/ProductDetail/KEMET/C0402C104K9RACTU?qs=DBJr%252BvBUjU5VnZSA4JeTzg%3D%3D")
+    (property "Arrow_Part_Number" "C0402C104K9RACTU")
+    (property "Arrow_Price/Stock" "https://www.arrow.com/en/products/c0402c104k9ractu/kemet-corporation?region=nac")
+    (property "Datasheet_Link" "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf")
+    (property "compAreaTopHeight" 0.55)
+)
+
+

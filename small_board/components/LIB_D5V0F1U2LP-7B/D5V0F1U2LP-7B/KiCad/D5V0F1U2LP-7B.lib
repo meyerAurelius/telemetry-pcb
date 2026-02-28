@@ -1,0 +1,28 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model D5V0F1U2LP-7B
+#/528555/1875749/2.50/2/2/TVS Diode (Uni-directional)
+DEF D5V0F1U2LP-7B D 0 30 Y Y 1 F N
+F0 "D" 400 350 50 H V L BNN
+F1 "D5V0F1U2LP-7B" 400 250 50 H V L BNN
+F2 "D5V0F1U2LP7B" 400 150 50 H I L BNN
+F3 "https://www.diodes.com/assets/Datasheets/D5V0F1U2LP.pdf" 400 50 50 H I L BNN
+F4 "12V Clamp 1.5A (8/20s) Ipp Tvs Diode Surface Mount X1-DFN1006-2" 400 -50 50 H I L BNN "Description"
+F5 "0.53" 400 -150 50 H I L BNN "Height"
+F6 "Diodes Incorporated" 400 -250 50 H I L BNN "Manufacturer_Name"
+F7 "D5V0F1U2LP-7B" 400 -350 50 H I L BNN "Manufacturer_Part_Number"
+F8 "621-D5V0F1U2LP7B" 400 -450 50 H I L BNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/D5V0F1U2LP-7B?qs=vkMqrgFpRajm13%252B24IP7Kw%3D%3D" 400 -550 50 H I L BNN "Mouser Price/Stock"
+F10 "D5V0F1U2LP-7B" 400 -650 50 H I L BNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/d5v0f1u2lp-7b/diodes-incorporated?utm_currency=USD&region=nac" 400 -750 50 H I L BNN "Arrow Price/Stock"
+DRAW
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 600 0 200 L 50 50 0 0 P
+P 4 0 1 6 200 0 400 100 400 -100 200 0 N
+P 2 0 1 6 200 -80 240 -100 N
+P 2 0 1 6 200 -80 200 80 N
+P 2 0 1 6 160 100 200 80 N
+ENDDRAW
+ENDDEF
+#
+#End Library

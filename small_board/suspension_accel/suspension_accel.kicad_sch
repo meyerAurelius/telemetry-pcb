@@ -2735,6 +2735,242 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "D5V0F1U2LP-7B:D5V0F1U2LP-7B"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 6.096 8.636 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "D5V0F1U2LP-7B"
+				(at 4.572 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "D5V0F1U2LP7B"
+				(at 10.16 -93.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.diodes.com/assets/Datasheets/D5V0F1U2LP.pdf"
+				(at 10.16 -193.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Description" "12V Clamp 1.5A (8/20s) Ipp Tvs Diode Surface Mount X1-DFN1006-2"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "0.53"
+				(at 10.16 -393.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Diodes Incorporated"
+				(at 10.16 -493.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "D5V0F1U2LP-7B"
+				(at 10.16 -593.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "621-D5V0F1U2LP7B"
+				(at 10.16 -693.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/D5V0F1U2LP-7B?qs=vkMqrgFpRajm13%252B24IP7Kw%3D%3D"
+				(at 10.16 -793.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" "D5V0F1U2LP-7B"
+				(at 10.16 -893.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/d5v0f1u2lp-7b/diodes-incorporated?utm_currency=USD&region=nac"
+				(at 10.16 -993.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(symbol "D5V0F1U2LP-7B_1_1"
+				(polyline
+					(pts
+						(xy 4.064 2.54) (xy 5.08 2.032)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 10.16 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -2.032) (xy 5.08 2.032)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -2.032) (xy 6.096 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -2.54) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -2.54) (xy 10.16 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 0 180)
+					(length 5.08)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "ERA2AEB470X:ERA2AEB470X"
 			(pin_names
 				(hide yes)
@@ -7678,6 +7914,12 @@
 		(uuid "69e5b16a-fd2e-4752-af60-b15cb11e52d9")
 	)
 	(junction
+		(at 91.44 19.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "73a769d0-85e9-4df0-9b81-ef8fd3bf2efb")
+	)
+	(junction
 		(at 184.15 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7967,6 +8209,16 @@
 	)
 	(wire
 		(pts
+			(xy 91.44 34.29) (xy 91.44 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0dc7d885-5f20-480b-852c-c8bc4ba4144d")
+	)
+	(wire
+		(pts
 			(xy 214.63 215.9) (xy 214.63 219.71)
 		)
 		(stroke
@@ -7997,7 +8249,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 19.05) (xy 90.17 19.05)
+			(xy 92.71 19.05) (xy 91.44 19.05)
 		)
 		(stroke
 			(width 0)
@@ -8244,6 +8496,16 @@
 			(type default)
 		)
 		(uuid "281954bd-15ae-4cee-8fee-6e80fc0eb1a9")
+	)
+	(wire
+		(pts
+			(xy 91.44 19.05) (xy 90.17 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "283ee17e-e391-4907-ad74-063f4972c93f")
 	)
 	(wire
 		(pts
@@ -9147,7 +9409,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 38.1) (xy 40.64 36.83)
+			(xy 40.64 41.91) (xy 40.64 36.83)
 		)
 		(stroke
 			(width 0)
@@ -9867,16 +10129,6 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 -8.89) (xy 20.32 -8.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cc866931-5036-440c-a12d-3c869035fc7e")
-	)
-	(wire
-		(pts
 			(xy 184.15 127) (xy 184.15 129.54)
 		)
 		(stroke
@@ -9964,6 +10216,16 @@
 			(type default)
 		)
 		(uuid "d53701d6-2ba6-45b1-862f-786c1596c566")
+	)
+	(wire
+		(pts
+			(xy 20.32 -8.89) (xy 92.71 -8.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5bae788-61de-4902-9976-ac346d76ab36")
 	)
 	(wire
 		(pts
@@ -10436,6 +10698,148 @@
 		(uuid "85298dda-6744-427b-b18b-c2961fcde074")
 	)
 	(symbol
+		(lib_id "D5V0F1U2LP-7B:D5V0F1U2LP-7B")
+		(at 91.44 19.05 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "01f28bbb-8b7e-4dde-a038-d07a9ca0ec3e")
+		(property "Reference" "D5"
+			(at 95.25 24.8919 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "D5V0F1U2LP-7B"
+			(at 95.25 27.4319 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "D5V0F1U2LP7B"
+			(at -2.21 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/D5V0F1U2LP.pdf"
+			(at -102.21 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "12V Clamp 1.5A (8/20s) Ipp Tvs Diode Surface Mount X1-DFN1006-2"
+			(at 91.44 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.53"
+			(at -302.21 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Diodes Incorporated"
+			(at -402.21 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "D5V0F1U2LP-7B"
+			(at -502.21 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "621-D5V0F1U2LP7B"
+			(at -602.21 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/D5V0F1U2LP-7B?qs=vkMqrgFpRajm13%252B24IP7Kw%3D%3D"
+			(at -702.21 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "D5V0F1U2LP-7B"
+			(at -802.21 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/d5v0f1u2lp-7b/diodes-incorporated?utm_currency=USD&region=nac"
+			(at -902.21 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "04bec231-80eb-4f55-a907-346baaa91dda")
+		)
+		(pin "1"
+			(uuid "48b0bf79-851c-42cb-a26f-75cf773fae4f")
+		)
+		(instances
+			(project ""
+				(path "/6a00afe5-a275-4064-a756-6aaff88eeb4d"
+					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 187.96 86.36 90)
 		(unit 1)
@@ -10696,6 +11100,72 @@
 			(project ""
 				(path "/6a00afe5-a275-4064-a756-6aaff88eeb4d"
 					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 91.44 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1b2897cd-2e05-49f6-b6f1-451648682beb")
+		(property "Reference" "#PWR032"
+			(at 91.44 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 91.44 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 91.44 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 91.44 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 91.44 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "326e1f31-0096-459d-b81c-a7b1135ce4bf")
+		)
+		(instances
+			(project ""
+				(path "/6a00afe5-a275-4064-a756-6aaff88eeb4d"
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -11502,7 +11972,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 40.64 38.1 0)
+		(at 40.64 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11511,7 +11981,7 @@
 		(fields_autoplaced yes)
 		(uuid "2ac87d5a-c8ad-45c1-82f7-fdbdcbca8cd6")
 		(property "Reference" "#PWR0113"
-			(at 40.64 44.45 0)
+			(at 40.64 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11520,7 +11990,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 40.64 43.18 0)
+			(at 40.64 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11528,7 +11998,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 40.64 38.1 0)
+			(at 40.64 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11537,7 +12007,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 40.64 38.1 0)
+			(at 40.64 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11546,7 +12016,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 40.64 38.1 0)
+			(at 40.64 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)

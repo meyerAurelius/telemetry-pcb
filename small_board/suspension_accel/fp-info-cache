@@ -1,4 +1,4 @@
-27315603673341182
+27317375992351724
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -71858,6 +71858,13 @@ Library
 CAPC1608X95N
 C0603(0.95T)_1
 Capacitor
+0
+2
+2
+Library
+D5V0F1U2LP7B
+D5V0F1U2LP-7B-4
+TVS Diode (Uni-directional)
 0
 2
 2

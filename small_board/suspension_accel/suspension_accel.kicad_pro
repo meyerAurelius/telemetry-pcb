@@ -515,7 +515,7 @@
       "plot": "../manufacturing/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "suspension_accel-backups/suspension_accel.step",
+      "step": "../models/telemetry_a_1_0.step",
       "svg": "",
       "vrml": ""
     },

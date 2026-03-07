@@ -1,0 +1,17 @@
+.MORNTA1001AT5 :1 ;1k Ohm +/-0.1% 50mW Power Per Element Isolated 4 Resistor Network/Array +/-25ppm/C 8-TSSOP, 8-MSOP (0.118", 3.00mm Width)
+MORNTA1001AT5
+*STM RN
+*NGS
+*PLB 1="1" 2="2" 3="3" 4="4" 5="5" 6="6" 7="7" 8="8"
+*MXP 8
+*DFN MORNTA1001AT5
+~!Manufacturer_Name (Vishay)
+~!Manufacturer_Part_Number (MORNTA1001AT5)
+~!Mouser Part Number (71-MORNTA1001AT5)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Vishay-Thin-Film/MORNTA1001AT5?qs=mlqvmmZDxoUQbRHGbp0kiA%3D%3D)
+~!Arrow Part Number (-)
+~!Arrow Price/Stock (-)
+~!Link Datasheet (https://www.vishay.com/docs/60129/morn.pdf)
+~!Height (1.1mm)
+MORNTA1001AT5
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 

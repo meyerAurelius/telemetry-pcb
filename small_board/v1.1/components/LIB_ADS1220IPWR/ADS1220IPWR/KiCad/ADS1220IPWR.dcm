@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ADS1220IPWR
+D 24-bit, 2-kSPS, 4-ch, low-power, small-size delta-sigma ADC w/ PGA, VREF, 2x IDACs & SPI interface
+K
+F http://www.ti.com/lit/gpn/ads1220
+$ENDCMP
+#
+#End Doc Library

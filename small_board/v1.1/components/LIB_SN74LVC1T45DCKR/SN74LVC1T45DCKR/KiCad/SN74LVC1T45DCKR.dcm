@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SN74LVC1T45DCKR
+D Texas Instruments SN74LVC1T45DCKR, Bus Transceiver Non-Inverting LVTTL, 1.65  5.5 V, 6-Pin SC-70
+K
+F http://www.ti.com/lit/gpn/sn74lvc1t45
+$ENDCMP
+#
+#End Doc Library

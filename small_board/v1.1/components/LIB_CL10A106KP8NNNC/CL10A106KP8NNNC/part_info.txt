@@ -1,0 +1,9 @@
+Manufacturer=SAMSUNG
+PartNumber=CL10A106KP8NNNC
+PartCategory=Capacitor
+PackageCategory=Capacitor Chip Non-polarised
+PinCount=2
+Version=3.1
+Released=2017-10-31 12:47:14
+Downloaded=2026-02-07 05:23:30
+3D=Y

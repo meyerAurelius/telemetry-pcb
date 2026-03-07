@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'MORNTA1001AT5'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Vishay", "MORNTA1001AT5" (!) = "", "MORNTA1001AT5", "Other", "71-MORNTA1001AT5", "https://www.mouser.co.uk/ProductDetail/Vishay-Thin-Film/MORNTA1001AT5?qs=mlqvmmZDxoUQbRHGbp0kiA%3D%3D", "", "", "1k Ohm +/-0.1% 50mW Power Per Element Isolated 4 Resistor Network/Array +/-25ppm/C 8-TSSOP, 8-MSOP (0.118", 3.00mm Width)", "https://www.vishay.com/docs/60129/morn.pdf", "1.1 mm"
+END_PART
+
+END.

@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'D5V0F1U2LP_7B'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Diodes Incorporated", "D5V0F1U2LP-7B" (!) = "", "D5V0F1U2LP7B", "Other", "621-D5V0F1U2LP7B", "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/D5V0F1U2LP-7B?qs=vkMqrgFpRajm13%252B24IP7Kw%3D%3D", "D5V0F1U2LP-7B", "https://www.arrow.com/en/products/d5v0f1u2lp-7b/diodes-incorporated?utm_currency=USD&region=nac", "12V Clamp 1.5A (8/20s) Ipp Tvs Diode Surface Mount X1-DFN1006-2", "https://www.diodes.com/assets/Datasheets/D5V0F1U2LP.pdf", "0.53 mm"
+END_PART
+
+END.

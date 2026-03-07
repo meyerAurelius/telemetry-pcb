@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "RCLAMP3521ZATFT"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "RCLAMP3521ZATFT")
+        (spec "default")
+    )
+)

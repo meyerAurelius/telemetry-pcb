@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART '7914G_1_032E'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Bourns", "7914G-1-032E" (!) = "", "7914G1032E", "Other", "652-7914G-1-032E", "https://www.mouser.co.uk/ProductDetail/Bourns/7914G-1-032E?qs=b0Ldvwy66%2F%2FgyAckl4Lgjg%3D%3D", "7914G-1-032E", "https://www.arrow.com/en/products/7914g-1-032e/bourns?region=nac", "Tactile Switches 4mm KEY SWITCH SMD Gull Wing", "https://www.bourns.com/docs/Product-Datasheets/7914.pdf", "3.43 mm"
+END_PART
+
+END.

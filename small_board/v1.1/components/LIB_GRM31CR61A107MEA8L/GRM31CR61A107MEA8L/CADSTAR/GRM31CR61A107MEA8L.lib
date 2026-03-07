@@ -1,0 +1,18 @@
+.GRM31CR61A107MEA8L :1 ;MLCC, 1206
+GRM31x
+*STM C
+*NGS
+*PLB 1="1" 2="2"
+*MXP 2
+*DFN GRM31CR61A107MEA8L
+~!Manufacturer_Name (Murata Electronics)
+~!Manufacturer_Part_Number (GRM31CR61A107MEA8L)
+~!Mouser Part Number (81-GRM31CR61A107MA8L)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Murata-Electronics/GRM31CR61A107MEA8L?qs=hd1VzrDQEGidurXiDTJOCg%3D%3D)
+~!Arrow Part Number (GRM31CR61A107MEA8L)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/grm31cr61a107mea8l/murata-manufacturing?utm_currency=USD&region=europe)
+~!Link Datasheet (https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM31CR61A107MEA8-01A.pdf)
+~!Height (1.25mm)
+~!3D_Model (GRM31CR61A107MEA8L)
+GRM31CR61A107MEA8L
+1.1!U 2.1!U 

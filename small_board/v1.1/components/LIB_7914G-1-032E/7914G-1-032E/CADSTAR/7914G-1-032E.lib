@@ -1,0 +1,19 @@
+.7914G-1-032E :1 ;Tactile Switches 4mm KEY SWITCH SMD Gull Wing
+"7914G1032E"
+*STM S
+*NGS
+*PNM 1=A1 2=A2 3=B1 4=B2
+*PLB 1="COM_1" 2="NO_1" 3="COM_2" 4="NO_2"
+*MXP 4
+*DFN 7914G-1-032E
+~!Manufacturer_Name (Bourns)
+~!Manufacturer_Part_Number (7914G-1-032E)
+~!Mouser Part Number (652-7914G-1-032E)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Bourns/7914G-1-032E?qs=b0Ldvwy66%2F%2FgyAckl4Lgjg%3D%3D)
+~!Arrow Part Number (7914G-1-032E)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/7914g-1-032e/bourns?region=nac)
+~!Link Datasheet (https://www.bourns.com/docs/Product-Datasheets/7914.pdf)
+~!Height (3.43mm)
+~!3D_Model (7914G-1-032E)
+"7914G-1-032E"
+1.1!U 2.1!U 3.1!U 4.1!U 

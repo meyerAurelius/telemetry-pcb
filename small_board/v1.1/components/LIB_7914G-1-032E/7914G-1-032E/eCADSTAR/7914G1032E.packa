@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "7914G-1-032E"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2020-04-01-10:50:19)
+    (mountForm default
+        (footprintRef "7914G1032E")
+        (spec "System")
+    )
+)

@@ -1,0 +1,68 @@
+(Japanese_coding: sjis)
+(function "ECS_528555"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2023-03-09-08:11:04)
+    (utime 2024-09-23-06:29:01)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+    )
+    (property "symbolName" "D5V0F1U2LP-7B")
+)
+
+
+(pinAssign "ECS_528555"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2023-03-09-08:11:04)
+    (utime 2024-09-23-06:29:01)
+    (interface
+        (port "1" (symbPinId 1) (portName "K") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "A") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_528555")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "D5V0F1U2LP-7B")
+)
+
+
+(part "D5V0F1U2LP-7B"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2023-03-09-08:11:04)
+    (utime 2024-09-23-06:29:01)
+    (packageRef "D5V0F1U2LP-7B")
+    (pinAssignRef "ECS_528555")
+    (interface
+        (port "1" (symbPinId 1) (portName "K") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "A") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "NO")
+    (property "refDesPrefix" "D")
+    (property "description" "12V Clamp 1.5A (8/20s) Ipp Tvs Diode Surface Mount X1-DFN1006-2")
+    (property "Manufacturer_Name" "Diodes Incorporated")
+    (property "Manufacturer_Part_Number" "D5V0F1U2LP-7B")
+    (property "Mouser_Part_Number" "621-D5V0F1U2LP7B")
+    (property "Mouser_Price/Stock" "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/D5V0F1U2LP-7B?qs=vkMqrgFpRajm13%252B24IP7Kw%3D%3D")
+    (property "Arrow_Part_Number" "D5V0F1U2LP-7B")
+    (property "Arrow_Price/Stock" "https://www.arrow.com/en/products/d5v0f1u2lp-7b/diodes-incorporated?utm_currency=USD&region=nac")
+    (property "Datasheet_Link" "https://www.diodes.com/assets/Datasheets/D5V0F1U2LP.pdf")
+    (property "compAreaTopHeight" 0.53)
+)
+
+

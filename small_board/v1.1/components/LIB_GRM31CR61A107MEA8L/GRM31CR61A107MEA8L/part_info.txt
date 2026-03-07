@@ -1,0 +1,9 @@
+Manufacturer=Murata Electronics
+PartNumber=GRM31CR61A107MEA8L
+PartCategory=Capacitor
+PackageCategory=Other
+PinCount=2
+Version=3.1
+Released=2023-03-07 08:59:06
+Downloaded=2026-02-07 04:33:36
+3D=Y

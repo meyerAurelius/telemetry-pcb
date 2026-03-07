@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'CL10A106KP8NNNC'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "SAMSUNG", "CL10A106KP8NNNC" (!) = "", "CAPC1608X90N", "Capacitor Chip Non-polarised", "187-CL10A106KP8NNNC", "https://www.mouser.co.uk/ProductDetail/Samsung-Electro-Mechanics/CL10A106KP8NNNC?qs=X6jEic%2FHinAlyfRHj7fKwg%3D%3D", "CL10A106KP8NNNC", "https://www.arrow.com/en/products/cl10a106kp8nnnc/samsung-electro-mechanics?utm_currency=USD&region=europe", "10F +/-10% 10V Ceramic Capacitor X5R 0603 (1608 Metric)", "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA10/2415998.pdf", "0.9 mm"
+END_PART
+
+END.

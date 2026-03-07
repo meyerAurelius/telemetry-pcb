@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'ADS1220IPWR'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Texas Instruments", "ADS1220IPWR" (!) = "", "SOP65P640X120-16N", "Small Outline Packages", "595-ADS1220IPWR", "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/ADS1220IPWR?qs=5GI1giJCN%252BI6s%2FWJGbZXXQ%3D%3D", "ADS1220IPWR", "https://www.arrow.com/en/products/ads1220ipwr/texas-instruments?utm_currency=USD&region=nac", "24-bit, 2-kSPS, 4-ch, low-power, small-size delta-sigma ADC w/ PGA, VREF, 2x IDACs & SPI interface", "http://www.ti.com/lit/gpn/ads1220", "1.2 mm"
+END_PART
+
+END.
